@@ -1,0 +1,183 @@
+body{
+    #promobar{
+        font-size: 0.7rem;
+        line-height: $gridgutter;
+        letter-spacing: 1px;
+        @media(min-width: $desktop){
+            letter-spacing: 1px;
+        }
+    }
+    > header{
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom: 1px solid $graylight;
+        nav{
+            padding-top: $gridgutter / 2;
+            @media(min-width: $tablet){
+                padding-bottom: $gridgutter / 2;
+            }
+            #logo{
+                height: $gridgutter * 1.5;
+                > a{
+                    @extend .bg-black;
+                    display: inline-block;
+                    width: 125px;
+                    height: auto;
+                    box-sizing: border-box;
+                    padding: $gridgutter / 3;
+                }
+            }
+            ul{
+                height: $gridgutter * 1.5;
+                list-style-type: none;
+                margin: 0;
+                li{
+                    display: inline-block;
+                    a{
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-weight: 400;
+                        font-size: 0.75rem;
+                        line-height: $gridgutter * 1.5;
+                        height: $gridgutter * 1.5;
+                        letter-spacing: 1px;
+                        @media(min-width: $desktop){
+                            letter-spacing: 2px;
+                        }
+                    }
+                }
+                &#mainmenu{
+                    order: 3;
+                    display: flex;
+                    justify-content: space-between;
+                    @media(min-width: $tablet){
+                        display: block;
+                        order: 0;
+                    }
+                    li{
+                        @media(min-width: $tablet){
+                            margin-right: $gridgutter / 3;
+                        }
+                        @media(min-width: $desktop){
+                            margin-right: $gridgutter;
+                        }
+                    }
+                }
+                &#customermenu{
+                    i{
+                        display: inline-block;
+                        font-size: 1.2rem;
+                        margin-left: $gridgutter / 2;
+                        @media(min-width: $tablet){
+                            margin-left: $gridgutter / 3;
+                        }
+                        @media(min-width: $desktop){
+                            margin-left: $gridgutter / 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slider{
+    height: 65vh;
+    background-color: $graylight;
+    position: relative;
+    &-slides{
+        height: 65vh;
+        position: relative;
+        &-slide{
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 65vh;
+            overflow: hidden;
+            img{
+                position: absolute;
+                min-width: 100%;
+                min-height: 100%;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &-caption{
+                width: 100%;
+                height: 65vh;
+                box-sizing: border-box;
+                position: relative;
+                z-index: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: rgba($black, 0.6);
+                padding-left: $gridgutter/2;
+                padding-right: $gridgutter/2;
+                @media(min-width: $tablet){
+                    padding-left: 55vw;
+                    padding-right: $gridgutter;
+                }
+                @media(min-width: $desktop){
+                    padding-left: 60vw;
+                    padding-right: $gridgutter;
+                }
+                .h1{
+                    font-size: 3rem;
+                    color: $white;
+                    margin-bottom: $gridgutter;
+                }
+                a{
+                    display: inline-block;
+                    color: $white;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                    letter-spacing: 1px;
+                    padding-bottom: $gridgutter/5;
+                    border-bottom: 1px solid $white;
+                    &:hover{
+                        border-bottom-color: $gray;
+                    }
+                }
+            }
+        }
+    }
+    $topbutton: $gridgutter*3/2;
+    &-next, &-previous{
+        @extend .animate;
+        display: none;
+        @media(min-width: $tablet){
+            display: block;
+            position: absolute;
+            z-index: 2;
+            top: calc(32.5vh - #{$topbutton});
+            width: $gridgutter*2;
+            line-height: $gridgutter*3;
+            height: $gridgutter*3;
+            font-size: 3rem;
+            text-align: center;
+            background-color: $gray;
+            color: $white;
+            i{
+                line-height: $gridgutter*3;
+            }
+            &:hover{
+                background-color: $white;
+                color: $gray;
+                width: $gridgutter*3;
+            }
+        }
+    }
+    &-next{
+        right: 0;
+        border-radius: $gridgutter*3/2 0 0 $gridgutter*3/2;
+    }
+    &-previous{
+        left: 0;
+        border-radius: 0 $gridgutter*3/2 $gridgutter*3/2 0;
+    }
+}

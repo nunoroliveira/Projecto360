@@ -1,0 +1,147 @@
+#about{
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: $gridgutter / 2;
+        @media(min-width: $tablet){
+            margin-top: 0;
+        }
+        p{
+            @extend .margintopnone;
+        }
+        .fancytext{
+            display: block;
+            margin-bottom: $gridgutter / 5;
+        }
+    }
+}
+#journal{
+    .journal-card{
+        box-sizing: border-box;
+        height: 100%;
+        border-top: 2px solid $black;
+        padding-top: $gridgutter / 2;
+        padding-bottom: $gridgutter / 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        h3{
+            font-family: $bodyfont, sans-serif;
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin: $gridgutter / 2 0;
+        }
+        &-image{
+            margin-top: auto;
+            background-color: $gray;
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        &-small{
+            height: $gridgutter * 10;
+            .fancytext{
+                margin: 0;
+            }
+            h3{
+                font-size: 1.3rem;
+                margin: $gridgutter / 2 0;
+            } 
+            @media(min-width: $tablet){
+                height: $gridgutter * 11;
+            }
+            @media(min-width: $desktop){
+                height: $gridgutter * 9;
+            }
+            .journal-card-image{
+                margin-top: unset;
+                @media(min-width: $desktop){
+                    margin-top: auto;
+                }
+            }
+        }
+        &:hover{
+            .journal-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+#looks{
+    .look-card{
+        @extend .marginbottomfull;
+        display: block;
+        position: relative;
+        &-image{
+            background-color: $gray;
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        .fancytext{
+            @extend .animate;
+            @extend .textcenter;
+            @extend .marginnone;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            bottom: $gridgutter;
+            background-color: rgba($white, 0.6);
+            padding: $gridgutter / 3 0;
+        }
+        &:hover{
+            .fancytext{
+                background-color: $white;
+            }
+            .look-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+#press{
+    .press-card{
+        @extend .marginbottomfull;
+        display: block;
+        &-image{
+            background-color: $gray;
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        p{
+            @extend .animate;
+            @extend .marginnone;
+            background-color: $white;
+            padding: $gridgutter / 3 * 2;
+            box-sizing: border-box;
+            font-size: 0.9rem;
+        }
+        &:hover{
+            .press-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+#talking{
+    img{
+        @extend .animate;
+        opacity: 0.6;
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

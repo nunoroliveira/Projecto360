@@ -1,0 +1,147 @@
+.animate{
+    -webkit-transition: all $animationtime ease;
+    -moz-transition: all $animationtime ease;
+    -ms-transition: all $animationtime ease;
+    -o-transition: all $animationtime ease;
+    transition: all $animationtime ease;
+}
+
+/* ================================== */
+/* ======= MARGINS / PADDINGS ======= */
+/* ================================== */
+$sizes: (
+    'none': 0,
+    'fourth': $gridgutter / 4, 
+    'third': $gridgutter / 3, 
+    'half': $gridgutter / 2, 
+    'twothirds': $gridgutter / 3 * 2, 
+    'full': $gridgutter, 
+    'oneandhalf': $gridgutter * 1.5, 
+    'double': $gridgutter * 2
+);
+@each $name, $size in $sizes {
+    @each $mode in margin, padding {
+        .#{$mode}#{$name} {
+            #{$mode}: $size !important;
+        }
+        .#{$mode}horizontal#{$name} {
+            #{$mode}-left: $size !important;
+            #{$mode}-right: $size !important;
+        }
+        .#{$mode}vertical#{$name} {
+            #{$mode}-top: $size !important;
+            #{$mode}-bottom: $size !important;
+        }
+        @each $side in top, right, bottom, left {
+            .#{$mode}#{$side}#{$name} {
+                #{$mode}-#{$side}: $size !important;
+            }
+        }
+    }
+}
+
+/* ==================================== */
+/* ======= COLORS / BACKGROUNDS ======= */
+/* ==================================== */
+.primary{
+    color: $primary;
+}
+.secondary{
+    color: $secondary;
+}
+.graydark{
+    color: $graydark;
+}
+.gray{
+    color: $gray;
+}
+.graylight{
+    color: $graylight;
+}
+.graymedium{
+    color: darken($white, 50%);
+}
+.white{
+    color: $white;
+}
+.black{
+    color: $black;
+}
+.bg-primary{
+    background-color: $primary;
+}
+.bg-secondary{
+    background-color: $secondary;
+}
+.bg-gray{
+    background-color: $gray;
+}
+.bg-graydark{
+    background-color: $graydark;
+}
+.bg-graylight{
+    background-color: $graylight;
+}
+.bg-white{
+    background-color: $white;
+}
+.bg-black{
+    background-color: $black;
+}
+
+/* ====================== */
+/* ======= IMAGES ======= */
+/* ====================== */
+.imgfit{
+    display: block;
+    width: 100%;
+    height: auto;
+    img, source{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* ===================================== */
+/* ======= RESPONSIVE VISIBILITY ======= */
+/* ===================================== */
+.visivel-m{
+    display: block;
+    @media(min-width: $tablet){
+        display: none;
+    }
+    @media(min-width: $desktop){
+        display: none;
+    }
+}
+.visivel-t{
+    display: none;
+    @media(min-width: $tablet){
+        display: block;
+    }
+    @media(min-width: $desktop){
+        display: none;
+    }
+}
+.visivel-t-down{
+    display: block;
+    @media(min-width: $desktop){
+        display: none;
+    }
+}
+.visivel-t-up{
+    display: none;
+    @media(min-width: $tablet){
+        display: block;
+    }
+}
+.visivel-d{
+    display: none;
+    @media(min-width: $tablet){
+        display: none;
+    }
+    @media(min-width: $desktop){
+        display: block;
+    }
+}

@@ -1,0 +1,54 @@
+footer{
+    @extend .bg-graydark;
+    @extend .paddingtoponeandhalf;
+    @extend .paddingbottomdouble;
+    color: $white;
+    ul{
+        list-style-type: none;
+        padding: 0;
+        li{
+            a{
+                @extend .small;
+                color: darken($white, 30%);
+                &:hover{
+                    color: $graylight;
+                }
+            }
+        }
+    }
+    .contacts{
+        color: darken($white, 30%);
+    }
+    form{
+        input{
+            color: $white;
+        }
+        button{
+            @extend .animate;
+            @extend .fancytext;
+            background-color: $graylight;
+            color: $graydark;
+            &:hover{
+                background-color: $gray;
+                color: $white;
+            }
+        }
+    }
+    .social{
+        a{
+            display: inline-block;
+            color: darken($white, 30%);
+            font-size: 1.5rem;
+            margin-right: $gridgutter / 5;
+            &:hover{
+                color: $white;
+            }
+        }
+    }
+    .newsletter{
+        margin-top: $gridgutter/2;
+        @media(min-width: $desktop){
+            margin-top: 0;
+        }
+    }
+}

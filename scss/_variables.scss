@@ -1,0 +1,42 @@
+$titlesfont: "Montserrat";
+$titlesfontweights: "400;600";
+$bodyfont: "Roboto";
+$bodyfontweights: "400";
+
+$primary: #f5d71f;
+$secondary: #ff7425;
+$graydark: #333;
+$gray: #747474;
+$graylight: #F3F3F3;
+$white: #FFF;
+$black: #000;
+
+$animationtime: 0.4s;
+
+$tablet: 750px;
+$desktop: 1200px;
+
+$gridcolumns: 12;
+$gridgutter: 30px;
+
+$gridwidth: 100%;
+$gridwidtht: 90%;
+$gridwidthd: $desktop - $gridgutter;
+
+$icomoon-font-family: "editstore" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icn-star: "\f005";
+$icn-facebook: "\e900";
+$icn-pinterest: "\e901";
+$icn-twitter: "\e902";
+$icn-chevron-down: "\e903";
+$icn-chevron-left: "\e904";
+$icn-chevron-right: "\e905";
+$icn-chevron-up: "\e906";
+$icn-heart: "\e907";
+$icn-minus: "\e908";
+$icn-plus: "\e909";
+$icn-reload: "\e90a";
+$icn-search: "\e90b";
+$icn-shopping-cart: "\e90c";

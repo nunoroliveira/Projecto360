@@ -1,0 +1,162 @@
+.product-list{
+    .product-card{
+        @extend .marginverticalfull;
+        &-image{
+            position: relative;
+            background-color: $gray;
+            &-badge{
+                @extend .white;
+                @extend .bg-primary;
+                padding: $gridgutter / 8 $gridgutter / 4;
+                text-transform: uppercase;
+                position: absolute;
+                top: $gridgutter / 3;
+                left: $gridgutter / 3;
+                font-size: 0.7rem;
+                z-index: 3;
+            }
+            img{
+                @extend .animate;
+                opacity: 0.6;
+            }
+        }
+        &:hover{
+            .product-card-image{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+#headerproductlist{
+    height: 30vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/slider/slider01-small.jpg);
+    @media(min-width: $tablet){
+        background-image: url(../imgs/slider/slider01-medium.jpg);
+    }
+    @media(min-width: $desktop){
+        background-image: url(../imgs/slider/slider01.jpg);
+    }
+    .textoverlay{
+        @extend .textcenter;
+        background-color: rgba($black, 0.6);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: $white;
+        height: 30vh;
+        h1{
+            font-size: 3rem;
+            margin-bottom: $gridgutter;
+        }
+        p{
+            @extend .marginnone;
+        }
+    }
+}
+#sortbar{
+    @extend .marginbottomfull;
+    box-shadow: 0 0 10px $gray;
+    line-height: $gridgutter * 2;
+    select{
+        border: 1px solid darken($white, 10%);
+        height: $gridgutter * 1.2;
+        padding: 0 $gridgutter / 3;
+        margin-left: $gridgutter / 3;
+    }
+}
+#mainproductlist{
+    padding: 0;
+}
+#filters{
+    > .fancytext{
+        line-height: $gridgutter * 1.5;
+        border-bottom: 1px solid darken($white, 10%);
+        cursor: pointer;
+    }
+    .categories{
+        border-bottom: 1px solid darken($white, 10%);
+        display:none;
+        &.open{
+            display: block;
+        }
+        @media(min-width: $tablet){
+            display: block;
+        }
+        font-family: $titlesfont, sans-serif;
+        font-weight: 600;
+        list-style-type: none;
+        padding:0;
+        > li{
+            @extend .marginbottomhalf;
+            font-size: 1.2rem;
+            > a {
+                display: block;
+                position: relative;
+                .icn-chevron-up, .icn-chevron-down{
+                    line-height: 1.2rem * 1.414;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                .icn-chevron-up{
+                    display: none;
+                }
+            }
+            > ul{
+                display: none;
+                list-style-type: none;
+                padding: 0;
+                > li{
+                    @extend .margintopfourth;
+                    @extend .paddingleftfourth;
+                    @extend .fancytext;
+                }
+            }
+            &.open{
+                > a{
+                    .icn-chevron-up{
+                        display: block;
+                    }
+                    .icn-chevron-down{
+                        display: none;
+                    }
+                }
+                > ul{
+                    display: block;
+                }
+            }
+        }
+    }
+    .sizes{
+        display: none;
+        &.open{
+            display: block;
+        }
+        @media(min-width: $tablet){
+            display: block;
+        }
+        .sizebtns{
+            display: flex;
+            justify-content: space-between;
+            button{
+                @extend .fancytext;
+                @extend .animate;
+                cursor: pointer;
+                width: $gridgutter*1.2;
+                text-align: center;
+                line-height: $gridgutter;
+                border: 1px solid darken($white, 10%);
+                background-color: $white;
+                &:hover{
+                    background-color: darken($white, 10%);
+                    border-color: darken($white, 30%);
+                }
+            }
+        }
+    }
+}
