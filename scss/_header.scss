@@ -1,8 +1,9 @@
 body{
     #promobar{
-        font-size: 0.7rem;
+        font-size: 1rem;
         line-height: $gridgutter;
         letter-spacing: 1px;
+        background-color: lightpink;
         @media(min-width: $desktop){
             letter-spacing: 1px;
         }
@@ -20,19 +21,20 @@ body{
             }
             #logo{
                 height: $gridgutter * 1.5;
+                width: auto;
                 > a{
                     @extend .bg-black;
                     display: inline-block;
-                    width: 125px;
                     height: auto;
                     box-sizing: border-box;
-                    padding: $gridgutter / 3;
+                    padding: $gridgutter;
                 }
             }
             ul{
                 height: $gridgutter * 1.5;
                 list-style-type: none;
                 margin: 0;
+                align-content: center;
                 li{
                     display: inline-block;
                     a{
