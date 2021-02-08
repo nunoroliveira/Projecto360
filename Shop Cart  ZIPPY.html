@@ -11,41 +11,41 @@
 
 
 <body>
-  <div id="campaign-header"></div>
+  <div id="promobar"><a href="#">promo bar in this div</a></div>
 
-  <header id="main-header">
+  <header id="main-header" class="bg-white">
 
-    <nav>
-        <img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/>
+    <nav class="gridrow">
+      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page"><img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
 
 
       <ul id="top-menu">
         <li>
-          <a href="#" title="Shop Menina">MENINA</a>
+          <a href="https://zippyonline.com/pt/menina/" title="Shop Menina">MENINA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Menino">MENINO</a>
+          <a href="https://zippyonline.com/pt/menino/" title="Shop Menino">MENINO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Bebé Menina">BEBÉ MENINA</a>
+          <a href="https://zippyonline.com/pt/bebe-menina/" title="Shop Bebé Menina">BEBÉ MENINA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Bebé Menino">BEBÉ MENINO</a>
+          <a href="https://zippyonline.com/pt/bebe-menino/" title="Shop Bebé Menino">BEBÉ MENINO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
+          <a href="https://zippyonline.com/pt/recem-nascido/" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Puericultura">PUERICULTURA</a>
+          <a href="https://zippyonline.com/pt/puericultura/" title="Shop Puericultura">PUERICULTURA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
@@ -55,34 +55,38 @@
 
       <ul id="customer-menu">
         <li>
-          <button type="button" id="btn-search">
-            <span class="text-search">Pesquisar</span>
-          </button>
+          <a id="search" href="#">Pesquisar</a>
         </li>
 
         <li>
-          <button type="button" id="btn-login">
-            <span class="text-login">Entrar</span>
-          </button>
+          <a id="login" href="https://zippyonline.com/pt/login/">Entrar</a>
         </li>
 
         <li>
-          <button type="button" id="btn-cart">
-            <span class="cart-quantity"></span>
-          </button>
+          <a id="shopping-cart" href="#">icon carrinho</a>
         </li>
 
       </ul>
     </nav>
   </header>
 
-  <main>
-    <body id="body">
-      <div id="newsTable">
-    <h1>Shopping Cart</h1>
 
-     
-      <div class="gridrow col-12 col-t-7 col-d-3">
+  
+    <body id="body">
+
+      <main>
+
+        <h1 class="gridrow">Shopping Cart</h1>
+
+      <div class="gridrow" id="newsTable">
+         
+      <div class="product col-12 col-t-7 col-d-4">
+
+        <div class="product-image">
+          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw246ad22a/images/hires/cfe5c1b5-ac89-4a6b-b561-e710c834be99.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
+        </div>
+
+      <div class="col-12 col-t-7 col-d-4 cart-options">
         <label class="product-image">Image</label>
         <label class="product-details">Product</label>
         <label class="product-price">Price</label>
@@ -90,11 +94,10 @@
         <label class="product-removal">Remove</label>
         <label class="product-line-price">Total</label>
       </div>
+
+      </div>
     
-      <div class="gridrow product col-12 col-t-7 col-d-6">
-        <div class="product-image">
-          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw246ad22a/images/hires/cfe5c1b5-ac89-4a6b-b561-e710c834be99.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
-        </div>
+      <div class="gridrow" >
         <div class="product-details">
           <div class="product-title">CASACO CANADIANA PARA MENINO, AZUL ESCURO</div>
           <p class="product-description">Ref. 7116691</p>
@@ -161,11 +164,11 @@
   <footer id="main-footer">
 
     <div class="gridrow">
-      <div class="col-4 col-d-2">
+      <div class="col-4 col-d-4">
         <ul>
-          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</a></li>
+          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><strong>LOJAS ZIPPY</strong></a></li>
+          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><strong>ENTREGAS</strong></a></li>
+          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><strong>TROCAS & DEVOLUÇÕES</strong></a></li>
         </ul>
       </div>
       <div class="col-4 col-d-2">
@@ -195,11 +198,9 @@
       <div class="col-4 col-d-2">
         <p class="margintopnone" id="follow-us">FOLLOW US</p>
         <ul>
-          <a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a>
-          </br>
-          <a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram">Instagram</i></a>
-          </br>
-          <a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a>
+          <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
+          <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
+          <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
         </ul>
       </div>
 
@@ -211,9 +212,10 @@
           <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
         </ul>
       </div>
+    </div>
 
-      <div class="col-12">
-        <p id="site-language">LANGUAGE IN HERE!!!!!</p>
+      <div id="site-language" class="col-12">
+        <p class="gridrow"><span id="language">Portugal | português</span></p>
 
       </div>
 
@@ -222,11 +224,10 @@
 
       </div>
 
-    </div>
+    
 
 
   </footer>
-
 
 
 
