@@ -1513,6 +1513,7 @@ body > header nav ul li {
   display: inline-block;
 }
 body > header nav ul li a {
+  padding: 10px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
