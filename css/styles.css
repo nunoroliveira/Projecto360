@@ -332,6 +332,12 @@ h1, .h1, h2, .h2 {
   font-size: 2.2rem;
 }
 
+h3 {
+  font-size: 16px;
+  color: #7f7f7f;
+  margin: auto;
+}
+
 /* ============================== */
 /* ======= TEXT ALIGNMENT ======= */
 /* ============================== */
@@ -369,7 +375,7 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 }
 .central-link a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 8px 12px;
 }
 .central-link a:hover {
   background-color: #000;
@@ -380,13 +386,13 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 }
 .central-link-light a {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 8px 12px;
 }
 .central-link-light a:hover {
   color: #747474;
 }
 
-.animate, #product #product-description .product-description-line .sizebtns button, #product #thumbs a img, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card-image img, #journal .journal-card-image img, #filters .sizes .sizebtns button, .product-list .product-card-image img, .slider-next, .slider-previous, a {
+.animate, #product #product-description .product-description-line .sizebtns button, #product #thumbs a img, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card-image img, #journal .journal-card-image img, #filters .sizes .sizebtns button, .product-list .product-card-image img, a {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -458,423 +464,423 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 }
 
 .marginfourth {
-  margin: 7.5px !important;
+  margin: 6px !important;
 }
 
 .marginhorizontalfourth {
-  margin-left: 7.5px !important;
-  margin-right: 7.5px !important;
+  margin-left: 6px !important;
+  margin-right: 6px !important;
 }
 
 .marginverticalfourth {
-  margin-top: 7.5px !important;
-  margin-bottom: 7.5px !important;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
 }
 
 .margintopfourth, #filters .categories > li > ul > li {
-  margin-top: 7.5px !important;
+  margin-top: 6px !important;
 }
 
 .marginrightfourth {
-  margin-right: 7.5px !important;
+  margin-right: 6px !important;
 }
 
 .marginbottomfourth {
-  margin-bottom: 7.5px !important;
+  margin-bottom: 6px !important;
 }
 
 .marginleftfourth {
-  margin-left: 7.5px !important;
+  margin-left: 6px !important;
 }
 
 .paddingfourth {
-  padding: 7.5px !important;
+  padding: 6px !important;
 }
 
 .paddinghorizontalfourth {
-  padding-left: 7.5px !important;
-  padding-right: 7.5px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
 }
 
 .paddingverticalfourth {
-  padding-top: 7.5px !important;
-  padding-bottom: 7.5px !important;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
 }
 
 .paddingtopfourth {
-  padding-top: 7.5px !important;
+  padding-top: 6px !important;
 }
 
 .paddingrightfourth {
-  padding-right: 7.5px !important;
+  padding-right: 6px !important;
 }
 
 .paddingbottomfourth {
-  padding-bottom: 7.5px !important;
+  padding-bottom: 6px !important;
 }
 
 .paddingleftfourth, #filters .categories > li > ul > li {
-  padding-left: 7.5px !important;
+  padding-left: 6px !important;
 }
 
 .marginthird {
-  margin: 10px !important;
+  margin: 8px !important;
 }
 
 .marginhorizontalthird {
-  margin-left: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
 }
 
 .marginverticalthird {
-  margin-top: 10px !important;
-  margin-bottom: 10px !important;
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
 }
 
 .margintopthird {
-  margin-top: 10px !important;
+  margin-top: 8px !important;
 }
 
 .marginrightthird {
-  margin-right: 10px !important;
+  margin-right: 8px !important;
 }
 
 .marginbottomthird {
-  margin-bottom: 10px !important;
+  margin-bottom: 8px !important;
 }
 
 .marginleftthird {
-  margin-left: 10px !important;
+  margin-left: 8px !important;
 }
 
 .paddingthird {
-  padding: 10px !important;
+  padding: 8px !important;
 }
 
 .paddinghorizontalthird {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
+  padding-left: 8px !important;
+  padding-right: 8px !important;
 }
 
 .paddingverticalthird {
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
 }
 
 .paddingtopthird {
-  padding-top: 10px !important;
+  padding-top: 8px !important;
 }
 
 .paddingrightthird {
-  padding-right: 10px !important;
+  padding-right: 8px !important;
 }
 
 .paddingbottomthird {
-  padding-bottom: 10px !important;
+  padding-bottom: 8px !important;
 }
 
 .paddingleftthird {
-  padding-left: 10px !important;
+  padding-left: 8px !important;
 }
 
 .marginhalf {
-  margin: 15px !important;
+  margin: 12px !important;
 }
 
 .marginhorizontalhalf {
-  margin-left: 15px !important;
-  margin-right: 15px !important;
+  margin-left: 12px !important;
+  margin-right: 12px !important;
 }
 
 .marginverticalhalf {
-  margin-top: 15px !important;
-  margin-bottom: 15px !important;
+  margin-top: 12px !important;
+  margin-bottom: 12px !important;
 }
 
 .margintophalf, .central-link, .central-link-light {
-  margin-top: 15px !important;
+  margin-top: 12px !important;
 }
 
 .marginrighthalf {
-  margin-right: 15px !important;
+  margin-right: 12px !important;
 }
 
 .marginbottomhalf, #product #thumbs a, #filters .categories > li {
-  margin-bottom: 15px !important;
+  margin-bottom: 12px !important;
 }
 
 .marginlefthalf {
-  margin-left: 15px !important;
+  margin-left: 12px !important;
 }
 
 .paddinghalf {
-  padding: 15px !important;
+  padding: 12px !important;
 }
 
 .paddinghorizontalhalf {
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding-left: 12px !important;
+  padding-right: 12px !important;
 }
 
 .paddingverticalhalf {
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
 }
 
 .paddingtophalf {
-  padding-top: 15px !important;
+  padding-top: 12px !important;
 }
 
 .paddingrighthalf {
-  padding-right: 15px !important;
+  padding-right: 12px !important;
 }
 
 .paddingbottomhalf {
-  padding-bottom: 15px !important;
+  padding-bottom: 12px !important;
 }
 
 .paddinglefthalf {
-  padding-left: 15px !important;
+  padding-left: 12px !important;
 }
 
 .margintwothirds {
-  margin: 20px !important;
+  margin: 16px !important;
 }
 
 .marginhorizontaltwothirds {
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
 }
 
 .marginverticaltwothirds {
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
 }
 
 .margintoptwothirds {
-  margin-top: 20px !important;
+  margin-top: 16px !important;
 }
 
 .marginrighttwothirds {
-  margin-right: 20px !important;
+  margin-right: 16px !important;
 }
 
 .marginbottomtwothirds {
-  margin-bottom: 20px !important;
+  margin-bottom: 16px !important;
 }
 
 .marginlefttwothirds {
-  margin-left: 20px !important;
+  margin-left: 16px !important;
 }
 
 .paddingtwothirds {
-  padding: 20px !important;
+  padding: 16px !important;
 }
 
 .paddinghorizontaltwothirds {
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
 
 .paddingverticaltwothirds {
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
 }
 
 .paddingtoptwothirds {
-  padding-top: 20px !important;
+  padding-top: 16px !important;
 }
 
 .paddingrighttwothirds {
-  padding-right: 20px !important;
+  padding-right: 16px !important;
 }
 
 .paddingbottomtwothirds {
-  padding-bottom: 20px !important;
+  padding-bottom: 16px !important;
 }
 
 .paddinglefttwothirds {
-  padding-left: 20px !important;
+  padding-left: 16px !important;
 }
 
 .marginfull {
-  margin: 30px !important;
+  margin: 24px !important;
 }
 
 .marginhorizontalfull {
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  margin-left: 24px !important;
+  margin-right: 24px !important;
 }
 
 .marginverticalfull, .product-list .product-card {
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
 }
 
 .margintopfull {
-  margin-top: 30px !important;
+  margin-top: 24px !important;
 }
 
 .marginrightfull {
-  margin-right: 30px !important;
+  margin-right: 24px !important;
 }
 
 .marginbottomfull, .breadcrumb, #press .press-card, #looks .look-card, #sortbar {
-  margin-bottom: 30px !important;
+  margin-bottom: 24px !important;
 }
 
 .marginleftfull {
-  margin-left: 30px !important;
+  margin-left: 24px !important;
 }
 
 .paddingfull {
-  padding: 30px !important;
+  padding: 24px !important;
 }
 
 .paddinghorizontalfull {
-  padding-left: 30px !important;
-  padding-right: 30px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
 }
 
 .paddingverticalfull {
-  padding-top: 30px !important;
-  padding-bottom: 30px !important;
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
 }
 
 .paddingtopfull {
-  padding-top: 30px !important;
+  padding-top: 24px !important;
 }
 
 .paddingrightfull {
-  padding-right: 30px !important;
+  padding-right: 24px !important;
 }
 
 .paddingbottomfull {
-  padding-bottom: 30px !important;
+  padding-bottom: 24px !important;
 }
 
 .paddingleftfull {
-  padding-left: 30px !important;
+  padding-left: 24px !important;
 }
 
 .marginoneandhalf {
-  margin: 45px !important;
+  margin: 36px !important;
 }
 
 .marginhorizontaloneandhalf {
-  margin-left: 45px !important;
-  margin-right: 45px !important;
+  margin-left: 36px !important;
+  margin-right: 36px !important;
 }
 
 .marginverticaloneandhalf {
-  margin-top: 45px !important;
-  margin-bottom: 45px !important;
+  margin-top: 36px !important;
+  margin-bottom: 36px !important;
 }
 
 .margintoponeandhalf {
-  margin-top: 45px !important;
+  margin-top: 36px !important;
 }
 
 .marginrightoneandhalf {
-  margin-right: 45px !important;
+  margin-right: 36px !important;
 }
 
 .marginbottomoneandhalf {
-  margin-bottom: 45px !important;
+  margin-bottom: 36px !important;
 }
 
 .marginleftoneandhalf {
-  margin-left: 45px !important;
+  margin-left: 36px !important;
 }
 
 .paddingoneandhalf {
-  padding: 45px !important;
+  padding: 36px !important;
 }
 
 .paddinghorizontaloneandhalf {
-  padding-left: 45px !important;
-  padding-right: 45px !important;
+  padding-left: 36px !important;
+  padding-right: 36px !important;
 }
 
 .paddingverticaloneandhalf {
-  padding-top: 45px !important;
-  padding-bottom: 45px !important;
+  padding-top: 36px !important;
+  padding-bottom: 36px !important;
 }
 
-.paddingtoponeandhalf, footer {
-  padding-top: 45px !important;
+.paddingtoponeandhalf {
+  padding-top: 36px !important;
 }
 
 .paddingrightoneandhalf {
-  padding-right: 45px !important;
+  padding-right: 36px !important;
 }
 
 .paddingbottomoneandhalf {
-  padding-bottom: 45px !important;
+  padding-bottom: 36px !important;
 }
 
 .paddingleftoneandhalf {
-  padding-left: 45px !important;
+  padding-left: 36px !important;
 }
 
 .margindouble {
-  margin: 60px !important;
+  margin: 48px !important;
 }
 
 .marginhorizontaldouble {
-  margin-left: 60px !important;
-  margin-right: 60px !important;
+  margin-left: 48px !important;
+  margin-right: 48px !important;
 }
 
 .marginverticaldouble, .separador {
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
+  margin-top: 48px !important;
+  margin-bottom: 48px !important;
 }
 
 .margintopdouble {
-  margin-top: 60px !important;
+  margin-top: 48px !important;
 }
 
 .marginrightdouble {
-  margin-right: 60px !important;
+  margin-right: 48px !important;
 }
 
 .marginbottomdouble {
-  margin-bottom: 60px !important;
+  margin-bottom: 48px !important;
 }
 
 .marginleftdouble {
-  margin-left: 60px !important;
+  margin-left: 48px !important;
 }
 
 .paddingdouble {
-  padding: 60px !important;
+  padding: 48px !important;
 }
 
 .paddinghorizontaldouble {
-  padding-left: 60px !important;
-  padding-right: 60px !important;
+  padding-left: 48px !important;
+  padding-right: 48px !important;
 }
 
 .paddingverticaldouble {
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
 }
 
 .paddingtopdouble {
-  padding-top: 60px !important;
+  padding-top: 48px !important;
 }
 
 .paddingrightdouble {
-  padding-right: 60px !important;
+  padding-right: 48px !important;
 }
 
-.paddingbottomdouble, footer {
-  padding-bottom: 60px !important;
+.paddingbottomdouble {
+  padding-bottom: 48px !important;
 }
 
 .paddingleftdouble {
-  padding-left: 60px !important;
+  padding-left: 48px !important;
 }
 
 /* ==================================== */
@@ -924,7 +930,7 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   background-color: #747474;
 }
 
-.bg-graydark, footer, .central-link a {
+.bg-graydark, .central-link a {
   background-color: #333;
 }
 
@@ -936,7 +942,7 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   background-color: #FFF;
 }
 
-.bg-black, #product #product-description .product-description-line .cart button, body > header nav #logo > a {
+.bg-black, #product #product-description .product-description-line .cart button {
   background-color: #000;
 }
 
@@ -1032,7 +1038,7 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 }
 @media (min-width: 1280px) {
   .gridrow {
-    width: 1250px;
+    width: 1256px;
   }
 }
 
@@ -1043,14 +1049,14 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col, .gridrow .col {
   flex: 1;
   box-sizing: border-box;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .col-1, .gridrow .col-1 {
   box-sizing: border-box;
   width: 8.3333333333%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-1, .gridrow .offset-1 {
   margin-left: 8.3333333333%;
@@ -1058,8 +1064,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-2, .gridrow .col-2 {
   box-sizing: border-box;
   width: 16.6666666667%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-2, .gridrow .offset-2 {
   margin-left: 16.6666666667%;
@@ -1067,8 +1073,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-3, .gridrow .col-3 {
   box-sizing: border-box;
   width: 25%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-3, .gridrow .offset-3 {
   margin-left: 25%;
@@ -1076,8 +1082,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-4, .gridrow .col-4 {
   box-sizing: border-box;
   width: 33.3333333333%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-4, .gridrow .offset-4 {
   margin-left: 33.3333333333%;
@@ -1085,8 +1091,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-5, .gridrow .col-5 {
   box-sizing: border-box;
   width: 41.6666666667%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-5, .gridrow .offset-5 {
   margin-left: 41.6666666667%;
@@ -1094,8 +1100,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-6, .gridrow .col-6 {
   box-sizing: border-box;
   width: 50%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-6, .gridrow .offset-6 {
   margin-left: 50%;
@@ -1103,8 +1109,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-7, .gridrow .col-7 {
   box-sizing: border-box;
   width: 58.3333333333%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-7, .gridrow .offset-7 {
   margin-left: 58.3333333333%;
@@ -1112,8 +1118,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-8, .gridrow .col-8 {
   box-sizing: border-box;
   width: 66.6666666667%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-8, .gridrow .offset-8 {
   margin-left: 66.6666666667%;
@@ -1121,8 +1127,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-9, .gridrow .col-9 {
   box-sizing: border-box;
   width: 75%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-9, .gridrow .offset-9 {
   margin-left: 75%;
@@ -1130,8 +1136,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-10, .gridrow .col-10 {
   box-sizing: border-box;
   width: 83.3333333333%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-10, .gridrow .offset-10 {
   margin-left: 83.3333333333%;
@@ -1139,8 +1145,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-11, .gridrow .col-11 {
   box-sizing: border-box;
   width: 91.6666666667%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-11, .gridrow .offset-11 {
   margin-left: 91.6666666667%;
@@ -1148,8 +1154,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 .gridrowfull .col-12, .gridrow .col-12 {
   box-sizing: border-box;
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 .gridrowfull .offset-12, .gridrow .offset-12 {
   margin-left: 100%;
@@ -1158,8 +1164,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t, .gridrow .col-t {
     flex: 1;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t, .gridrow .offset-t {
     margin-left: 0;
@@ -1167,8 +1173,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-1, .gridrow .col-t-1 {
     box-sizing: border-box;
     width: 8.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-1, .gridrow .offset-t-1 {
     margin-left: 8.3333333333%;
@@ -1176,8 +1182,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-2, .gridrow .col-t-2 {
     box-sizing: border-box;
     width: 16.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-2, .gridrow .offset-t-2 {
     margin-left: 16.6666666667%;
@@ -1185,8 +1191,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-3, .gridrow .col-t-3 {
     box-sizing: border-box;
     width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-3, .gridrow .offset-t-3 {
     margin-left: 25%;
@@ -1194,8 +1200,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-4, .gridrow .col-t-4 {
     box-sizing: border-box;
     width: 33.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-4, .gridrow .offset-t-4 {
     margin-left: 33.3333333333%;
@@ -1203,8 +1209,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-5, .gridrow .col-t-5 {
     box-sizing: border-box;
     width: 41.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-5, .gridrow .offset-t-5 {
     margin-left: 41.6666666667%;
@@ -1212,8 +1218,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-6, .gridrow .col-t-6 {
     box-sizing: border-box;
     width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-6, .gridrow .offset-t-6 {
     margin-left: 50%;
@@ -1221,8 +1227,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-7, .gridrow .col-t-7 {
     box-sizing: border-box;
     width: 58.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-7, .gridrow .offset-t-7 {
     margin-left: 58.3333333333%;
@@ -1230,8 +1236,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-8, .gridrow .col-t-8 {
     box-sizing: border-box;
     width: 66.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-8, .gridrow .offset-t-8 {
     margin-left: 66.6666666667%;
@@ -1239,8 +1245,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-9, .gridrow .col-t-9 {
     box-sizing: border-box;
     width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-9, .gridrow .offset-t-9 {
     margin-left: 75%;
@@ -1248,8 +1254,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-10, .gridrow .col-t-10 {
     box-sizing: border-box;
     width: 83.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-10, .gridrow .offset-t-10 {
     margin-left: 83.3333333333%;
@@ -1257,8 +1263,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-11, .gridrow .col-t-11 {
     box-sizing: border-box;
     width: 91.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-11, .gridrow .offset-t-11 {
     margin-left: 91.6666666667%;
@@ -1266,8 +1272,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-t-12, .gridrow .col-t-12 {
     box-sizing: border-box;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-t-12, .gridrow .offset-t-12 {
     margin-left: 100%;
@@ -1277,8 +1283,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d, .gridrow .col-d {
     flex: 1;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d, .gridrow .offset-d {
     margin-left: 0;
@@ -1286,8 +1292,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-1, .gridrow .col-d-1 {
     box-sizing: border-box;
     width: 8.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-1, .gridrow .offset-d-1 {
     margin-left: 8.3333333333%;
@@ -1295,8 +1301,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-2, .gridrow .col-d-2 {
     box-sizing: border-box;
     width: 16.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-2, .gridrow .offset-d-2 {
     margin-left: 16.6666666667%;
@@ -1304,8 +1310,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-3, .gridrow .col-d-3 {
     box-sizing: border-box;
     width: 25%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-3, .gridrow .offset-d-3 {
     margin-left: 25%;
@@ -1313,8 +1319,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-4, .gridrow .col-d-4 {
     box-sizing: border-box;
     width: 33.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-4, .gridrow .offset-d-4 {
     margin-left: 33.3333333333%;
@@ -1322,8 +1328,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-5, .gridrow .col-d-5 {
     box-sizing: border-box;
     width: 41.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-5, .gridrow .offset-d-5 {
     margin-left: 41.6666666667%;
@@ -1331,8 +1337,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-6, .gridrow .col-d-6 {
     box-sizing: border-box;
     width: 50%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-6, .gridrow .offset-d-6 {
     margin-left: 50%;
@@ -1340,8 +1346,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-7, .gridrow .col-d-7 {
     box-sizing: border-box;
     width: 58.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-7, .gridrow .offset-d-7 {
     margin-left: 58.3333333333%;
@@ -1349,8 +1355,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-8, .gridrow .col-d-8 {
     box-sizing: border-box;
     width: 66.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-8, .gridrow .offset-d-8 {
     margin-left: 66.6666666667%;
@@ -1358,8 +1364,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-9, .gridrow .col-d-9 {
     box-sizing: border-box;
     width: 75%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-9, .gridrow .offset-d-9 {
     margin-left: 75%;
@@ -1367,8 +1373,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-10, .gridrow .col-d-10 {
     box-sizing: border-box;
     width: 83.3333333333%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-10, .gridrow .offset-d-10 {
     margin-left: 83.3333333333%;
@@ -1376,8 +1382,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-11, .gridrow .col-d-11 {
     box-sizing: border-box;
     width: 91.6666666667%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-11, .gridrow .offset-d-11 {
     margin-left: 91.6666666667%;
@@ -1385,8 +1391,8 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
   .gridrowfull .col-d-12, .gridrow .col-d-12 {
     box-sizing: border-box;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
   .gridrowfull .offset-d-12, .gridrow .offset-d-12 {
     margin-left: 100%;
@@ -1433,16 +1439,16 @@ small, .small, #product #bigimg .share, .fancytext, #product #product-descriptio
 }
 
 form {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 form input {
   box-sizing: border-box;
   width: 100%;
   background-color: transparent;
   border: 1px solid #747474;
-  padding: 0 15px;
-  height: 45px;
-  line-height: 45px;
+  padding: 0 12px;
+  height: 36px;
+  line-height: 36px;
 }
 form input::placeholder {
   color: #747474;
@@ -1461,22 +1467,17 @@ form button {
   color: #FFF;
   background-color: #333;
   border: none;
-  padding: 0 15px;
+  padding: 0 12px;
   text-transform: uppercase;
-  height: 45px;
-  line-height: 45px;
+  height: 36px;
+  line-height: 36px;
 }
 
-body #promobar {
-  font-size: 1rem;
-  line-height: 30px;
-  letter-spacing: 1px;
-  background-color: lightpink;
-}
-@media (min-width: 1280px) {
-  body #promobar {
-    letter-spacing: 1px;
-  }
+body {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 body > header {
   position: -webkit-sticky;
@@ -1486,185 +1487,41 @@ body > header {
   border-bottom: 1px solid #F3F3F3;
 }
 body > header nav {
-  padding-top: 15px;
-}
-@media (min-width: 750px) {
-  body > header nav {
-    padding-bottom: 15px;
-  }
+  justify-content: space-between;
 }
 body > header nav #logo {
-  height: 45px;
-  width: auto;
+  padding-left: 36px;
+  display: inline-flex;
+  align-items: center;
 }
-body > header nav #logo > a {
-  display: inline-block;
-  height: auto;
-  box-sizing: border-box;
-  padding: 30px;
+body > header nav #logo > .logoZippy {
+  height: 40px;
 }
-body > header nav ul {
-  height: 45px;
+body > header nav > ul {
+  padding: 12px;
   list-style-type: none;
   margin: 0;
   align-content: center;
 }
-body > header nav ul li {
+body > header nav > ul li {
   display: inline-block;
 }
-body > header nav ul li a {
-  padding: 10px;
+body > header nav > ul li a {
+  padding: 12px;
   display: inline-block;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 0.75rem;
-  line-height: 45px;
-  height: 45px;
-  letter-spacing: 1px;
-}
-@media (min-width: 1280px) {
-  body > header nav ul li a {
-    letter-spacing: 2px;
-  }
-}
-body > header nav ul#mainmenu {
-  order: 3;
-  display: flex;
-  justify-content: space-between;
-}
-@media (min-width: 750px) {
-  body > header nav ul#mainmenu {
-    display: block;
-    order: 0;
-  }
-}
-@media (min-width: 750px) {
-  body > header nav ul#mainmenu li {
-    margin-right: 10px;
-  }
-}
-@media (min-width: 1280px) {
-  body > header nav ul#mainmenu li {
-    margin-right: 30px;
-  }
-}
-body > header nav ul#customermenu i {
-  display: inline-block;
-  font-size: 1.2rem;
-  margin-left: 15px;
-}
-@media (min-width: 750px) {
-  body > header nav ul#customermenu i {
-    margin-left: 10px;
-  }
-}
-@media (min-width: 1280px) {
-  body > header nav ul#customermenu i {
-    margin-left: 15px;
-  }
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7f7f7f;
 }
 
-.slider {
-  height: 65vh;
-  background-color: #F3F3F3;
-  position: relative;
-}
-.slider-slides {
-  height: 65vh;
-  position: relative;
-}
-.slider-slides-slide {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  height: 65vh;
-  overflow: hidden;
-}
-.slider-slides-slide img {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.slider-slides-slide-caption {
-  width: 100%;
-  height: 65vh;
-  box-sizing: border-box;
-  position: relative;
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 750px) {
-  .slider-slides-slide-caption {
-    padding-left: 55vw;
-    padding-right: 30px;
-  }
-}
-@media (min-width: 1280px) {
-  .slider-slides-slide-caption {
-    padding-left: 60vw;
-    padding-right: 30px;
-  }
-}
-.slider-slides-slide-caption .h1 {
-  font-size: 3rem;
-  color: #FFF;
-  margin-bottom: 30px;
-}
-.slider-slides-slide-caption a {
-  display: inline-block;
-  color: #FFF;
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
-  padding-bottom: 6px;
-  border-bottom: 1px solid #FFF;
-}
-.slider-slides-slide-caption a:hover {
-  border-bottom-color: #747474;
-}
-.slider-next, .slider-previous {
-  display: none;
-}
-@media (min-width: 750px) {
-  .slider-next, .slider-previous {
-    display: block;
-    position: absolute;
-    z-index: 2;
-    top: calc(32.5vh - 45px);
-    width: 60px;
-    line-height: 90px;
-    height: 90px;
-    font-size: 3rem;
-    text-align: center;
-    background-color: #747474;
-    color: #FFF;
-  }
-  .slider-next i, .slider-previous i {
-    line-height: 90px;
-  }
-  .slider-next:hover, .slider-previous:hover {
-    background-color: #FFF;
-    color: #747474;
-    width: 90px;
-  }
-}
-.slider-next {
-  right: 0;
-  border-radius: 45px 0 0 45px;
-}
-.slider-previous {
-  left: 0;
-  border-radius: 0 45px 45px 0;
+#shopping-cart {
+  padding-right: 4px;
 }
 
 .product-list .product-card-image {
@@ -1672,11 +1529,11 @@ body > header nav ul#customermenu i {
   background-color: #747474;
 }
 .product-list .product-card-image-badge {
-  padding: 3.75px 7.5px;
+  padding: 3px 6px;
   text-transform: uppercase;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 8px;
+  left: 8px;
   font-size: 0.7rem;
   z-index: 3;
 }
@@ -1714,17 +1571,17 @@ body > header nav ul#customermenu i {
 }
 #headerproductlist .textoverlay h1 {
   font-size: 3rem;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 #sortbar {
   box-shadow: 0 0 10px #747474;
-  line-height: 60px;
+  line-height: 48px;
 }
 #sortbar select {
   border: 1px solid #e6e6e6;
-  height: 36px;
-  padding: 0 10px;
-  margin-left: 10px;
+  height: 28.8px;
+  padding: 0 8px;
+  margin-left: 8px;
 }
 
 #mainproductlist {
@@ -1732,7 +1589,7 @@ body > header nav ul#customermenu i {
 }
 
 #filters > .fancytext, #product #product-description .product-description-line .cart #filters > button, #product #product-description .product-description-line .sizebtns #filters > button, #filters .sizes .sizebtns #filters > button, #filters .categories > li > ul#filters > li, .central-link #filters > a, .central-link-light #filters > a {
-  line-height: 45px;
+  line-height: 36px;
   border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
 }
@@ -1799,9 +1656,9 @@ body > header nav ul#customermenu i {
 }
 #filters .sizes .sizebtns button {
   cursor: pointer;
-  width: 36px;
+  width: 28.8px;
   text-align: center;
-  line-height: 30px;
+  line-height: 24px;
   border: 1px solid #e6e6e6;
   background-color: #FFF;
 }
@@ -1814,7 +1671,7 @@ body > header nav ul#customermenu i {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 @media (min-width: 750px) {
   #about .about {
@@ -1823,15 +1680,15 @@ body > header nav ul#customermenu i {
 }
 #about .about .fancytext, #about .about #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #about .about button, #about .about #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #about .about button, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .categories > li > ul > li, #filters #about .about .categories > li > ul > li, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button {
   display: block;
-  margin-bottom: 6px;
+  margin-bottom: 4.8px;
 }
 
 #journal .journal-card {
   box-sizing: border-box;
   height: 100%;
   border-top: 2px solid #000;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1840,7 +1697,7 @@ body > header nav ul#customermenu i {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 #journal .journal-card-image {
   margin-top: auto;
@@ -1850,23 +1707,23 @@ body > header nav ul#customermenu i {
   opacity: 0.6;
 }
 #journal .journal-card-small {
-  height: 300px;
+  height: 240px;
 }
 #journal .journal-card-small .fancytext, #journal .journal-card-small #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #journal .journal-card-small button, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .categories > li > ul > li, #filters #journal .journal-card-small .categories > li > ul > li, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button {
   margin: 0;
 }
 #journal .journal-card-small h3 {
   font-size: 1.3rem;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 @media (min-width: 750px) {
   #journal .journal-card-small {
-    height: 330px;
+    height: 264px;
   }
 }
 @media (min-width: 1280px) {
   #journal .journal-card-small {
-    height: 270px;
+    height: 216px;
   }
 }
 #journal .journal-card-small .journal-card-image {
@@ -1895,9 +1752,9 @@ body > header nav ul#customermenu i {
   position: absolute;
   left: 0;
   width: 100%;
-  bottom: 30px;
+  bottom: 24px;
   background-color: rgba(255, 255, 255, 0.6);
-  padding: 10px 0;
+  padding: 8px 0;
 }
 #looks .look-card:hover .fancytext, #looks .look-card:hover #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card:hover button, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .categories > li > ul > li, #filters #looks .look-card:hover .categories > li > ul > li, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button {
   background-color: #FFF;
@@ -1917,7 +1774,7 @@ body > header nav ul#customermenu i {
 }
 #press .press-card p {
   background-color: #FFF;
-  padding: 20px;
+  padding: 16px;
   box-sizing: border-box;
   font-size: 0.9rem;
 }
@@ -1934,7 +1791,7 @@ body > header nav ul#customermenu i {
 
 .breadcrumb {
   box-shadow: 0 0 10px #747474;
-  line-height: 75px;
+  line-height: 60px;
 }
 
 #product #thumbs a {
@@ -1961,7 +1818,7 @@ body > header nav ul#customermenu i {
   font-size: 1.3rem;
   display: inline-block;
   vertical-align: middle;
-  margin-left: 6px;
+  margin-left: 4.8px;
 }
 #product #bigimg .share a:hover {
   color: #000;
@@ -1970,7 +1827,7 @@ body > header nav ul#customermenu i {
   font-size: 1.7rem;
 }
 #product #product-description .product-description-line {
-  line-height: 45px;
+  line-height: 36px;
   border-bottom: 1px solid #e6e6e6;
 }
 #product #product-description .product-description-line .price {
@@ -1982,7 +1839,7 @@ body > header nav ul#customermenu i {
 }
 #product #product-description .product-description-line .score span {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 #product #product-description .product-description-line .smallerheight {
   line-height: 1.618;
@@ -1993,9 +1850,9 @@ body > header nav ul#customermenu i {
 }
 #product #product-description .product-description-line .sizebtns button {
   cursor: pointer;
-  width: 36px;
+  width: 28.8px;
   text-align: center;
-  line-height: 30px;
+  line-height: 24px;
   border: 1px solid #e6e6e6;
   background-color: #FFF;
 }
@@ -2009,8 +1866,8 @@ body > header nav ul#customermenu i {
 #product #product-description .product-description-line .qty button, #product #product-description .product-description-line .qty input {
   width: 33.3333%;
   display: inline-block;
-  height: 45px;
-  line-height: 45px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
   border-style: solid;
   border-color: #b3b3b3;
@@ -2034,8 +1891,8 @@ body > header nav ul#customermenu i {
 #product #product-description .product-description-line .cart button {
   cursor: pointer;
   display: inline-block;
-  height: 45px;
-  line-height: 45px;
+  height: 36px;
+  line-height: 36px;
   width: 100%;
   border: none;
 }
@@ -2049,7 +1906,7 @@ body > header nav ul#customermenu i {
 #product #product-description .product-care ul > li > a {
   display: block;
   position: relative;
-  line-height: 30px;
+  line-height: 24px;
 }
 #product #product-description .product-care ul > li > a .plus, #product #product-description .product-care ul > li > a .minus {
   position: absolute;
@@ -2096,16 +1953,19 @@ body > header nav ul#customermenu i {
 }
 #reviews .score span {
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 footer {
   background-color: rgba(232, 230, 218, 0.2);
   padding-bottom: 0px !important;
+  padding-top: 48px;
 }
 footer ul {
   list-style-type: none;
-  padding: 0;
+}
+footer ul li {
+  font-size: 14px;
 }
 footer ul li a {
   color: #7f7f7f;
@@ -2114,8 +1974,9 @@ footer ul li a:hover {
   color: black;
 }
 footer #site-language {
-  padding-bottom: 7.5px;
-  padding-top: 7.5px;
+  font-size: 14px;
+  padding-bottom: 6px;
+  padding-top: 6px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
@@ -2123,7 +1984,11 @@ footer .signature {
   color: #999;
   background-color: rgba(232, 230, 218, 0.5);
   text-align: center;
-  margin-top: 30px;
-  padding-bottom: 7.5px;
-  padding-top: 7.5px;
+  margin-top: 24px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  font-size: 12px;
+}
+footer strong {
+  font-size: 16px;
 }

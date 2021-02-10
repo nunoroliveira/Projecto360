@@ -1,14 +1,13 @@
+@import 'variables';
+
 footer{
-    @extend .bg-graydark;
-    @extend .paddingtoponeandhalf;
-    @extend .paddingbottomdouble;
     background-color: rgba(232,230,218,.2);
     padding-bottom: 0px !important;
-    
+    padding-top: $gridgutter * 2;
     ul{
         list-style-type: none;
-        padding: 0;
         li{
+            font-size: 14px;
             a{
                 color: #7f7f7f;
                 &:hover{
@@ -16,8 +15,10 @@ footer{
                 }
             }
         }
+        
     }
     #site-language{
+        font-size: 14px;
         padding-bottom: $gridgutter/4;
         padding-top: $gridgutter/4;
         border-top: 1px solid #ccc;
@@ -30,5 +31,9 @@ footer{
         margin-top: $gridgutter;
         padding-bottom: $gridgutter/4;
         padding-top: $gridgutter/4;
+        font-size: 12px;
+    }
+    strong{
+        font-size: 16px;
     } 
 }
