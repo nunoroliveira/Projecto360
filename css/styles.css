@@ -116,24 +116,24 @@ select {
 }
 
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -164,27 +164,27 @@ textarea {
   overflow: auto;
 }
 
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
 }
 
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
 
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -219,8 +219,7 @@ template {
   font-style: normal;
   font-display: block;
 }
-
-[class^="icn-"], [class*=" icn-"] {
+[class^=icn-], [class*=" icn-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "editstore" !important;
   speak: none;
@@ -243,10 +242,6 @@ template {
 }
 
 .icn-pinterest:before {
-  content: "";
-}
-
-.icn-instagram:before {
   content: "";
 }
 
@@ -301,14 +296,12 @@ html {
   line-height: 1.618;
   font-size: 14px;
 }
-
 @media (min-width: 750px) {
   html {
     font-size: 15px;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   html {
     font-size: 16px;
   }
@@ -321,7 +314,6 @@ a {
   text-decoration: none;
   color: #000;
 }
-
 a:hover {
   color: #747474;
 }
@@ -347,7 +339,7 @@ h1, .h1, h2, .h2 {
   text-align: left;
 }
 
-.textcenter, .central-link, .central-link-light, #headerproductlist .textoverlay, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card footer form button, footer form #looks .look-card button {
+.textcenter, #looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay, .central-link-light, .central-link {
   text-align: center;
 }
 
@@ -358,15 +350,15 @@ h1, .h1, h2, .h2 {
 /* ===================== */
 /* ======= OTHER ======= */
 /* ===================== */
-small, .small, .fancytext, .central-link a, .central-link-light a, #filters .categories > li > ul > li, #filters .sizes .sizebtns button, #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .cart button, footer form button, #product #bigimg .share, footer ul li a {
+small, .small, #product #bigimg .share, .fancytext, #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .sizebtns button, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
   font-size: 0.8rem;
 }
 
-.uppercase, .fancytext, .central-link a, .central-link-light a, #filters .categories > li > ul > li, #filters .sizes .sizebtns button, #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .cart button, footer form button {
+.uppercase, .fancytext, #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .sizebtns button, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
   text-transform: uppercase;
 }
 
-.fancytext, .central-link a, .central-link-light a, #filters .categories > li > ul > li, #filters .sizes .sizebtns button, #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .cart button, footer form button {
+.fancytext, #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .sizebtns button, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -375,12 +367,10 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .central-link {
   width: 100%;
 }
-
 .central-link a {
   display: inline-block;
   padding: 10px 15px;
 }
-
 .central-link a:hover {
   background-color: #000;
 }
@@ -388,17 +378,15 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .central-link-light {
   width: 100%;
 }
-
 .central-link-light a {
   display: inline-block;
   padding: 10px 15px;
 }
-
 .central-link-light a:hover {
   color: #747474;
 }
 
-.animate, a, .slider-next, .slider-previous, .product-list .product-card-image img, #filters .sizes .sizebtns button, #journal .journal-card-image img, #looks .look-card-image img, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card footer form button, footer form #looks .look-card button, #press .press-card-image img, #press .press-card p, #talking img, #product #thumbs a img, #product #product-description .product-description-line .sizebtns button, footer form button {
+.animate, #product #product-description .product-description-line .sizebtns button, #product #thumbs a img, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card-image img, #journal .journal-card-image img, #filters .sizes .sizebtns button, .product-list .product-card-image img, .slider-next, .slider-previous, a {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -409,7 +397,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 /* ================================== */
 /* ======= MARGINS / PADDINGS ======= */
 /* ================================== */
-.marginnone, #headerproductlist .textoverlay p, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card footer form button, footer form #looks .look-card button, #press .press-card p {
+.marginnone, #press .press-card p, #looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay p {
   margin: 0 !important;
 }
 
@@ -611,7 +599,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   margin-right: 15px !important;
 }
 
-.marginbottomhalf, #filters .categories > li, #product #thumbs a {
+.marginbottomhalf, #product #thumbs a, #filters .categories > li {
   margin-bottom: 15px !important;
 }
 
@@ -731,7 +719,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   margin-right: 30px !important;
 }
 
-.marginbottomfull, #sortbar, #looks .look-card, #press .press-card, .breadcrumb {
+.marginbottomfull, .breadcrumb, #press .press-card, #looks .look-card, #sortbar {
   margin-bottom: 30px !important;
 }
 
@@ -912,11 +900,11 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   color: #F3F3F3;
 }
 
-.graymedium, #product #product-description .product-description-line .score, #reviews .score {
+.graymedium, #reviews .score, #product #product-description .product-description-line .score {
   color: gray;
 }
 
-.white, .central-link a, .product-list .product-card-image-badge, #product #product-description .product-description-line .cart button {
+.white, #product #product-description .product-description-line .cart button, .product-list .product-card-image-badge, .central-link a {
   color: #FFF;
 }
 
@@ -936,7 +924,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   background-color: #747474;
 }
 
-.bg-graydark, .central-link a, footer {
+.bg-graydark, footer, .central-link a {
   background-color: #333;
 }
 
@@ -948,7 +936,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   background-color: #FFF;
 }
 
-.bg-black, body > header nav #logo > a, #product #product-description .product-description-line .cart button {
+.bg-black, #product #product-description .product-description-line .cart button, body > header nav #logo > a {
   background-color: #000;
 }
 
@@ -957,12 +945,12 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 /* ====================== */
 .imgfit {
   display: block;
+  width: 100%;
   height: auto;
 }
-
 .imgfit img, .imgfit source {
   display: block;
-
+  width: 100%;
   height: auto;
 }
 
@@ -972,14 +960,12 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .visivel-m {
   display: block;
 }
-
 @media (min-width: 750px) {
   .visivel-m {
     display: none;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .visivel-m {
     display: none;
   }
@@ -988,14 +974,12 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .visivel-t {
   display: none;
 }
-
 @media (min-width: 750px) {
   .visivel-t {
     display: block;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .visivel-t {
     display: none;
   }
@@ -1004,8 +988,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .visivel-t-down {
   display: block;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .visivel-t-down {
     display: none;
   }
@@ -1014,7 +997,6 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .visivel-t-up {
   display: none;
 }
-
 @media (min-width: 750px) {
   .visivel-t-up {
     display: block;
@@ -1024,14 +1006,12 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 .visivel-d {
   display: none;
 }
-
 @media (min-width: 750px) {
   .visivel-d {
     display: none;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .visivel-d {
     display: block;
   }
@@ -1045,16 +1025,14 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   width: 100%;
   margin: 0 auto;
 }
-
 @media (min-width: 750px) {
   .gridrow {
     width: 90%;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .gridrow {
-    width: 1170px;
+    width: 1250px;
   }
 }
 
@@ -1062,146 +1040,120 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   display: flex;
   flex-wrap: wrap;
 }
-
 .gridrowfull .col, .gridrow .col {
   flex: 1;
   box-sizing: border-box;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .col-1, .gridrow .col-1 {
   box-sizing: border-box;
-  width: 8.33333%;
+  width: 8.3333333333%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-1, .gridrow .offset-1 {
-  margin-left: 8.33333%;
+  margin-left: 8.3333333333%;
 }
-
 .gridrowfull .col-2, .gridrow .col-2 {
   box-sizing: border-box;
-  width: 16.66667%;
+  width: 16.6666666667%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-2, .gridrow .offset-2 {
-  margin-left: 16.66667%;
+  margin-left: 16.6666666667%;
 }
-
 .gridrowfull .col-3, .gridrow .col-3 {
   box-sizing: border-box;
   width: 25%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-3, .gridrow .offset-3 {
   margin-left: 25%;
 }
-
 .gridrowfull .col-4, .gridrow .col-4 {
   box-sizing: border-box;
-  width: 33.33333%;
+  width: 33.3333333333%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-4, .gridrow .offset-4 {
-  margin-left: 33.33333%;
+  margin-left: 33.3333333333%;
 }
-
 .gridrowfull .col-5, .gridrow .col-5 {
   box-sizing: border-box;
-  width: 41.66667%;
+  width: 41.6666666667%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-5, .gridrow .offset-5 {
-  margin-left: 41.66667%;
+  margin-left: 41.6666666667%;
 }
-
 .gridrowfull .col-6, .gridrow .col-6 {
   box-sizing: border-box;
   width: 50%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-6, .gridrow .offset-6 {
   margin-left: 50%;
 }
-
 .gridrowfull .col-7, .gridrow .col-7 {
   box-sizing: border-box;
-  width: 58.33333%;
+  width: 58.3333333333%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-7, .gridrow .offset-7 {
-  margin-left: 58.33333%;
+  margin-left: 58.3333333333%;
 }
-
 .gridrowfull .col-8, .gridrow .col-8 {
   box-sizing: border-box;
-  width: 66.66667%;
+  width: 66.6666666667%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-8, .gridrow .offset-8 {
-  margin-left: 66.66667%;
+  margin-left: 66.6666666667%;
 }
-
 .gridrowfull .col-9, .gridrow .col-9 {
   box-sizing: border-box;
   width: 75%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-9, .gridrow .offset-9 {
   margin-left: 75%;
 }
-
 .gridrowfull .col-10, .gridrow .col-10 {
   box-sizing: border-box;
-  width: 83.33333%;
+  width: 83.3333333333%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-10, .gridrow .offset-10 {
-  margin-left: 83.33333%;
+  margin-left: 83.3333333333%;
 }
-
 .gridrowfull .col-11, .gridrow .col-11 {
   box-sizing: border-box;
-  width: 91.66667%;
+  width: 91.6666666667%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-11, .gridrow .offset-11 {
-  margin-left: 91.66667%;
+  margin-left: 91.6666666667%;
 }
-
 .gridrowfull .col-12, .gridrow .col-12 {
   box-sizing: border-box;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .gridrowfull .offset-12, .gridrow .offset-12 {
   margin-left: 100%;
 }
-
 @media (min-width: 750px) {
   .gridrowfull .col-t, .gridrow .col-t {
     flex: 1;
@@ -1214,21 +1166,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-t-1, .gridrow .col-t-1 {
     box-sizing: border-box;
-    width: 8.33333%;
+    width: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-1, .gridrow .offset-t-1 {
-    margin-left: 8.33333%;
+    margin-left: 8.3333333333%;
   }
   .gridrowfull .col-t-2, .gridrow .col-t-2 {
     box-sizing: border-box;
-    width: 16.66667%;
+    width: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-2, .gridrow .offset-t-2 {
-    margin-left: 16.66667%;
+    margin-left: 16.6666666667%;
   }
   .gridrowfull .col-t-3, .gridrow .col-t-3 {
     box-sizing: border-box;
@@ -1241,21 +1193,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-t-4, .gridrow .col-t-4 {
     box-sizing: border-box;
-    width: 33.33333%;
+    width: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-4, .gridrow .offset-t-4 {
-    margin-left: 33.33333%;
+    margin-left: 33.3333333333%;
   }
   .gridrowfull .col-t-5, .gridrow .col-t-5 {
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-5, .gridrow .offset-t-5 {
-    margin-left: 41.66667%;
+    margin-left: 41.6666666667%;
   }
   .gridrowfull .col-t-6, .gridrow .col-t-6 {
     box-sizing: border-box;
@@ -1268,21 +1220,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-t-7, .gridrow .col-t-7 {
     box-sizing: border-box;
-    width: 58.33333%;
+    width: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-7, .gridrow .offset-t-7 {
-    margin-left: 58.33333%;
+    margin-left: 58.3333333333%;
   }
   .gridrowfull .col-t-8, .gridrow .col-t-8 {
     box-sizing: border-box;
-    width: 66.66667%;
+    width: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-8, .gridrow .offset-t-8 {
-    margin-left: 66.66667%;
+    margin-left: 66.6666666667%;
   }
   .gridrowfull .col-t-9, .gridrow .col-t-9 {
     box-sizing: border-box;
@@ -1295,21 +1247,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-t-10, .gridrow .col-t-10 {
     box-sizing: border-box;
-    width: 83.33333%;
+    width: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-10, .gridrow .offset-t-10 {
-    margin-left: 83.33333%;
+    margin-left: 83.3333333333%;
   }
   .gridrowfull .col-t-11, .gridrow .col-t-11 {
     box-sizing: border-box;
-    width: 91.66667%;
+    width: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-t-11, .gridrow .offset-t-11 {
-    margin-left: 91.66667%;
+    margin-left: 91.6666666667%;
   }
   .gridrowfull .col-t-12, .gridrow .col-t-12 {
     box-sizing: border-box;
@@ -1321,8 +1273,7 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
     margin-left: 100%;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .gridrowfull .col-d, .gridrow .col-d {
     flex: 1;
     box-sizing: border-box;
@@ -1334,21 +1285,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-d-1, .gridrow .col-d-1 {
     box-sizing: border-box;
-    width: 8.33333%;
+    width: 8.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-1, .gridrow .offset-d-1 {
-    margin-left: 8.33333%;
+    margin-left: 8.3333333333%;
   }
   .gridrowfull .col-d-2, .gridrow .col-d-2 {
     box-sizing: border-box;
-    width: 16.66667%;
+    width: 16.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-2, .gridrow .offset-d-2 {
-    margin-left: 16.66667%;
+    margin-left: 16.6666666667%;
   }
   .gridrowfull .col-d-3, .gridrow .col-d-3 {
     box-sizing: border-box;
@@ -1361,21 +1312,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-d-4, .gridrow .col-d-4 {
     box-sizing: border-box;
-    width: 33.33333%;
+    width: 33.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-4, .gridrow .offset-d-4 {
-    margin-left: 33.33333%;
+    margin-left: 33.3333333333%;
   }
   .gridrowfull .col-d-5, .gridrow .col-d-5 {
     box-sizing: border-box;
-    width: 41.66667%;
+    width: 41.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-5, .gridrow .offset-d-5 {
-    margin-left: 41.66667%;
+    margin-left: 41.6666666667%;
   }
   .gridrowfull .col-d-6, .gridrow .col-d-6 {
     box-sizing: border-box;
@@ -1388,21 +1339,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-d-7, .gridrow .col-d-7 {
     box-sizing: border-box;
-    width: 58.33333%;
+    width: 58.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-7, .gridrow .offset-d-7 {
-    margin-left: 58.33333%;
+    margin-left: 58.3333333333%;
   }
   .gridrowfull .col-d-8, .gridrow .col-d-8 {
     box-sizing: border-box;
-    width: 66.66667%;
+    width: 66.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-8, .gridrow .offset-d-8 {
-    margin-left: 66.66667%;
+    margin-left: 66.6666666667%;
   }
   .gridrowfull .col-d-9, .gridrow .col-d-9 {
     box-sizing: border-box;
@@ -1415,21 +1366,21 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
   }
   .gridrowfull .col-d-10, .gridrow .col-d-10 {
     box-sizing: border-box;
-    width: 83.33333%;
+    width: 83.3333333333%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-10, .gridrow .offset-d-10 {
-    margin-left: 83.33333%;
+    margin-left: 83.3333333333%;
   }
   .gridrowfull .col-d-11, .gridrow .col-d-11 {
     box-sizing: border-box;
-    width: 91.66667%;
+    width: 91.6666666667%;
     padding-left: 15px;
     padding-right: 15px;
   }
   .gridrowfull .offset-d-11, .gridrow .offset-d-11 {
-    margin-left: 91.66667%;
+    margin-left: 91.6666666667%;
   }
   .gridrowfull .col-d-12, .gridrow .col-d-12 {
     box-sizing: border-box;
@@ -1441,55 +1392,42 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
     margin-left: 100%;
   }
 }
-
 .gridrowfull.nogutter .col, .gridrowfull.nogutter .col-t, .gridrowfull.nogutter .col-d, .gridrow.nogutter .col, .gridrow.nogutter .col-t, .gridrow.nogutter .col-d {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-1, .gridrowfull.nogutter .col-t-1, .gridrowfull.nogutter .col-d-1, .gridrow.nogutter .col-1, .gridrow.nogutter .col-t-1, .gridrow.nogutter .col-d-1 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-2, .gridrowfull.nogutter .col-t-2, .gridrowfull.nogutter .col-d-2, .gridrow.nogutter .col-2, .gridrow.nogutter .col-t-2, .gridrow.nogutter .col-d-2 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-3, .gridrowfull.nogutter .col-t-3, .gridrowfull.nogutter .col-d-3, .gridrow.nogutter .col-3, .gridrow.nogutter .col-t-3, .gridrow.nogutter .col-d-3 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-4, .gridrowfull.nogutter .col-t-4, .gridrowfull.nogutter .col-d-4, .gridrow.nogutter .col-4, .gridrow.nogutter .col-t-4, .gridrow.nogutter .col-d-4 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-5, .gridrowfull.nogutter .col-t-5, .gridrowfull.nogutter .col-d-5, .gridrow.nogutter .col-5, .gridrow.nogutter .col-t-5, .gridrow.nogutter .col-d-5 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-6, .gridrowfull.nogutter .col-t-6, .gridrowfull.nogutter .col-d-6, .gridrow.nogutter .col-6, .gridrow.nogutter .col-t-6, .gridrow.nogutter .col-d-6 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-7, .gridrowfull.nogutter .col-t-7, .gridrowfull.nogutter .col-d-7, .gridrow.nogutter .col-7, .gridrow.nogutter .col-t-7, .gridrow.nogutter .col-d-7 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-8, .gridrowfull.nogutter .col-t-8, .gridrowfull.nogutter .col-d-8, .gridrow.nogutter .col-8, .gridrow.nogutter .col-t-8, .gridrow.nogutter .col-d-8 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-9, .gridrowfull.nogutter .col-t-9, .gridrowfull.nogutter .col-d-9, .gridrow.nogutter .col-9, .gridrow.nogutter .col-t-9, .gridrow.nogutter .col-d-9 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-10, .gridrowfull.nogutter .col-t-10, .gridrowfull.nogutter .col-d-10, .gridrow.nogutter .col-10, .gridrow.nogutter .col-t-10, .gridrow.nogutter .col-d-10 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-11, .gridrowfull.nogutter .col-t-11, .gridrowfull.nogutter .col-d-11, .gridrow.nogutter .col-11, .gridrow.nogutter .col-t-11, .gridrow.nogutter .col-d-11 {
   padding: 0;
 }
-
 .gridrowfull.nogutter .col-12, .gridrowfull.nogutter .col-t-12, .gridrowfull.nogutter .col-d-12, .gridrow.nogutter .col-12, .gridrow.nogutter .col-t-12, .gridrow.nogutter .col-d-12 {
   padding: 0;
 }
@@ -1497,7 +1435,6 @@ small, .small, .fancytext, .central-link a, .central-link-light a, #filters .cat
 form {
   margin-bottom: 15px;
 }
-
 form input {
   box-sizing: border-box;
   width: 100%;
@@ -1507,20 +1444,16 @@ form input {
   height: 45px;
   line-height: 45px;
 }
-
 form input::placeholder {
   color: #747474;
   opacity: 1;
 }
-
 form input:-ms-input-placeholder {
   color: #747474;
 }
-
 form input::-ms-input-placeholder {
   color: #747474;
 }
-
 form button {
   cursor: pointer;
   box-sizing: border-box;
@@ -1535,17 +1468,16 @@ form button {
 }
 
 body #promobar {
-  font-size: 0.7rem;
+  font-size: 1rem;
   line-height: 30px;
   letter-spacing: 1px;
+  background-color: lightpink;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   body #promobar {
     letter-spacing: 1px;
   }
 }
-
 body > header {
   position: -webkit-sticky;
   position: sticky;
@@ -1553,40 +1485,35 @@ body > header {
   z-index: 1000;
   border-bottom: 1px solid #F3F3F3;
 }
-
 body > header nav {
   padding-top: 15px;
 }
-
 @media (min-width: 750px) {
   body > header nav {
     padding-bottom: 15px;
   }
 }
-
 body > header nav #logo {
   height: 45px;
+  width: auto;
 }
-
 body > header nav #logo > a {
   display: inline-block;
-  width: 125px;
   height: auto;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 30px;
 }
-
 body > header nav ul {
   height: 45px;
   list-style-type: none;
   margin: 0;
+  align-content: center;
 }
-
 body > header nav ul li {
   display: inline-block;
 }
-
 body > header nav ul li a {
+  padding: 10px;
   display: inline-block;
   text-transform: uppercase;
   font-weight: 400;
@@ -1595,51 +1522,43 @@ body > header nav ul li a {
   height: 45px;
   letter-spacing: 1px;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   body > header nav ul li a {
     letter-spacing: 2px;
   }
 }
-
 body > header nav ul#mainmenu {
   order: 3;
   display: flex;
   justify-content: space-between;
 }
-
 @media (min-width: 750px) {
   body > header nav ul#mainmenu {
     display: block;
     order: 0;
   }
 }
-
 @media (min-width: 750px) {
   body > header nav ul#mainmenu li {
     margin-right: 10px;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   body > header nav ul#mainmenu li {
     margin-right: 30px;
   }
 }
-
 body > header nav ul#customermenu i {
   display: inline-block;
   font-size: 1.2rem;
   margin-left: 15px;
 }
-
 @media (min-width: 750px) {
   body > header nav ul#customermenu i {
     margin-left: 10px;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   body > header nav ul#customermenu i {
     margin-left: 15px;
   }
@@ -1650,12 +1569,10 @@ body > header nav ul#customermenu i {
   background-color: #F3F3F3;
   position: relative;
 }
-
 .slider-slides {
   height: 65vh;
   position: relative;
 }
-
 .slider-slides-slide {
   position: absolute;
   width: 100%;
@@ -1664,7 +1581,6 @@ body > header nav ul#customermenu i {
   height: 65vh;
   overflow: hidden;
 }
-
 .slider-slides-slide img {
   position: absolute;
   min-width: 100%;
@@ -1673,7 +1589,6 @@ body > header nav ul#customermenu i {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .slider-slides-slide-caption {
   width: 100%;
   height: 65vh;
@@ -1688,27 +1603,23 @@ body > header nav ul#customermenu i {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 @media (min-width: 750px) {
   .slider-slides-slide-caption {
     padding-left: 55vw;
     padding-right: 30px;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .slider-slides-slide-caption {
     padding-left: 60vw;
     padding-right: 30px;
   }
 }
-
 .slider-slides-slide-caption .h1 {
   font-size: 3rem;
   color: #FFF;
   margin-bottom: 30px;
 }
-
 .slider-slides-slide-caption a {
   display: inline-block;
   color: #FFF;
@@ -1718,15 +1629,12 @@ body > header nav ul#customermenu i {
   padding-bottom: 6px;
   border-bottom: 1px solid #FFF;
 }
-
 .slider-slides-slide-caption a:hover {
   border-bottom-color: #747474;
 }
-
 .slider-next, .slider-previous {
   display: none;
 }
-
 @media (min-width: 750px) {
   .slider-next, .slider-previous {
     display: block;
@@ -1750,12 +1658,10 @@ body > header nav ul#customermenu i {
     width: 90px;
   }
 }
-
 .slider-next {
   right: 0;
   border-radius: 45px 0 0 45px;
 }
-
 .slider-previous {
   left: 0;
   border-radius: 0 45px 45px 0;
@@ -1765,7 +1671,6 @@ body > header nav ul#customermenu i {
   position: relative;
   background-color: #747474;
 }
-
 .product-list .product-card-image-badge {
   padding: 3.75px 7.5px;
   text-transform: uppercase;
@@ -1775,11 +1680,9 @@ body > header nav ul#customermenu i {
   font-size: 0.7rem;
   z-index: 3;
 }
-
 .product-list .product-card-image img {
   opacity: 0.6;
 }
-
 .product-list .product-card:hover .product-card-image img {
   opacity: 1;
 }
@@ -1791,19 +1694,16 @@ body > header nav ul#customermenu i {
   background-repeat: no-repeat;
   background-image: url(../imgs/slider/slider01-small.jpg);
 }
-
 @media (min-width: 750px) {
   #headerproductlist {
     background-image: url(../imgs/slider/slider01-medium.jpg);
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   #headerproductlist {
     background-image: url(../imgs/slider/slider01.jpg);
   }
 }
-
 #headerproductlist .textoverlay {
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -1812,17 +1712,14 @@ body > header nav ul#customermenu i {
   color: #FFF;
   height: 30vh;
 }
-
 #headerproductlist .textoverlay h1 {
   font-size: 3rem;
   margin-bottom: 30px;
 }
-
 #sortbar {
   box-shadow: 0 0 10px #747474;
   line-height: 60px;
 }
-
 #sortbar select {
   border: 1px solid #e6e6e6;
   height: 36px;
@@ -1834,12 +1731,11 @@ body > header nav ul#customermenu i {
   padding: 0;
 }
 
-#filters > .fancytext, .central-link #filters > a, .central-link-light #filters > a, #filters .categories > li > ul#filters > li, #filters .sizes .sizebtns #filters > button, #product #product-description .product-description-line .sizebtns #filters > button, #product #product-description .product-description-line .cart #filters > button, footer form #filters > button {
+#filters > .fancytext, #product #product-description .product-description-line .cart #filters > button, #product #product-description .product-description-line .sizebtns #filters > button, #filters .sizes .sizebtns #filters > button, #filters .categories > li > ul#filters > li, .central-link #filters > a, .central-link-light #filters > a {
   line-height: 45px;
   border-bottom: 1px solid #e6e6e6;
   cursor: pointer;
 }
-
 #filters .categories {
   border-bottom: 1px solid #e6e6e6;
   display: none;
@@ -1848,81 +1744,59 @@ body > header nav ul#customermenu i {
   list-style-type: none;
   padding: 0;
 }
-
 #filters .categories.open {
   display: block;
 }
-
 @media (min-width: 750px) {
   #filters .categories {
     display: block;
   }
 }
-
 #filters .categories > li {
   font-size: 1.2rem;
 }
-
 #filters .categories > li > a {
   display: block;
   position: relative;
 }
-
 #filters .categories > li > a .icn-chevron-up, #filters .categories > li > a .icn-chevron-down {
   line-height: 1.6968rem;
   position: absolute;
   top: 0;
   right: 0;
 }
-
 #filters .categories > li > a .icn-chevron-up {
   display: none;
 }
-
 #filters .categories > li > ul {
   display: none;
   list-style-type: none;
   padding: 0;
 }
-
 #filters .categories > li.open > a .icn-chevron-up {
   display: block;
 }
-
 #filters .categories > li.open > a .icn-chevron-down {
   display: none;
 }
-
 #filters .categories > li.open > ul {
   display: block;
 }
-
 #filters .sizes {
   display: none;
 }
-
 #filters .sizes.open {
   display: block;
 }
-
-#filters .sizes .fancytext {
-  font-size: 1.2rem;
-  font-weight:600;
-  text-transform: none;
-  letter-spacing: normal;
-}
-
 @media (min-width: 750px) {
   #filters .sizes {
     display: block;
   }
 }
-
 #filters .sizes .sizebtns {
   display: flex;
   justify-content: space-between;
 }
-
 #filters .sizes .sizebtns button {
   cursor: pointer;
   width: 36px;
@@ -1931,7 +1805,6 @@ body > header nav ul#customermenu i {
   border: 1px solid #e6e6e6;
   background-color: #FFF;
 }
-
 #filters .sizes .sizebtns button:hover {
   background-color: #e6e6e6;
   border-color: #b3b3b3;
@@ -1943,14 +1816,12 @@ body > header nav ul#customermenu i {
   justify-content: space-between;
   margin-top: 15px;
 }
-
 @media (min-width: 750px) {
   #about .about {
     margin-top: 0;
   }
 }
-
-#about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .categories > li > ul > li, #filters #about .about .categories > li > ul > li, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button, #about .about #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #about .about button, #about .about #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #about .about button, #about .about footer form button, footer form #about .about button {
+#about .about .fancytext, #about .about #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #about .about button, #about .about #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #about .about button, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .categories > li > ul > li, #filters #about .about .categories > li > ul > li, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button {
   display: block;
   margin-bottom: 6px;
 }
@@ -1965,58 +1836,47 @@ body > header nav ul#customermenu i {
   flex-direction: column;
   justify-content: flex-start;
 }
-
 #journal .journal-card h3 {
   font-family: "Roboto", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
   margin: 15px 0;
 }
-
 #journal .journal-card-image {
   margin-top: auto;
   background-color: #747474;
 }
-
 #journal .journal-card-image img {
   opacity: 0.6;
 }
-
 #journal .journal-card-small {
   height: 300px;
 }
-
-#journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .categories > li > ul > li, #filters #journal .journal-card-small .categories > li > ul > li, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #journal .journal-card-small button, #journal .journal-card-small footer form button, footer form #journal .journal-card-small button {
+#journal .journal-card-small .fancytext, #journal .journal-card-small #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #journal .journal-card-small button, #journal .journal-card-small #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #journal .journal-card-small button, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .categories > li > ul > li, #filters #journal .journal-card-small .categories > li > ul > li, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button {
   margin: 0;
 }
-
 #journal .journal-card-small h3 {
   font-size: 1.3rem;
   margin: 15px 0;
 }
-
 @media (min-width: 750px) {
   #journal .journal-card-small {
     height: 330px;
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   #journal .journal-card-small {
     height: 270px;
   }
 }
-
 #journal .journal-card-small .journal-card-image {
   margin-top: unset;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   #journal .journal-card-small .journal-card-image {
     margin-top: auto;
   }
 }
-
 #journal .journal-card:hover .journal-card-image img {
   opacity: 1;
 }
@@ -2025,16 +1885,13 @@ body > header nav ul#customermenu i {
   display: block;
   position: relative;
 }
-
 #looks .look-card-image {
   background-color: #747474;
 }
-
 #looks .look-card-image img {
   opacity: 0.6;
 }
-
-#looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card footer form button, footer form #looks .look-card button {
+#looks .look-card .fancytext, #looks .look-card #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card button, #looks .look-card #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card button, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button {
   position: absolute;
   left: 0;
   width: 100%;
@@ -2042,11 +1899,9 @@ body > header nav ul#customermenu i {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 10px 0;
 }
-
-#looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .categories > li > ul > li, #filters #looks .look-card:hover .categories > li > ul > li, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card:hover button, #looks .look-card:hover footer form button, footer form #looks .look-card:hover button {
+#looks .look-card:hover .fancytext, #looks .look-card:hover #product #product-description .product-description-line .cart button, #product #product-description .product-description-line .cart #looks .look-card:hover button, #looks .look-card:hover #product #product-description .product-description-line .sizebtns button, #product #product-description .product-description-line .sizebtns #looks .look-card:hover button, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .categories > li > ul > li, #filters #looks .look-card:hover .categories > li > ul > li, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button {
   background-color: #FFF;
 }
-
 #looks .look-card:hover .look-card-image img {
   opacity: 1;
 }
@@ -2054,22 +1909,18 @@ body > header nav ul#customermenu i {
 #press .press-card {
   display: block;
 }
-
 #press .press-card-image {
   background-color: #747474;
 }
-
 #press .press-card-image img {
   opacity: 0.6;
 }
-
 #press .press-card p {
   background-color: #FFF;
   padding: 20px;
   box-sizing: border-box;
   font-size: 0.9rem;
 }
-
 #press .press-card:hover .press-card-image img {
   opacity: 1;
 }
@@ -2077,7 +1928,6 @@ body > header nav ul#customermenu i {
 #talking img {
   opacity: 0.6;
 }
-
 #talking img:hover {
   opacity: 1;
 }
@@ -2087,41 +1937,25 @@ body > header nav ul#customermenu i {
   line-height: 75px;
 }
 
-#product {
-  margin: 5rem 0;
-}
-
-@media (min-width: 750px) {
-  #product {
-    margin: 5rem;
-  }
-}
-
 #product #thumbs a {
   display: inline-block;
   background: linear-gradient(#747474, #333);
 }
-
 #product #thumbs a img {
   opacity: 0.6;
 }
-
 #product #thumbs a.open {
   border: 2px solid #f5d71f;
 }
-
 #product #thumbs a.open img {
   opacity: 1;
 }
-
 #product #thumbs a:hover img {
   opacity: 1;
 }
-
 #product #bigimg .share {
   color: #747474;
 }
-
 #product #bigimg .share a {
   color: #747474;
   font-size: 1.3rem;
@@ -2129,43 +1963,34 @@ body > header nav ul#customermenu i {
   vertical-align: middle;
   margin-left: 6px;
 }
-
 #product #bigimg .share a:hover {
   color: #000;
 }
-
 #product #product-description h1 {
   font-size: 1.7rem;
 }
-
 #product #product-description .product-description-line {
   line-height: 45px;
   border-bottom: 1px solid #e6e6e6;
 }
-
 #product #product-description .product-description-line .price {
   font-size: 1.5rem;
 }
-
 #product #product-description .product-description-line .score i {
   display: inline-block;
   margin: 0 1px;
 }
-
 #product #product-description .product-description-line .score span {
   display: inline-block;
   margin-left: 10px;
 }
-
 #product #product-description .product-description-line .smallerheight {
   line-height: 1.618;
 }
-
 #product #product-description .product-description-line .sizebtns {
   display: flex;
   justify-content: space-between;
 }
-
 #product #product-description .product-description-line .sizebtns button {
   cursor: pointer;
   width: 36px;
@@ -2174,16 +1999,13 @@ body > header nav ul#customermenu i {
   border: 1px solid #e6e6e6;
   background-color: #FFF;
 }
-
 #product #product-description .product-description-line .sizebtns button:hover {
   background-color: #e6e6e6;
   border-color: #b3b3b3;
 }
-
 #product #product-description .product-description-line .qty {
   display: flex;
 }
-
 #product #product-description .product-description-line .qty button, #product #product-description .product-description-line .qty input {
   width: 33.3333%;
   display: inline-block;
@@ -2199,20 +2021,16 @@ body > header nav ul#customermenu i {
   padding: 0;
   box-sizing: border-box;
 }
-
 #product #product-description .product-description-line .qty button.btnleft, #product #product-description .product-description-line .qty input.btnleft {
   border-left-width: 1px;
 }
-
 #product #product-description .product-description-line .qty button.btnright, #product #product-description .product-description-line .qty input.btnright {
   border-right-width: 1px;
 }
-
 #product #product-description .product-description-line .qty button {
   cursor: pointer;
   background-color: #e6e6e6;
 }
-
 #product #product-description .product-description-line .cart button {
   cursor: pointer;
   display: inline-block;
@@ -2221,44 +2039,35 @@ body > header nav ul#customermenu i {
   width: 100%;
   border: none;
 }
-
 #product #product-description .product-description-line .cart button:hover {
   background-color: #000;
 }
-
 #product #product-description .product-care ul {
   list-style-type: none;
   padding: 0;
 }
-
 #product #product-description .product-care ul > li > a {
   display: block;
   position: relative;
   line-height: 30px;
 }
-
 #product #product-description .product-care ul > li > a .plus, #product #product-description .product-care ul > li > a .minus {
   position: absolute;
   top: 0;
   right: 0;
 }
-
 #product #product-description .product-care ul > li > a .minus {
   display: none;
 }
-
 #product #product-description .product-care ul > li > div {
   display: none;
 }
-
 #product #product-description .product-care ul > li.open > a .minus {
   display: block;
 }
-
 #product #product-description .product-care ul > li.open > a .plus {
   display: none;
 }
-
 #product #product-description .product-care ul > li.open > div {
   display: block;
 }
@@ -2270,14 +2079,12 @@ body > header nav ul#customermenu i {
   background-repeat: no-repeat;
   background-image: url(../imgs/slider/slider01-small.jpg);
 }
-
 @media (min-width: 750px) {
   .separador {
     background-image: url(../imgs/slider/slider01-medium.jpg);
   }
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .separador {
     background-image: url(../imgs/slider/slider01.jpg);
   }
@@ -2287,76 +2094,36 @@ body > header nav ul#customermenu i {
   display: inline-block;
   margin: 0 1px;
 }
-
 #reviews .score span {
   display: inline-block;
   margin-left: 10px;
 }
 
 footer {
-  color: #FFF;
+  background-color: rgba(232, 230, 218, 0.2);
+  padding-bottom: 0px !important;
 }
-
 footer ul {
   list-style-type: none;
   padding: 0;
 }
-
 footer ul li a {
-  color: #b3b3b3;
+  color: #7f7f7f;
 }
-
 footer ul li a:hover {
-  color: #F3F3F3;
+  color: black;
 }
-
-footer .contacts {
-  color: #b3b3b3;
+footer #site-language {
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
-
-footer form input {
-  color: #FFF;
-}
-
-footer form button {
-  background-color: #F3F3F3;
-  color: #333;
-}
-
-footer form button:hover {
-  background-color: #747474;
-  color: #FFF;
-}
-
-footer .social a {
-  display: inline-block;
-  color: #b3b3b3;
-  font-size: 1.5rem;
-  margin-right: 6px;
-}
-
-footer .social a:hover {
-  color: #FFF;
-}
-
-footer .newsletter {
-  margin-top: 15px;
-}
-
-@media (min-width: 1200px) {
-  footer .newsletter {
-    margin-top: 0;
-  }
-}
-
-
-#main-footer{
-  background-color: rgba(232,230,218,.5);
-  
-}
-
-.signature{
+footer .signature {
+  color: #999;
+  background-color: rgba(232, 230, 218, 0.5);
   text-align: center;
-
+  margin-top: 30px;
+  padding-bottom: 7.5px;
+  padding-top: 7.5px;
 }
-

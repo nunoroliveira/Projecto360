@@ -11,41 +11,41 @@
 
 
 <body>
-  <div id="campaign-header"></div>
+  <div id="promobar"><a href="#">promo bar in this div</a></div>
 
-  <header id="main-header">
+  <header id="main-header" class="bg-white">
 
-    <nav>
-        <img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/>
+    <nav class="gridrow">
+      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page"><img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
 
 
       <ul id="top-menu">
         <li>
-          <a href="#" title="Shop Menina">MENINA</a>
+          <a href="https://zippyonline.com/pt/menina/" title="Shop Menina">MENINA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Menino">MENINO</a>
+          <a href="https://zippyonline.com/pt/menino/" title="Shop Menino">MENINO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Bebé Menina">BEBÉ MENINA</a>
+          <a href="https://zippyonline.com/pt/bebe-menina/" title="Shop Bebé Menina">BEBÉ MENINA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Bebé Menino">BEBÉ MENINO</a>
+          <a href="https://zippyonline.com/pt/bebe-menino/" title="Shop Bebé Menino">BEBÉ MENINO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
+          <a href="https://zippyonline.com/pt/recem-nascido/" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Puericultura">PUERICULTURA</a>
+          <a href="https://zippyonline.com/pt/puericultura/" title="Shop Puericultura">PUERICULTURA</a>
         </li>
 
         <li>
-          <a href="#" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
@@ -55,130 +55,120 @@
 
       <ul id="customer-menu">
         <li>
-          <button type="button" id="btn-search">
-            <span class="text-search">Pesquisar</span>
-          </button>
+          <a id="search" href="#">Pesquisar</a>
         </li>
 
         <li>
-          <button type="button" id="btn-login">
-            <span class="text-login">Entrar</span>
-          </button>
+          <a id="login" href="https://zippyonline.com/pt/login/">Entrar</a>
         </li>
 
         <li>
-          <button type="button" id="btn-cart">
-            <span class="cart-quantity"></span>
-          </button>
+          <a id="shopping-cart" href="#">icon carrinho</a>
         </li>
 
       </ul>
     </nav>
   </header>
 
-  <main>
 
-    <div class="gridrow" id="product">
-      <div id="bigimg" class="col-12 col-t-5 col-d-6">
-        <img class="imgfit" id="image">
-        <div class="share margintopfull">
-          Share this product
-          <a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i></a>
-          <a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i></a>
-          <a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i></a>
+  
+    <body id="body">
+
+      <main>
+
+        <h1 class="gridrow">Shopping Cart</h1>
+
+      <div class="gridrow" id="newsTable">
+         
+      <div class="product col-12 col-t-7 col-d-4">
+
+        <div class="product-image">
+          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw246ad22a/images/hires/cfe5c1b5-ac89-4a6b-b561-e710c834be99.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
+        </div>
+
+      <div class="col-12 col-t-7 col-d-4 cart-options">
+        <label class="product-image">Image</label>
+        <label class="product-details">Product</label>
+        <label class="product-price">Price</label>
+        <label class="product-quantity">Quantity</label>
+        <label class="product-removal">Remove</label>
+        <label class="product-line-price">Total</label>
+      </div>
+
+      </div>
+    
+      <div class="gridrow" >
+        <div class="product-details">
+          <div class="product-title">CASACO CANADIANA PARA MENINO, AZUL ESCURO</div>
+          <p class="product-description">Ref. 7116691</p>
+        </div>
+        <div class="product-price">€19.99</div>
+        <div class="product-quantity">
+          <input type="number" value="2" min="1">
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">
+            Remove
+          </button>
+        </div>
+        <div class="product-line-price">25.98</div>
+      </div>
+
+      <div class="gridrow product col-12 col-t-7 col-d-6">
+        <div class="product-image">
+          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf99ac442/images/hires/f3019fc7-1a80-4e9b-8b70-011f216137a3.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
+        </div>
+        <div class="product-details">
+          <div class="product-title">SAPATILHAS PARA CRIANÇA 'ZY RETRO', PRETO</div>
+          <p class="product-description">Ref. 7226742</p>
+        </div>
+        <div class="product-price">€9.99</div>
+        <div class="product-quantity">
+          <input type="number" value="2" min="1">
+        </div>
+        <div class="product-removal">
+          <button class="remove-product">
+            Remove
+          </button>
+        </div>
+        <div class="product-line-price">€19.98</div>
+      </div>
+    
+      
+    
+      <div class="totals gridrow col-12 col-t-7 col-d-6">
+        <div class="totals-item">
+          <label>Subtotal</label>
+          <div class="totals-value" id="cart-subtotal">71.97</div>
+        </div>
+        <div class="totals-item">
+          <label>Tax (5%)</label>
+          <div class="totals-value" id="cart-tax">3.60</div>
+        </div>
+        <div class="totals-item">
+          <label>Shipping</label>
+          <div class="totals-value" id="cart-shipping">15.00</div>
+        </div>
+        <div class="totals-item totals-item-total">
+          <label>Grand Total</label>
+          <div class="totals-value" id="cart-total">90.57</div>
         </div>
       </div>
-      <div id="product-description" class="col-12 col-t-7 col-d-6">
-        <h1 id="name">product name</h1>
-        <div class="product-description-line gridrowfull nogutter">
-          <div class="col-6 price">USD <span id="price">price</span></div>
-          <div class="col-6 textright score"><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><span id="score">score of 5</span></div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-12">
-            <p class="marginnone">Description</p>
-            <p class="graymedium marginnone marginbottomthird smallerheight" id="description">product Description</p>
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Brand
-          </div>
-          <div class="col-6 graymedium" id="brand">
-            brand
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Ref.
-          </div>
-          <div class="col-6 graymedium" id="partnership">
-            Product Ref.
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Color
-          </div>
-          <div class="col-6 graymedium" id="madeIn">
-            <div id="product-color">
-              Product Color images
-            </div>
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-12 fancytext">
-            Size
-          </div>
-          <div class="col-6 col-t-12 col-d-6 sizebtns">
-            <label for="sizes"> Escolher Tamanho</label>
-            <select name="Sizes" id="sizes">
-            <option value="Select-Size" ><span class="size-lang">Seleccione Tamanho</span></option>
-            <option value="2-3" >2-3 <span class="size-lang">anos</span></option>
-            <option value="3-4" >3-4 <span class="size-lang">anos</span></option>
-            <option value="4-5" >4-5 <span class="size-lang">anos</span></option>
-            <option value="5-6" >5-6 <span class="size-lang">anos</span></option>
-            <option value="6-7" >6-7 <span class="size-lang">anos</span></option>
-            <option value="7-8" >7-8 <span class="size-lang">anos</span></option>
-            <option value="8-9" >8-9 <span class="size-lang">anos</span></option>
-            <option value="9-10" >9-10 <span class="size-lang">anos</span></option>
-            <option value="10-11" >10-11 <span class="size-lang">anos</span></option>
-            <option value="11-12" >11-12 <span class="size-lang">anos</span></option>
-            <option value="12-13" >12-13 <span class="size-lang">anos</span></option>
-            <option value="13-14" >13-14 <span class="size-lang">anos</span></option>
-            </select>
-          </div>
-          <div class="col-12 fancytext">
-            Quantity
-          </div>
-          <div class="col-6 col-d-3 qty">
-            <button type="button" class="btnleft">-</button>
-            <input type="number" value="1" name="qty">
-            <button type="button" class="btnright">+</button>
-          </div>
-          <div class="col-6 col-d-4 cart">
-            <button type="button">Add to cart</button>
-          </div>
-          <div class="col-12 col-d-5 textright wishlist marginbottomtwothirds">
-            <a href="#" title="Add top wishlist" class="fancytext"><i class="icn-heart"></i> Add to wishlist</a>
-          </div>
-        </div>
-      </div>
+          
+          <button class="checkout">Checkout</button>
+    
     </div>
-
-
-
   </main>
 
 
   <footer id="main-footer">
 
     <div class="gridrow">
-      <div class="col-4 col-d-2">
+      <div class="col-4 col-d-4">
         <ul>
-          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</a></li>
+          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><strong>LOJAS ZIPPY</strong></a></li>
+          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><strong>ENTREGAS</strong></a></li>
+          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><strong>TROCAS & DEVOLUÇÕES</strong></a></li>
         </ul>
       </div>
       <div class="col-4 col-d-2">
@@ -208,11 +198,9 @@
       <div class="col-4 col-d-2">
         <p class="margintopnone" id="follow-us">FOLLOW US</p>
         <ul>
-          <a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a>
-          </br>
-          <a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram">Instagram</i></a>
-          </br>
-          <a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a>
+          <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
+          <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
+          <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
         </ul>
       </div>
 
@@ -224,9 +212,10 @@
           <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
         </ul>
       </div>
+    </div>
 
-      <div class="col-12">
-        <p id="site-language">LANGUAGE IN HERE!!!!!</p>
+      <div id="site-language" class="col-12">
+        <p class="gridrow"><span id="language">Portugal | português</span></p>
 
       </div>
 
@@ -235,11 +224,10 @@
 
       </div>
 
-    </div>
+    
 
 
   </footer>
-
 
 
 
