@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
   <title>ZIPPY Product Page</title>
 </head>
 
 
 <body>
-  <div id="promobar"><a href="#">promo bar in this div</a></div>
 
-  <header id="main-header" class="bg-white">
+  <header id="main-header" class="bg-white shadow">
 
-    <nav class="gridrow">
-      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page"><img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
+    <nav class="gridrowfull">
+      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img  class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
 
 
       <ul id="top-menu">
@@ -45,11 +43,11 @@
         </li>
 
         <li>
-          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
-          <a href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
+          <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
         </li>
     </ul>
 
@@ -74,13 +72,14 @@
   
    <main>
 
-        <h1 class="gridrow">Shopping Cart</h1>
-        <nav class="gridrow col-12 cart-options" id="newsTable">
-          <div class="navZippy">Zippy > </div>
-          <div class="navStep-by-Step"> Step by Step > </div>
-          <div class="navBaby-Shower"> Baby Shower > </div>
-          <div class="navProdutos"> Produtos > Lista</div>
-        </nav> 
+    <section class="gridrowfull flow">
+      <a class="apadleft" href="#">Zippy > </a>
+      <a href="#">Step by Step > </a>
+      <a href="#">Baby Shower > </a>
+      <a href="#">Produtos > </a>
+      <a href="#">Casaco</a>
+    </section> 
+
         <div class="gridrow">
           <div id="filters" class="col-12 col-t-4">
               <p class="fancytext">Carrinho</p>
@@ -194,83 +193,91 @@
            </div>
             </div>
        </main>
-<div id="footer-newsletter" class="gridrowfull">
-  <div>
-    <h4>SUBSCREVA A NOSSA NEWSLETTER</h4>
-      <p class="emailTEXT">E-mail</p>
-        <input class="emailinput"></input>
-        <div>
-          <button class="buttonsub">SUBSCREVER</button>
-        </div>
-</div>
 
-  <footer id="main-footer">
-
-    <div class="gridrow">
-      <div class="col-4 col-d-4">
-        <ul>
-          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><strong>LOJAS ZIPPY</strong></a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><strong>ENTREGAS</strong></a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><strong>TROCAS & DEVOLUÇÕES</strong></a></li>
-        </ul>
-      </div>
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="help">Ajuda</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
-          <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
-        </ul>
+<div class=" gridrow newsletter">
+      <p class="col-12 textcenter uppercase">Subscreva a Nossa newsletter</p>
+      <form class="col-12 col-d-4">
+          <div class="col-12">
+              <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+          </div>
+      
+          <div class="col-12">
+              <button type="submit" class="uppercase">Subscrever newsletter</button>
+          </div>
+      </form>        
       </div>
 
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="about-zippy">SOBRE A ZIPPY</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
-          <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
-        </ul>
-      </div>
+      <footer id="main-footer">
 
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="follow-us">FOLLOW US</p>
-        <ul>
-          <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
-          <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
-          <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="child-care-help">AJUDA PUERICULTURA</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
-        </ul>
-      </div>
-    </div>
-
-      <div id="site-language" class="col-12">
-        <p class="gridrow"><span id="language">Portugal | português</span></p>
-
-      </div>
-
-      <div class="col-12 signature">
-        <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
-
-      </div>
-
+        <div class="gridrowfull">
+          <div class="col-5 col-d-3">
+            <ul class="margintopnone">
+              <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</h6></a></li>
+              <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</h6></a></li>
+              <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</h6></a></li>
+            </ul>
+          </div>
+          <div class="col-7 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="help">AJUDA</h6>
+              <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
+              <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
+            </ul>
+          </div>
     
-
-
-  </footer>
+          <div class="col-6 col-d-3">
+            
+            <ul class="margintopnone">
+              <li><h6 id="about-zippy">SOBRE A ZIPPY</h6></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
+              <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
+            </ul>
+          </div>
+    
+          <div class="col-6 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="follow-us">FOLLOW US</h6>
+              <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
+              <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
+              <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
+            </ul>
+          </div>
+    
+          <div class="col-12 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="child-care-help">AJUDA PUERICULTURA</h6>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
+            </ul>
+          </div>
+        </div>
+    
+          <div id="site-language" class="col-12">
+            <p class="gridrow"><span id="language">Portugal | português</span></p>
+    
+          </div>
+    
+          <div class="col-12 signature">
+            <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
+    
+          </div>
+    
+        
+    
+    
+      </footer>
 
 
 

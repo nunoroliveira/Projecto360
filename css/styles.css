@@ -2275,6 +2275,59 @@ footer .signature {
   padding-bottom: 6px;
   padding-top: 6px;
   font-size: 12px;
+<<<<<<< Updated upstream
+=======
+}
+
+@font-face {
+  font-family: "zippy_book";
+  src: url(/fonts/zippy_book.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_bold";
+  src: url(/fonts/zippy_bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_light";
+  src: url(/fonts/zippy_light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_medium";
+  src: url(/fonts/zippy_medium.ttf) format("truetype");
+}
+footer {
+  background-color: rgba(232, 230, 218, 0.2);
+  padding-bottom: 0px !important;
+  padding-top: 48px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  font-size: 14px;
+}
+footer ul li a {
+  color: #7f7f7f;
+}
+footer ul li a:hover {
+  color: black;
+}
+footer #site-language {
+  font-size: 14px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+footer .signature {
+  color: #999;
+  background-color: rgba(232, 230, 218, 0.5);
+  text-align: center;
+  margin-top: 24px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  font-size: 12px;
+>>>>>>> Stashed changes
 }
 
 .gridrow {
@@ -2537,14 +2590,22 @@ footer .signature {
   border: solid 1px #dbd9d9;
 }
 
-.camposobrigatorios {
+.camposobrigatorios3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
   color: #7f7f7f;
+  text-align: left;
 }
 
 .camposobrigatorios2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: right;
+  color: #7f7f7f;
+}
+
+.camposobrigatorios5 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: right;
@@ -2564,7 +2625,7 @@ footer .signature {
 .datalimite {
   padding: 50px 26px 0 0;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -2597,7 +2658,7 @@ footer .signature {
   width: 42px;
   height: 14px;
   margin: 3px 14px 3px 5px;
-  font-family: CentraNo2;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 500;
   font-stretch: normal;
@@ -2611,7 +2672,7 @@ footer .signature {
 .titulos {
   height: 25px;
   margin: 15px 0 15px 0;
-  font-family: CentraNo2;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: bold;
   font-stretch: normal;
@@ -2626,7 +2687,7 @@ footer .signature {
   width: 276px;
   height: 19px;
   margin: 0 304px 3px 1px;
-  font-family: CentraNo2;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -2656,7 +2717,7 @@ footer .signature {
   width: 986px;
   height: 98px;
   margin: 41px 31px 0 19px;
-  font-family: CentraNo2;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -2671,7 +2732,7 @@ footer .signature {
   width: 986px;
   height: 98px;
   margin: 41px 31px 0 19px;
-  font-family: CentraNo2;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -2698,7 +2759,7 @@ body, html {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("../img/banner.png");
+  background-image: url("../img/banner2.png");
   /* Set a specific height */
   height: 50%;
   /* Position and center the image to scale nicely on all screens */

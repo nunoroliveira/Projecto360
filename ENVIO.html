@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
   <title>ZIPPY Product Page</title>
 </head>
 
 
 <body>
-  <div id="promobar"><a href="#">promo bar in this div</a></div>
 
-  <header id="main-header" class="bg-white">
+  <header id="main-header" class="bg-white shadow">
 
-    <nav class="gridrow">
-      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page"><img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
+    <nav class="gridrowfull">
+      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img  class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
 
 
       <ul id="top-menu">
@@ -45,11 +43,11 @@
         </li>
 
         <li>
-          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
-          <a href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
+          <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
         </li>
     </ul>
 
@@ -70,17 +68,18 @@
     </nav>
   </header>
 
-  <nav class="gridrow cart-options" id="newsTable">
-    <div class="navZippy">Zippy > </div>
-    <div class="navStep-by-Step"> Step by Step > </div>
-    <div class="navBaby-Shower"> Baby Shower > </div>
-    <div class="navProdutos"> Produtos > Lista > Dados</div>
-  </nav> 
+  <section class="gridrowfull flow">
+    <a class="apadleft" href="#">Zippy > </a>
+    <a href="#">Step by Step > </a>
+    <a href="#">Baby Shower > </a>
+    <a href="#">Produtos > </a>
+    <a href="#">Casaco</a>
+  </section>
 
-<nav class="gridrow cart-options">
-  <div class="navZippy">1. Dados ></div>
-  <div class="navZippy">2. Envio</div>
-</nav>
+  <section class="gridrowfull flow">
+    <a class="apadleft" href="#">1.Dados > </a>
+    <a href="#">2. Envio</a>
+  </section>
 
 <div class="col-8 container">
 <h4 class="titulos">MÉTODO DE ENVIO</h4>
