@@ -746,7 +746,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
   margin-right: 24px !important;
 }
 
-.marginbottomfull, .breadcrumb, #press .press-card, #looks .look-card, #sortbar {
+.marginbottomfull, .breadcrumb, #press .press-card, #looks .look-card {
   margin-bottom: 24px !important;
 }
 
@@ -1640,6 +1640,7 @@ body > header nav > ul li a {
   margin-bottom: 24px;
 }
 #sortbar {
+  align-items: center;
   box-shadow: 0 0 10px #747474;
   line-height: 48px;
 }
@@ -1648,6 +1649,9 @@ body > header nav > ul li a {
   height: 28.8px;
   padding: 0 8px;
   margin-left: 8px;
+}
+#sortbar p {
+  margin: 0;
 }
 
 #mainproductlist {
@@ -1731,6 +1735,44 @@ body > header nav > ul li a {
 #filters .sizes .sizebtns button:hover {
   background-color: #e6e6e6;
   border-color: #b3b3b3;
+}
+
+.collapsible1 {
+  display: block;
+  background-color: #e8e6da;
+  color: #7f7f7f;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  margin-top: 20px;
+  position: relative;
+}
+.collapsible1 > span {
+  position: absolute;
+  right: 4px;
+}
+.collapsible1 ul {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+  list-style: none;
+  list-style-image: none;
+}
+.collapsible1 .active, .collapsible1 .collapsible:hover {
+  background-color: #e8e6da;
+}
+.collapsible1 .content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #e8e6da;
 }
 
 #about .about {
@@ -2042,6 +2084,7 @@ body > header nav > ul li a {
   text-align: center;
   color: #ffffff;
   cursor: pointer;
+  border: #ed282d;
 }
 
 .lists {
@@ -2228,15 +2271,10 @@ footer .signature {
   color: #999;
   background-color: rgba(232, 230, 218, 0.5);
   text-align: center;
-<<<<<<< Updated upstream
   margin-top: 24px;
   padding-bottom: 6px;
   padding-top: 6px;
   font-size: 12px;
-=======
-  margin-top: 30px;
-  padding-bottom: 7.5px;
-  padding-top: 7.5px;
 }
 
 .gridrow {
@@ -2776,5 +2814,4 @@ body, html {
   padding: 10.7px 124.2px 12px 115.4px;
   border: solid 1px #ed282d;
   background-color: #ed282d;
->>>>>>> Stashed changes
 }
