@@ -1,0 +1,193 @@
+.gridrow {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navZippy {
+  width: 100px;
+  height: 14px;
+  margin: 0 37px 0 0;
+  font-family: CentraNo2;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.navStep-by-Step {
+  width: 100px;
+  height: 14px;
+  margin: 0 77px 0 50px;
+  font-family: CentraNo2;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.navBaby-Shower {
+  width: 100px;
+  height: 14px;
+  margin: 0 57px 0 37px;
+  font-family: CentraNo2;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.navProdutos {
+  width: 100px;
+  height: 14px;
+  margin: 0 67px 0 77px;
+  font-family: CentraNo2;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b8b8b8;
+}
+
+.Catnav {
+  width: 236px;
+  height: 488px;
+  margin: 44px 0 34px;
+  padding: 17px 7px 81px 7px;
+}
+
+.categoriasmenu {
+  width: 86px;
+  height: 17px;
+  margin: 0 92px 13px 11px;
+  font-family: CentraNo2;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #221f20;
+}
+
+.listacat {
+  width: 55px;
+  height: 16px;
+  margin: 0 45px 12px 0;
+  font-family: CentraNo2;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.productlistshoprec {
+  width: 1093px;
+  height: 107px;
+  margin: 0 0 0 10.4px;
+  padding: 12px 638px 17px 21px;
+  border: solid 1px rgba(127, 127, 127, 0.2);
+}
+
+.image1shop {
+  width: 75.6px;
+  height: 107px;
+  margin: 0 10.4px 0 0;
+}
+
+.description1 {
+  width: 434px;
+  height: 17px;
+  margin: 0 0 7px;
+  font-family: CentraNo2;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #221f20;
+}
+
+.description2 {
+  width: 120px;
+  height: 16px;
+  margin: 7px 314px 22px 0;
+  font-family: CentraNo2;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.SUBSCREVERNEWSLETTER {
+  width: 281px;
+  height: 24px;
+  margin: 0 276px 31px 496px;
+  font-family: CentraNo2;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #7f7f7f;
+  text-align: center;
+}
+
+.emailTEXT {
+  width: 89px;
+  height: 16px;
+  margin: 0 389px 0 16px;
+  font-family: CentraNo2;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.emailinput {
+  width: 494px;
+  height: 48px;
+  margin: 16px 0 0;
+  padding: 16px 271px 8px 16px;
+  border: solid 1px #7f7f7f;
+}
+
+.buttonsub {
+  width: 494px;
+  height: 48px;
+  margin: 9px 169px 57px 390px;
+  padding: 10.7px 124.2px 12px 115.4px;
+  border: solid 1px #ed282d;
+  background-color: #ed282d;
+}

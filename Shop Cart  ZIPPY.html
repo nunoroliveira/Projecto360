@@ -72,94 +72,137 @@
 
 
   
-    <body id="body">
-
-      <main>
+   <main>
 
         <h1 class="gridrow">Shopping Cart</h1>
-
-      <div class="gridrow" id="newsTable">
-         
-      <div class="product col-12 col-t-7 col-d-4">
-
-        <div class="product-image">
-          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw246ad22a/images/hires/cfe5c1b5-ac89-4a6b-b561-e710c834be99.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
+        <nav class="gridrow col-12 cart-options" id="newsTable">
+          <div class="navZippy">Zippy > </div>
+          <div class="navStep-by-Step"> Step by Step > </div>
+          <div class="navBaby-Shower"> Baby Shower > </div>
+          <div class="navProdutos"> Produtos > Lista</div>
+        </nav> 
+        <div class="gridrow">
+          <div id="filters" class="col-12 col-t-4">
+              <p class="fancytext">Carrinho</p>
+              <ul class="categories">
+                  <li class="open">
+                      <a href="#" title="categories">
+                          CATEGORIAS
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      <ul>
+                          <li><a href="#" title="Jackets"><i class="icn-chevron-right"></i> Ver tudo</a></li>
+                          <li><a href="#" title="Sweaters"><i class="icn-chevron-right"></i> Menina</a></li>
+                          <li><a href="#" title="Shirts"><i class="icn-chevron-right"></i> Menino</a></li>
+                          <li><a href="#" title="Tees"><i class="icn-chevron-right"></i> Bebé menina</a></li>
+                          <li><a href="#" title="Polos"><i class="icn-chevron-right"></i> Bebé menino</a></li>
+                          <li><a href="#" title="Tees"><i class="icn-chevron-right"></i> Puericultura</a></li>
+                          <li><a href="#" title="Polos"><i class="icn-chevron-right"></i> Recém-nascido</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" title="New">
+                          PREÇO
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      
+                  </li>
+                  <li>
+                      <a href="#" title="Colections">
+                          TAMANHO
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                    </li>
+                  <li class="open">
+                      <a href="#" title="For My Baby">
+                          COR
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      </li>
+                    </div>
+                      <div id="mainproductlist" class="product-list col-12 col-t-8 gridrowfull">
+                        <div class="product-card col-12" href="product.html" title="View Product">
+                            <div class="product-card-image">
+                                <img class="imgfit" srcset="imgs/products/product09.jpg 720w, imgs/products/medium/product09.jpg 640w, imgs/products/small/product09.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product09.jpg" />
+                            </div>
+                            <p class="margintophalf marginbottomnone">CASACO DE MALHA PARA RECÉM-NASCIDO 'DOTS', CINZA ESCURO</p>
+                            <p class="secondary marginnone">1 unidade | €15.99</p>
+                          </div>
+                        
+                        <div class="product-card col-12" href="product.html" title="View Product">
+                          <div class="product-card-image">
+                              <img class="imgfit" srcset="imgs/products/product10.jpg 720w, imgs/products/medium/product10.jpg 640w, imgs/products/small/product10.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product10.jpg" />
+                          </div>
+                          <p class="margintophalf marginbottomnone">MACACÃO E BODY PARA RECÉM-NASCIDA, CINZA/BRANCO</p>
+                          <p class="secondary marginnone">1 unidade | €19.99</p>
+                        </div>
+                      <a class="product-card col-12" href="product.html" title="View Product">
+                          <div class="product-card-image">
+                              <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                          </div>
+                          <p class="margintophalf marginbottomnone">CAMA 3 EM 1, 120X60 CM ZY BABY</p>
+                          <span> Artigos com valor superior a €100 podem ter <bold>COMPRA PARTILHADA</bold></span>
+                          <p class="secondary marginnone">1 unidade | €179.00</p>
+                      </a>
+                      <a class="product-card col-12" href="product.html" title="View Product">
+                        <div class="product-card-image">
+                            <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                        </div>
+                        <p class="margintophalf marginbottomnone">TURBANTE PARA RECÉM-NASCIDA, ROSA</p>
+                        <p class="secondary marginnone">1 unidade | €5.99</p>
+                    </a>
+                    <a class="product-card col-12" href="product.html" title="View Product">
+                      <div class="product-card-image">
+                          <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                      </div>
+                      <p class="margintophalf marginbottomnone">BODY MANDA COMPRIDA PARA RECÉM-NASCIDO, BRANCO</p>
+                      <p class="secondary marginnone">1 unidade | €7.99</p>
+                  </a>
+                  <a class="product-card col-12" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                    </div>
+                    <p class="margintophalf marginbottomnone">FATO DE TREINO PARA RECÉM-NASCIDA 'DUMBO', ROSA/BRANCO</p>
+                    <p class="secondary marginnone">1 unidade | €17.99</p>
+                </a>
+                <a class="product-card col-12" href="product.html" title="View Product">
+                  <div class="product-card-image">
+                      <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                  </div>
+                  <p class="margintophalf marginbottomnone">TAPETE DE ATIVIDADES CHROMATIC FIRST DREAMS CHICCO PINK</p>
+                  <p class="secondary marginnone">1 unidade | €69.99</p>
+              </a>
+              <a class="product-card col-12" href="product.html" title="View Product">
+                <div class="product-card-image">
+                    <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                </div>
+                <p class="margintophalf marginbottomnone">SABRINAS PARA RECÉM-NASCIDA COM LAÇO, ROSA</p>
+                <p class="secondary marginnone">1 unidade | €9.99</p>
+            </a>
+            <a class="product-card col-12" href="product.html" title="View Product">
+              <div class="product-card-image">
+                  <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+              </div>
+              <p class="margintophalf marginbottomnone">BALOIÇO IRIS NATTOU</p>
+              <span> Artigos com valor superior a €100 podem ter <bold>COMPRA PARTILHADA</bold><span></span>
+              <p class="secondary marginnone">1 unidade | €124.00</p>
+          </a>
+           </div>
+            </div>
+       </main>
+<div id="footer-newsletter" class="gridrowfull">
+  <div>
+    <h4>SUBSCREVA A NOSSA NEWSLETTER</h4>
+      <p class="emailTEXT">E-mail</p>
+        <input class="emailinput"></input>
+        <div>
+          <button class="buttonsub">SUBSCREVER</button>
         </div>
-
-      <div class="col-12 col-t-7 col-d-4 cart-options">
-        <label class="product-image">Image</label>
-        <label class="product-details">Product</label>
-        <label class="product-price">Price</label>
-        <label class="product-quantity">Quantity</label>
-        <label class="product-removal">Remove</label>
-        <label class="product-line-price">Total</label>
-      </div>
-
-      </div>
-    
-      <div class="gridrow" >
-        <div class="product-details">
-          <div class="product-title">CASACO CANADIANA PARA MENINO, AZUL ESCURO</div>
-          <p class="product-description">Ref. 7116691</p>
-        </div>
-        <div class="product-price">€19.99</div>
-        <div class="product-quantity">
-          <input type="number" value="2" min="1">
-        </div>
-        <div class="product-removal">
-          <button class="remove-product">
-            Remove
-          </button>
-        </div>
-        <div class="product-line-price">25.98</div>
-      </div>
-
-      <div class="gridrow product col-12 col-t-7 col-d-6">
-        <div class="product-image">
-          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf99ac442/images/hires/f3019fc7-1a80-4e9b-8b70-011f216137a3.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
-        </div>
-        <div class="product-details">
-          <div class="product-title">SAPATILHAS PARA CRIANÇA 'ZY RETRO', PRETO</div>
-          <p class="product-description">Ref. 7226742</p>
-        </div>
-        <div class="product-price">€9.99</div>
-        <div class="product-quantity">
-          <input type="number" value="2" min="1">
-        </div>
-        <div class="product-removal">
-          <button class="remove-product">
-            Remove
-          </button>
-        </div>
-        <div class="product-line-price">€19.98</div>
-      </div>
-    
-      
-    
-      <div class="totals gridrow col-12 col-t-7 col-d-6">
-        <div class="totals-item">
-          <label>Subtotal</label>
-          <div class="totals-value" id="cart-subtotal">71.97</div>
-        </div>
-        <div class="totals-item">
-          <label>Tax (5%)</label>
-          <div class="totals-value" id="cart-tax">3.60</div>
-        </div>
-        <div class="totals-item">
-          <label>Shipping</label>
-          <div class="totals-value" id="cart-shipping">15.00</div>
-        </div>
-        <div class="totals-item totals-item-total">
-          <label>Grand Total</label>
-          <div class="totals-value" id="cart-total">90.57</div>
-        </div>
-      </div>
-          
-          <button class="checkout">Checkout</button>
-    
-    </div>
-  </main>
-
+</div>
 
   <footer id="main-footer">
 
