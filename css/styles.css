@@ -2275,59 +2275,6 @@ footer .signature {
   padding-bottom: 6px;
   padding-top: 6px;
   font-size: 12px;
-<<<<<<< Updated upstream
-=======
-}
-
-@font-face {
-  font-family: "zippy_book";
-  src: url(/fonts/zippy_book.ttf) format("truetype");
-}
-@font-face {
-  font-family: "zippy_bold";
-  src: url(/fonts/zippy_bold.ttf) format("truetype");
-}
-@font-face {
-  font-family: "zippy_light";
-  src: url(/fonts/zippy_light.ttf) format("truetype");
-}
-@font-face {
-  font-family: "zippy_medium";
-  src: url(/fonts/zippy_medium.ttf) format("truetype");
-}
-footer {
-  background-color: rgba(232, 230, 218, 0.2);
-  padding-bottom: 0px !important;
-  padding-top: 48px;
-}
-footer ul {
-  list-style-type: none;
-}
-footer ul li {
-  font-size: 14px;
-}
-footer ul li a {
-  color: #7f7f7f;
-}
-footer ul li a:hover {
-  color: black;
-}
-footer #site-language {
-  font-size: 14px;
-  padding-bottom: 6px;
-  padding-top: 6px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-}
-footer .signature {
-  color: #999;
-  background-color: rgba(232, 230, 218, 0.5);
-  text-align: center;
-  margin-top: 24px;
-  padding-bottom: 6px;
-  padding-top: 6px;
-  font-size: 12px;
->>>>>>> Stashed changes
 }
 
 .gridrow {
@@ -2611,15 +2558,12 @@ footer .signature {
   text-align: right;
   color: #7f7f7f;
 }
+.camposobrigatorios5 > input {
+  margin-right: 4px;
+}
 
 .continuarbutton {
-  width: 108px;
-  height: 36px;
-  margin: 22px 210px 0 492px;
-  padding: 9px 0;
-  background-color: red;
-  color: white;
-  text-align: right;
+  float: right;
 }
 
 .datalimite {

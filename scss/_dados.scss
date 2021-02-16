@@ -98,16 +98,14 @@
     //letter-spacing: 0.4px;
     text-align: right;
     color: #7f7f7f;
+    >input{
+      margin-right: 4px;
+    }
   }
 
-  .continuarbutton {
-    width: 108px;
-    height: 36px;
-    margin: 22px 210px 0 492px;
-    padding: 9px 0;
-    background-color: red;
-    color: white;
-    text-align: right;
+  .continuarbutton { 
+    float: right;    
+   
   }
 
   .datalimite {
