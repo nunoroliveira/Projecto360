@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=#{$titlesfont}:wght@#{$titlesfontweights}&family=#{$bodyfont}:wght@#{$bodyfontweights}&display=swap);
 
 html{
-    font-family: $bodyfont, sans-serif;
+    font-family: 'zippy_book', sans-serif;
     color: $black;
     font-weight: 400;
     line-height: 1.618; // the golden ratio, baby!
@@ -37,11 +37,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
   margin: 0;
   line-height: 1.414; // the square root of "2"
 }
-h1, .h1, h2, .h2{
-  font-size: 2.2rem;
+h1, .h1{
+  font-size: 30px;
+  font-weight: bold;
 }
 
-h3{
+h2, .h2{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h6{
   font-size: 16px;
   color: #7f7f7f;
 }

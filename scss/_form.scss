@@ -24,11 +24,28 @@ form{
         box-sizing: border-box;
         width: 100%;
         color: $white;
-        background-color: $graydark;
-        border:none;
+        background-color: #ed282d;
+        border: solid 1px #ed282d;
         padding: 0 $gridgutter / 2;
         text-transform: uppercase;
         height: $gridgutter * 1.5;
         line-height: $gridgutter * 1.5;
+    }
+}
+
+#banner{
+    background-image: url(/img/BANNER.png);
+    height: $gridgutter * 7.5;
+    align-items: center;
+    > h1{
+        padding-left: $gridgutter * 1.5;
+        font-size: 45px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.24;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+        font-family: 'zippy_medium';
     }
 }

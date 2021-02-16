@@ -1,7 +1,28 @@
-$titlesfont: "Montserrat";
-$titlesfontweights: "400;600";
-$bodyfont: "Roboto";
-$bodyfontweights: "400";
+@font-face{
+    font-family: 'zippy_book';
+    src: url(/fonts/zippy_book.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_bold';
+    src: url(/fonts/zippy_bold.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_light';
+    src: url(/fonts/zippy_light.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_medium';
+    src: url(/fonts/zippy_medium.ttf) format('truetype');
+}
+
+
+$titlesfont: "zippy_bold";
+$titlesfontweights: "bold";
+$bodyfont: "zippy_book";
+$bodyfontweights: "normal";
 
 $primary: #f5d71f;
 $secondary: #ff7425;
@@ -14,7 +35,7 @@ $black: #000;
 $animationtime: 0.4s;
 
 $tablet: 750px;
-$desktop: 1280px;
+$desktop: 1200px;
 $gridcolumns: 12;
 $gridgutter: 24px;
 

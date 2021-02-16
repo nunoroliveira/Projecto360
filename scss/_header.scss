@@ -42,8 +42,8 @@ body{
                         line-height: normal;
                         letter-spacing: normal;
                         text-align: left;
-                        color: #7f7f7f;
-                        }
+                        color: #7f7f7f;                  
+                    }
                 }
                
             }
@@ -54,4 +54,15 @@ body{
 
 #shopping-cart{
     padding-right: 4px;
+}
+
+.shadow{
+    box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+#onSale{
+    color: #ed282d;
+}
+#stepByStep{
+    color: #ed282d;
 }
