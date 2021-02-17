@@ -249,10 +249,6 @@ template {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icn-star:before {
-  content: "";
-}
-
 .icn-facebook:before {
   content: "";
 }
@@ -366,7 +362,7 @@ h6 {
   text-align: left;
 }
 
-.textcenter, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay, .central-link-light, .central-link {
+.textcenter, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay, .central-link-light, .central-link {
   text-align: center;
 }
 
@@ -377,15 +373,15 @@ h6 {
 /* ===================== */
 /* ======= OTHER ======= */
 /* ===================== */
-small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
+small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns button, .central-link-light a, .central-link a {
   font-size: 0.8rem;
 }
 
-.uppercase, .fancytext, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
+.uppercase, .fancytext, #filters .sizes .sizebtns button, .central-link-light a, .central-link a {
   text-transform: uppercase;
 }
 
-.fancytext, #filters .sizes .sizebtns button, #filters .categories > li > ul > li, .central-link-light a, .central-link a {
+.fancytext, #filters .sizes .sizebtns button, .central-link-light a, .central-link a {
   letter-spacing: 1px;
   font-family: "zippy_bold", sans-serif;
   font-weight: 400;
@@ -413,7 +409,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
   color: #747474;
 }
 
-.animate, #product #thumbs a img, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card-image img, #journal .journal-card-image img, #filters .sizes .sizebtns button, .product-list .product-card-image img, a {
+.animate, #product #thumbs a img, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card-image img, #journal .journal-card-image img, #filters .sizes .sizebtns button, .product-list .product-card-image img, a {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -424,7 +420,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
 /* ================================== */
 /* ======= MARGINS / PADDINGS ======= */
 /* ================================== */
-.marginnone, #press .press-card p, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay p {
+.marginnone, #press .press-card p, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay p {
   margin: 0 !important;
 }
 
@@ -498,7 +494,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
   margin-bottom: 6px !important;
 }
 
-.margintopfourth, #filters .categories > li > ul > li {
+.margintopfourth {
   margin-top: 6px !important;
 }
 
@@ -540,7 +536,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
   padding-bottom: 6px !important;
 }
 
-.paddingleftfourth, #filters .categories > li > ul > li {
+.paddingleftfourth {
   padding-left: 6px !important;
 }
 
@@ -626,7 +622,7 @@ small, .small, #product #bigimg .share, .fancytext, #filters .sizes .sizebtns bu
   margin-right: 12px !important;
 }
 
-.marginbottomhalf, #product #thumbs a, #filters .categories > li {
+.marginbottomhalf, #product #thumbs a {
   margin-bottom: 12px !important;
 }
 
@@ -1658,18 +1654,14 @@ body > header nav > ul li a {
   padding: 0;
 }
 
-#filters > .fancytext, #filters .sizes .sizebtns #filters > button, #filters .categories > li > ul#filters > li, .central-link #filters > a, .central-link-light #filters > a {
-  line-height: 36px;
-  border-bottom: 1px solid #e6e6e6;
-  cursor: pointer;
+#filters {
+  margin-top: 12px;
 }
 #filters .categories {
-  border-bottom: 1px solid #e6e6e6;
+  margin: 0;
+  padding-left: 12px;
   display: none;
-  font-family: "zippy_bold", sans-serif;
-  font-weight: 600;
   list-style-type: none;
-  padding: 0;
 }
 #filters .categories.open {
   display: block;
@@ -1679,26 +1671,9 @@ body > header nav > ul li a {
     display: block;
   }
 }
-#filters .categories > li {
-  font-size: 1.2rem;
-}
 #filters .categories > li > a {
   display: block;
   position: relative;
-}
-#filters .categories > li > a .icn-chevron-up, #filters .categories > li > a .icn-chevron-down {
-  line-height: 1.6968rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-#filters .categories > li > a .icn-chevron-up {
-  display: none;
-}
-#filters .categories > li > ul {
-  display: none;
-  list-style-type: none;
-  padding: 0;
 }
 #filters .categories > li.open > a .icn-chevron-up {
   display: block;
@@ -1739,7 +1714,6 @@ body > header nav > ul li a {
 
 .collapsible1 {
   display: block;
-  background-color: #e8e6da;
   color: #7f7f7f;
   cursor: pointer;
   padding-top: 8px;
@@ -1750,8 +1724,8 @@ body > header nav > ul li a {
   text-align: left;
   outline: none;
   font-size: 16px;
-  margin-top: 20px;
   position: relative;
+  background-color: #FFF !important;
 }
 .collapsible1 > span {
   position: absolute;
@@ -1764,15 +1738,17 @@ body > header nav > ul li a {
   list-style-type: 0;
   list-style: none;
   list-style-image: none;
+  background-color: #FFF;
 }
 .collapsible1 .active, .collapsible1 .collapsible:hover {
-  background-color: #e8e6da;
+  background-color: #FFF;
 }
-.collapsible1 .content {
+.collapsible1 .content1 {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #e8e6da;
+  background-color: #FFF;
+  margin: 0;
 }
 
 #about .about {
@@ -1786,7 +1762,7 @@ body > header nav > ul li a {
     margin-top: 0;
   }
 }
-#about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .categories > li > ul > li, #filters #about .about .categories > li > ul > li, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button {
+#about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button {
   display: block;
   margin-bottom: 4.8px;
 }
@@ -1817,7 +1793,7 @@ body > header nav > ul li a {
 #journal .journal-card-small {
   height: 240px;
 }
-#journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .categories > li > ul > li, #filters #journal .journal-card-small .categories > li > ul > li, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button {
+#journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button {
   margin: 0;
 }
 #journal .journal-card-small h3 {
@@ -1856,7 +1832,7 @@ body > header nav > ul li a {
 #looks .look-card-image img {
   opacity: 0.6;
 }
-#looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .categories > li > ul > li, #filters #looks .look-card .categories > li > ul > li, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button {
+#looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button {
   position: absolute;
   left: 0;
   width: 100%;
@@ -1864,7 +1840,7 @@ body > header nav > ul li a {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 8px 0;
 }
-#looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .categories > li > ul > li, #filters #looks .look-card:hover .categories > li > ul > li, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button {
+#looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button {
   background-color: #FFF;
 }
 #looks .look-card:hover .look-card-image img {

@@ -54,7 +54,7 @@
 
       <ul id="customer-menu">
         <li>
-          <a id="search" href="#">Pesquisar</a>
+          <a class="icn-search" id="search" href="#">Pesquisar</a>
         </li>
 
         <li>
@@ -62,7 +62,7 @@
         </li>
 
         <li>
-          <a id="shopping-cart" href="#">icon carrinho</a>
+          <a class="icn-shopping-cart" id="shopping-cart" href="#">0</a>
         </li>
 
       </ul>
@@ -106,128 +106,105 @@
   </div>
   <div class="gridrow">
       <div id="filters" class="col-12 col-t-2 col-d-2">
-        <button type="button" class="collapsible1 uppercase col-12">Categorias<span class="textright">+</span></button>
-        <div class="content col-12">
+        <button type="button" id="buttonCateg" class="collapsible1 uppercase col-12">Categorias<span id="listSignalCateg" class="textright">+</span></button>
+        <div class="content1 col-12">
+          <ul id="categories" class="categories">
+            <li><a href="#">Menina</a></li>
+            <li><a href="#">Menino</a> </li>
+            <li><a href="#">Bebé menina</a></li>
+            <li><a href="#">Bebé menino</a></li>
+            <li><a href="#">Puericultura</a></li>
+            <li><a href="#">Recém-nascido</a></li>
+            <li><a href="#">Ver tudo</a></li>
+          </ul>
+        </div>
 
-        <a href="#">Menina</a>
-        </br>
-        <a href="#">Menino</a>
-        <a href="#">Bebé menina</a>
-        <a href="#">Bebé menino</a>
-        <a href="#">Puericultura</a>
-        <a href="#">Recém-nascido</a>
-        <a href="#">Ver tudo</a>
+        <button type="button" id="buttonPrice" class="collapsible1 uppercase col-12">Preço<span id="listSignalPrice" class="textright">-</span></button>
+        <div class="content1 col-12">
+          <ul id="categories" class="categories">
+            <li><a href="#">De 2,50€ a 4,99€</a></li>
+            <li><a href="#">De 5,00€ a 9,99€</a> </li>
+            <li><a href="#">De 10,00€ a 14,99€</a></li>
+            <li><a href="#">De 15,00€ a 19,99€</a></li>
+            <li><a href="#">De 20,00€ a 24,99€</a></li>
+            <li><a href="#">De 25,00€ a 29,99€</a></li>
+            <li><a href="#">Mais de 30,00€</a></li>
+          </ul>
+        </div>
 
-          </div>
-                      <li><a href="#" title="Jackets"><i class="icn-chevron-right"></i> Jackets</a></li>
-                      <li><a href="#" title="Sweaters"><i class="icn-chevron-right"></i> Sweaters</a></li>
-                      <li><a href="#" title="Shirts"><i class="icn-chevron-right"></i> Shirts</a></li>
-                      <li><a href="#" title="Tees"><i class="icn-chevron-right"></i> Tees</a></li>
-                      <li><a href="#" title="Polos"><i class="icn-chevron-right"></i> Polos</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#" title="New">
-                      Novidades
-                      <i class="icn-chevron-down"></i>
-                      <i class="icn-chevron-up"></i>
-                  </a>
-                  <ul>
-                      <li><a href="#" title="Shorts"><i class="icn-chevron-right"></i> Shorts</a></li>
-                      <li><a href="#" title="Trousers"><i class="icn-chevron-right"></i> Trousers</a></li>
-                      <li><a href="#" title="Skirts"><i class="icn-chevron-right"></i> Skirts</a></li>
-                  </ul>
-              </li>
-              <li>
-                  <a href="#" title="Colections">
-                      Coleções
-                      <i class="icn-chevron-down"></i>
-                      <i class="icn-chevron-up"></i>
-                  </a>
-                  <ul>
-                      <li><a href="#" title="Travel"><i class="icn-chevron-right"></i> Travel</a></li>
-                      <li><a href="#" title="Work"><i class="icn-chevron-right"></i> Work</a></li>
-                  </ul>
-              </li>
-              <li class="open">
-                  <a href="#" title="For My Baby">
-                      For My Baby
-                      <i class="icn-chevron-down"></i>
-                      <i class="icn-chevron-up"></i>
-                  </a>
-                  <ul>
-                      <li><a href="#" title="Sneakers"><i class="icn-chevron-right"></i> Sneakers</a></li>
-                      <li><a href="#" title="Boots"><i class="icn-chevron-right"></i> Boots</a></li>
-                      <li><a href="#" title="Flip-flops"><i class="icn-chevron-right"></i> Flip-flops</a></li>
-                  </ul>
-              </li>
-              <li class="open">
-                <a href="#" title="0-12 months">
-                    0-12 MESES
-                    <i class="icn-chevron-down"></i>
-                    <i class="icn-chevron-up"></i>
-                </a>
-                <ul>
-                    <li><a href="#" title="Sneakers"><i class="icn-chevron-right"></i> Sneakers</a></li>
-                    <li><a href="#" title="Boots"><i class="icn-chevron-right"></i> Boots</a></li>
-                    <li><a href="#" title="Flip-flops"><i class="icn-chevron-right"></i> Flip-flops</a></li>
-                </ul>
-            </li>
-          </ul>   
+        <button type="button" id="buttonSize" class="collapsible1 uppercase col-12">Tamanho<span id="listSignalSize" class="textright">-</span></button>
+        <div class="content1 col-12">
+          <ul id="categories" class="categories">
+            <li><a href="#">0 - 12 meses</a></li>
+            <li><a href="#">1 a 2 anos</a> </li>
+            <li><a href="#">2 a 3 anos</a></li>
+            <li><a href="#">4 a 5 anos</a></li>
+            <li><a href="#">6 a 7 anos</a></li>
+            <li><a href="#">8 a 9 anos</a></li>
+            <li><a href="#">Mais de 10 anos</a></li>
+          </ul>
+        </div>
+
+        <button type="button" id="buttonColor" class="collapsible1 uppercase col-12">Cor<span id="listSignalColor" class="textright">-</span></button>
+        <div class="content1 col-12">
+          <ul id="categories" class="categories">
+            <li><a href="#">Azul</a></li>
+            <li><a href="#">Amarelo</a> </li>
+            <li><a href="#">Branco</a></li>
+            <li><a href="#">Preto</a></li>
+            <li><a href="#">Rosa</a></li>
+            <li><a href="#">Verde</a></li>
+            <li><a href="#">Vermelho</a></li>
+          </ul>
+        </div>
+                    
       </div>
       <div id="mainproductlist" class="product-list col-12 gridrowfull col-t-10 col-d-10">
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <img class="imgfit" srcset="imgs/products/product09.jpg 720w, imgs/products/medium/product09.jpg 640w, imgs/products/small/product09.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product09.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 1.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Tops</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">CASACO DE MALHA PARA RECÉM-NASCIDA 'DOTS', ...</p>
+              <p class="secondary marginnone textcenter">15,99€</p>
           </a>
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <span class="product-card-image-badge">New!</span>
-                  <img class="imgfit" srcset="imgs/products/product10.jpg 720w, imgs/products/medium/product10.jpg 640w, imgs/products/small/product10.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product10.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 2.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Shoes</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">MACACÃO E BODY PARA RECÉM-NASCIDA, CINZA/...</p>
+              <p class="secondary marginnone textcenter">19,99€</p>
           </a>
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 3.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Shoes</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">FITA FLORIDA CABELO PARA MENINA, BRANCO</p>              
+              <p class="secondary marginnone textcenter">4,99€</p>
           </a>
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <img class="imgfit" srcset="imgs/products/product13.jpg 720w, imgs/products/medium/product13.jpg 640w, imgs/products/small/product13.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product13.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 4.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Shoes</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">TURBANTE PARA RECÉM-NASCIDA, ROSA</p>
+              <p class="secondary marginnone textcenter">5,99€</p>
           </a>
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <img class="imgfit" srcset="imgs/products/product13.jpg 720w, imgs/products/medium/product13.jpg 640w, imgs/products/small/product13.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product13.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 5.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Shoes</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">BODY MANGA COMPRIDA PARA RECÉM-NASCIDO, ...</p>
+              <p class="secondary marginnone textcenter">7,99€</p>
           </a>
           <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
               <div class="product-card-image">
-                  <img class="imgfit" srcset="imgs/products/product15.jpg 720w, imgs/products/medium/product15.jpg 640w, imgs/products/small/product15.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product15.jpg" />
+                  <img class="imgfit" src="/img/RESULTADOS 6.png"/>
               </div>
-              <p class="margintophalf marginbottomnone">Black and purple Ren Sneakers</p>
-              <p class="gray marginnone">Shoes</p>
-              <p class="secondary marginnone">$123.00</p>
+              <p class="margintophalf marginbottomnone uppercase">MEIAS ALTAS PARA BEBÉ MENINA COM LAÇO, AZUL...</p>
+              <p class="secondary marginnone textcenter">3,99€</p>
           </a>
           
           <div class="central-link-light marginbottomdouble">
-              <a href="#" title="Load More"><i class="icn-reload"></i> Load More</a>
+              <a href="#" title="Load More"><i class="icn-reload"></i> Carregar mais</a>
           </div>
       </div>
   </div>
@@ -351,8 +328,10 @@ String.prototype.getDecimals || (String.prototype.getDecimals = function() {
         var content = this.nextElementSibling;
         if (content.style.display === "block") {
           content.style.display = "none";
+          document.getElementById('listSignalCateg').innerHTML = "+";
         } else {
           content.style.display = "block";
+          document.getElementById('listSignalCateg').innerHTML = "-";
         }
       });
     };
