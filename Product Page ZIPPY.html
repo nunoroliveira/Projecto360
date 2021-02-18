@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
   <title>ZIPPY Product Page</title>
 </head>
@@ -12,7 +11,7 @@
 
 <body>
 
-  <header id="main-header" class="bg-white">
+  <header id="main-header" class="bg-white shadow">
 
     <nav class="gridrowfull">
       <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img  class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
@@ -44,11 +43,11 @@
         </li>
 
         <li>
-          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
-          <a href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
+          <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
         </li>
     </ul>
 
@@ -68,99 +67,175 @@
       </ul>
     </nav>
   </header>
+  
 
   <main>
+    <div class="gridrowfull" id="banner">
+      <h1>Baby Shower da Clarinha</h1>
+    </div>
 
-    <div class="gridrow" id="product">
-      <div id="bigimg" class="col-12 col-t-5 col-d-6">
-        <img class="imgfit" id="image">
-        <div class="share margintopfull">
-          Share this product
-          <a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i></a>
-          <a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i></a>
-          <a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i></a>
+    <section class="gridrowfull flow">
+      <a class="apadleft" href="#">Zippy > </a>
+      <a href="#">Step by Step > </a>
+      <a href="#">Baby Shower > </a>
+      <a href="#">Produtos > </a>
+      <a href="#">Casaco</a>
+    </section>
+
+    <div class="gridrowfull" id="product">
+
+      <div class="gridrow col-6">
+
+        <div class="col-2 col-t-2 col-d-2 image-column">
+          <img src="/img/img_zippy_1.jpg" alt="Product Image" class="imgfit image">
+          <img src="/img/img_zippy_2.jpg" alt="Product Image" class="imgfit image">
+          <img src="/img/img_zippy_3.jpg" alt="Product Image" class="imgfit image">
+          <img src="/img/img_zippy_4.jpg" alt="Product Image" class="imgfit image">
+        </div>
+
+        <div id="bigimg" class="col-10 col-t-10 col-d-10">
+          <img src="/img/img_zippy_1.jpg" alt="Product Image"class="imgfit" id="image">
         </div>
       </div>
+
       <div id="product-description" class="col-12 col-t-7 col-d-6">
         <h1 class="uppercase" id="name">CASACO DE MALHA PARA RECÉM-NASCIDA 'DOTS', <span id="colorInName">cinza escuro</span></h1>
         <div class="product-description-line gridrowfull nogutter">
-          <div class="col-6 price"><span id="price">15,99</span><span id="currency">€</span></div>
-          <div class="col-6 textright score"><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><i class="icn-star"></i><span id="score">score of 5</span></div>
+          <section class="col-6 price"><span id="price">15,99</span><span id="currency">€</span></section>
         </div>
+
         <div class="product-description-line gridrowfull">
           <div class="col-12">
             <p class="graymedium marginnone marginbottomthird smallerheight" id="description">Casaco de malha cinza-escuro para recém-nascida, 100% algodão, com pintinhas coloridas bordadas. Base com folho canelado. Aperta À frente com botões de madeira.</p>
           </div>
+
           <div class="col-12">
             <p class="graymedium marginnone marginbottomthird smallerheight" id="ref">Ref. 7247937</p>
           </div>
           
         <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Brand
+
+          <div class="col-2">
+            <p class="color" id="colorLanguage">Cor</p>
+            <span class="color-dots"></span>
           </div>
-          <div class="col-6 graymedium" id="brand">
-            brand
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Ref.
-          </div>
-          <div class="col-6 graymedium" id="partnership">
-            Product Ref.
-          </div>
-        </div>
-        <div class="product-description-line gridrowfull">
-          <div class="col-6">
-            Color
-          </div>
-          <div class="col-6 graymedium" id="madeIn">
-            <div id="product-color">
-              Product Color images
+
+          <section class="col-3">
+            <p class="quantity" id="quantityLanguage">Quantidades</p>
+
+            <div class="quantity buttons_added">
+              <input type="button" value="-" class="minus">
+              <input type="number" step="1" min="1" max="99" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+              <input type="button" value="+" class="plus">
             </div>
-          </div>
+
+          </section>
+
+        <div class="gridrowfull">
+          <p class="size" id="sizeLanguage">Tamanho</p>
+          <section class="col-12">
+            <button id="sizeBaby1" class="button button-size1">0-1 meses</button>
+            <button id="sizeBaby2" class="button button-size">1-3 meses</button>
+            <button id="sizeBaby3" class="button button-size">3-6 meses</button>
+            <button id="sizeBaby4" class="button button-size">6-9 meses</button>
+            <button id="sizeBaby5" class="button button-size">9-12 meses</button>
+
+          </section>
         </div>
+
+
+        
         <div class="product-description-line gridrowfull">
-          <div class="col-12 fancytext">
-            Size
+          <a href="#" id="sizeGuide" class="col-12 sizeguide">Guia de Tamanhos</a>
+        </div>
+
+        <section class="gridrowfull lists">
+        <div class="col-6 col-d-4 cart">
+            <button class=" button-list uppercase" type="button">Adicionar à Lista</button>
+        </div>
+        
+      </section>
+
+
+        <div class="col-12">
+          <button type="button" class="collapsible uppercase col-12">composição e cuidados a ter<span class="textright">+</span></button>
+          <div class="content col-12">
+            <article>
+              <h6>EXTERIOR</h6>
+              <p>100% ALGODÃO</p>
+              <h6>RECOMENDAÇÕES</h6>
+              <p>Lavar, secar e passar do avesso</p>
+              <h6>RECOMENDAÇÕES DE LAVAGEM</h6>
+              <p>Lavar com cores semelhantes</p>
+            </article>
           </div>
-          <div class="col-6 col-t-12 col-d-10 sizebtns">
-            <label for="sizes"> Escolher Tamanho</label>
-            <select name="Sizes" id="sizes">
-            <option value="Select-Size" ><span class="size-lang">Seleccione Tamanho</span></option>
-            <option value="2-3" >2-3 <span class="size-lang">anos</span></option>
-            <option value="3-4" >3-4 <span class="size-lang">anos</span></option>
-            <option value="4-5" >4-5 <span class="size-lang">anos</span></option>
-            <option value="5-6" >5-6 <span class="size-lang">anos</span></option>
-            <option value="6-7" >6-7 <span class="size-lang">anos</span></option>
-            <option value="7-8" >7-8 <span class="size-lang">anos</span></option>
-            <option value="8-9" >8-9 <span class="size-lang">anos</span></option>
-            <option value="9-10" >9-10 <span class="size-lang">anos</span></option>
-            <option value="10-11" >10-11 <span class="size-lang">anos</span></option>
-            <option value="11-12" >11-12 <span class="size-lang">anos</span></option>
-            <option value="12-13" >12-13 <span class="size-lang">anos</span></option>
-            <option value="13-14" >13-14 <span class="size-lang">anos</span></option>
-            </select>
+
+          <button type="button" class="collapsible uppercase col-12">Entrega<span class="textright">+</span></button>
+          <div class="content col-12">
+            <p>Para Açores acrescem entre 7 a 12 dias úteis aos prazos mencionados e para Madeira acrescem entre 5 a 7 dias úteis. Para ilhas terá sempre um custo fixo de entrega de €5,50.</p>
           </div>
-          <div class="col-12 fancytext">
-            Quantity
+          <button type="button" class="collapsible uppercase col-12">Devolução <span class="textright">+</span></button>
+          <div class="content col-12">
+            <article>
+              <h6>PRAZO</h6> 
+              <p>Dispõe de 60 dias para qualquer troca ou devolução a contar do dia de receção da sua encomenda no domicílio .</p>
+              <h6>DEVOLUÇÃO NO DOMICÍLIO GRATUITA</h6>
+              <p>Pode solicitar a recolha dos artigos a devolver no seu domicílio, através da sua área pessoal.</p>
+              <p>Para informações sobre devoluções <a class="clickhelp" href="#">clique aqui</a> .</p>
+            </article>
           </div>
-          <div class="col-6 col-d-3 qty">
-            <button type="button" class="btnleft">-</button>
-            <input type="number" value="1" name="qty">
-            <button type="button" class="btnright">+</button>
+
+          <div class="gridrowfull col-6">
+            Partilhar:
+            <a class="shareicons" href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i></a>
+            <a class="shareicons" href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i></a>
+            <a class="shareicons" href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i></a>
           </div>
-          <div class="col-6 col-d-4 cart">
-            <button type="button">Add to cart</button>
-          </div>
-          <div class="col-12 col-d-5 textright wishlist marginbottomtwothirds">
-            <a href="#" title="Add top wishlist" class="fancytext"><i class="icn-heart"></i> Add to wishlist</a>
-          </div>
+
+
+        </div>
+
         </div>
       </div>
     </div>
 
+
+   
+
+
+
+    <article class="gridrowfull col-d-6">
+      <h3 class="gridrowfull buylook">Compra o look:</h3>
+      <div class="product-card col-d-4 nopadleft">
+        <img class="imgfit" src="/img/img_zippy_look_1.jpg" alt="look product image">
+        <p>BODY PARA RECÉM-NASCIDA 'FLOWERS', BRANCO</p>
+        <p>12,99€</p>
+      </div>
+      <div class="product-card col-d-4">
+        <img class="imgfit" src="/img/img_zippy_look_2.jpg" alt="look product image">
+        <p>MEIAS ALTAS AZUIS COM LAÇO</p>
+        <p>3,99€</p>
+      </div>
+      <div class="product-card col-d-4">
+        <img class="imgfit" src="/img/img_zippy_look_3.jpg" alt="look product image">
+        <p>FITA FLORIDA CABELO PARA MENINA, BRANCO</p>
+        <p>4,99€</p>
+      </div>
+
+    </article>
+
+    <div class=" gridrow newsletter">
+      <p class="col-12 textcenter uppercase">Subscreva a Nossa newsletter</p>
+      <form class="col-12 col-d-4">
+          <div class="col-12">
+              <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+          </div>
+      
+          <div class="col-12">
+              <button type="submit" class="uppercase">Subscrever newsletter</button>
+          </div>
+      </form>        
+      </div>
 
 
   </main>
@@ -169,17 +244,17 @@
   <footer id="main-footer">
 
     <div class="gridrowfull">
-      <div class="col-4 col-d-3">
+      <div class="col-5 col-d-3">
         <ul class="margintopnone">
-          <li><h3><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</h3></a></li>
-          <li><h3><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</h3></a></li>
-          <li><h3><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</h3></a></li>
+          <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</h6></a></li>
+          <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</h6></a></li>
+          <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</h6></a></li>
         </ul>
       </div>
-      <div class="col-4 col-d-2">
+      <div class="col-7 col-d-2">
         
         <ul class="margintopnone">
-          <h3 id="help">AJUDA</h3>
+          <h6 id="help">AJUDA</h6>
           <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
           <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
           <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
@@ -189,10 +264,10 @@
         </ul>
       </div>
 
-      <div class="col-4 col-d-3">
+      <div class="col-6 col-d-3">
         
         <ul class="margintopnone">
-          <li><h3 id="about-zippy">SOBRE A ZIPPY</h3></li>
+          <li><h6 id="about-zippy">SOBRE A ZIPPY</h6></li>
           <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
           <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
           <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
@@ -202,20 +277,20 @@
         </ul>
       </div>
 
-      <div class="col-4 col-d-2">
+      <div class="col-6 col-d-2">
         
         <ul class="margintopnone">
-          <h3 id="follow-us">FOLLOW US</h3>
+          <h6 id="follow-us">FOLLOW US</h6>
           <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
           <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
           <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
         </ul>
       </div>
 
-      <div class="col-4 col-d-2">
+      <div class="col-12 col-d-2">
         
         <ul class="margintopnone">
-          <h3 id="child-care-help">AJUDA PUERICULTURA</h3>
+          <h6 id="child-care-help">AJUDA PUERICULTURA</h6>
           <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
           <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
           <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
@@ -238,14 +313,60 @@
 
   </footer>
 
+  <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+  <script>
+
+
+//Quantity tool under
+
+function wcqib_refresh_quantity_increments() {
+    jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
+        var c = jQuery(b);
+        c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
+    })
+};
+
+String.prototype.getDecimals || (String.prototype.getDecimals = function() {
+    var a = this,
+        b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+    return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
+}), jQuery(document).ready(function() {
+    wcqib_refresh_quantity_increments()
+}), jQuery(document).on("updated_wc_div", function() {
+    wcqib_refresh_quantity_increments()
+}), jQuery(document).on("click", ".plus, .minus", function() {
+    var a = jQuery(this).closest(".quantity").find(".qty"),
+        b = parseFloat(a.val()),
+        c = parseFloat(a.attr("max")),
+        d = parseFloat(a.attr("min")),
+        e = a.attr("step");
+    b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
+});
 
 
 
-  <javascript>
+// COLLAPSIBLES
 
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    };
 
-  </javascript>
+    
+
+  </script>
 
 </body>
 </html>

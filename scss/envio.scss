@@ -1,0 +1,104 @@
+.container {
+    border: 1px solid grey;
+    padding: 15px 15px 15px 15px;
+    align-items: center;
+    margin: 50px 200px 50px 200px;
+  }
+  .navenvio {
+    width: 42px;
+    height: 14px;
+    margin: 3px 14px 3px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+  }
+  
+  .titulos{
+    height: 25px;
+    margin: 15px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #7f7f7f;
+  }
+  
+    .campos {
+      width: 276px;
+      height: 19px;
+      margin: 0 304px 3px 1px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #221f20;
+    }
+  
+    .containermessage {
+      width: 580px;
+      height: 60px;
+      margin: 23px 0 0;
+      border: solid 1px rgba(0, 0, 0, 0.1);
+    }
+  
+    .containerquickanswer {
+      width: 277px;
+      height: 30px;
+      margin: 3px 0 0;
+      padding: 0 0 0 237px;
+      border: solid 1px #dbd9d9;
+    }
+  
+    .camposobrigatorios {
+      width: 986px;
+      height: 98px;
+      margin: 41px 31px 0 19px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.4px;
+      text-align: left;
+      color: #7f7f7f;
+    }
+  
+    .camposobrigatorios1 {
+      width: 986px;
+      height: 98px;
+      margin: 41px 31px 0 19px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.4px;
+      text-align: right;
+      color: #7f7f7f;
+    }
+  
+    .guardarlistabutton {
+        width: 226px;
+        height: 36px;
+        margin: 38px 210px 0 374px;
+        padding: 9px 0;
+        background-color: red;
+        color: white;
+      }
+    

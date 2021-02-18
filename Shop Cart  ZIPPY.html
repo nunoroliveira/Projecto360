@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
   <title>ZIPPY Product Page</title>
 </head>
 
 
 <body>
-  <div id="promobar"><a href="#">promo bar in this div</a></div>
 
-  <header id="main-header" class="bg-white">
+  <header id="main-header" class="bg-white shadow">
 
-    <nav class="gridrow">
-      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page"><img id="logo" class="imgfit" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
+    <nav class="gridrowfull">
+      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img  class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
 
 
       <ul id="top-menu">
@@ -45,11 +43,11 @@
         </li>
 
         <li>
-          <a href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
+          <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
         </li>
 
         <li>
-          <a href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
+          <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
         </li>
     </ul>
 
@@ -72,162 +70,214 @@
 
 
   
-    <body id="body">
+   <main>
 
-      <main>
+    <section class="gridrowfull flow">
+      <a class="apadleft" href="#">Zippy > </a>
+      <a href="#">Step by Step > </a>
+      <a href="#">Baby Shower > </a>
+      <a href="#">Produtos > </a>
+      <a href="#">Casaco</a>
+    </section> 
 
-        <h1 class="gridrow">Shopping Cart</h1>
+        <div class="gridrow">
+          <div id="filters" class="col-12 col-t-4">
+              <p class="fancytext">Carrinho</p>
+              <ul class="categories">
+                  <li class="open">
+                      <a href="#" title="categories">
+                          CATEGORIAS
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      <ul>
+                          <li><a href="#" title="Jackets"><i class="icn-chevron-right"></i> Ver tudo</a></li>
+                          <li><a href="#" title="Sweaters"><i class="icn-chevron-right"></i> Menina</a></li>
+                          <li><a href="#" title="Shirts"><i class="icn-chevron-right"></i> Menino</a></li>
+                          <li><a href="#" title="Tees"><i class="icn-chevron-right"></i> Bebé menina</a></li>
+                          <li><a href="#" title="Polos"><i class="icn-chevron-right"></i> Bebé menino</a></li>
+                          <li><a href="#" title="Tees"><i class="icn-chevron-right"></i> Puericultura</a></li>
+                          <li><a href="#" title="Polos"><i class="icn-chevron-right"></i> Recém-nascido</a></li>
+                      </ul>
+                  </li>
+                  <li>
+                      <a href="#" title="New">
+                          PREÇO
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      
+                  </li>
+                  <li>
+                      <a href="#" title="Colections">
+                          TAMANHO
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                    </li>
+                  <li class="open">
+                      <a href="#" title="For My Baby">
+                          COR
+                          <i class="icn-chevron-down"></i>
+                          <i class="icn-chevron-up"></i>
+                      </a>
+                      </li>
+                    </div>
+                      <div id="mainproductlist" class="product-list col-12 col-t-8 gridrowfull">
+                        <div class="product-card col-12" href="product.html" title="View Product">
+                            <div class="product-card-image">
+                                <img class="imgfit" srcset="imgs/products/product09.jpg 720w, imgs/products/medium/product09.jpg 640w, imgs/products/small/product09.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product09.jpg" />
+                            </div>
+                            <p class="margintophalf marginbottomnone">CASACO DE MALHA PARA RECÉM-NASCIDO 'DOTS', CINZA ESCURO</p>
+                            <p class="secondary marginnone">1 unidade | €15.99</p>
+                          </div>
+                        
+                        <div class="product-card col-12" href="product.html" title="View Product">
+                          <div class="product-card-image">
+                              <img class="imgfit" srcset="imgs/products/product10.jpg 720w, imgs/products/medium/product10.jpg 640w, imgs/products/small/product10.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product10.jpg" />
+                          </div>
+                          <p class="margintophalf marginbottomnone">MACACÃO E BODY PARA RECÉM-NASCIDA, CINZA/BRANCO</p>
+                          <p class="secondary marginnone">1 unidade | €19.99</p>
+                        </div>
+                      <a class="product-card col-12" href="product.html" title="View Product">
+                          <div class="product-card-image">
+                              <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                          </div>
+                          <p class="margintophalf marginbottomnone">CAMA 3 EM 1, 120X60 CM ZY BABY</p>
+                          <span> Artigos com valor superior a €100 podem ter <bold>COMPRA PARTILHADA</bold></span>
+                          <p class="secondary marginnone">1 unidade | €179.00</p>
+                      </a>
+                      <a class="product-card col-12" href="product.html" title="View Product">
+                        <div class="product-card-image">
+                            <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                        </div>
+                        <p class="margintophalf marginbottomnone">TURBANTE PARA RECÉM-NASCIDA, ROSA</p>
+                        <p class="secondary marginnone">1 unidade | €5.99</p>
+                    </a>
+                    <a class="product-card col-12" href="product.html" title="View Product">
+                      <div class="product-card-image">
+                          <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                      </div>
+                      <p class="margintophalf marginbottomnone">BODY MANDA COMPRIDA PARA RECÉM-NASCIDO, BRANCO</p>
+                      <p class="secondary marginnone">1 unidade | €7.99</p>
+                  </a>
+                  <a class="product-card col-12" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                    </div>
+                    <p class="margintophalf marginbottomnone">FATO DE TREINO PARA RECÉM-NASCIDA 'DUMBO', ROSA/BRANCO</p>
+                    <p class="secondary marginnone">1 unidade | €17.99</p>
+                </a>
+                <a class="product-card col-12" href="product.html" title="View Product">
+                  <div class="product-card-image">
+                      <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                  </div>
+                  <p class="margintophalf marginbottomnone">TAPETE DE ATIVIDADES CHROMATIC FIRST DREAMS CHICCO PINK</p>
+                  <p class="secondary marginnone">1 unidade | €69.99</p>
+              </a>
+              <a class="product-card col-12" href="product.html" title="View Product">
+                <div class="product-card-image">
+                    <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+                </div>
+                <p class="margintophalf marginbottomnone">SABRINAS PARA RECÉM-NASCIDA COM LAÇO, ROSA</p>
+                <p class="secondary marginnone">1 unidade | €9.99</p>
+            </a>
+            <a class="product-card col-12" href="product.html" title="View Product">
+              <div class="product-card-image">
+                  <img class="imgfit" srcset="imgs/products/product11.jpg 720w, imgs/products/medium/product11.jpg 640w, imgs/products/small/product11.jpg 240w" sizes="(min-width: 1200px) 720px, (min-width: 750px) 640px, 240px" src="imgs/products/product11.jpg" />
+              </div>
+              <p class="margintophalf marginbottomnone">BALOIÇO IRIS NATTOU</p>
+              <span> Artigos com valor superior a €100 podem ter <bold>COMPRA PARTILHADA</bold><span></span>
+              <p class="secondary marginnone">1 unidade | €124.00</p>
+          </a>
+           </div>
+            </div>
+       </main>
 
-      <div class="gridrow" id="newsTable">
-         
-      <div class="product col-12 col-t-7 col-d-4">
-
-        <div class="product-image">
-          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw246ad22a/images/hires/cfe5c1b5-ac89-4a6b-b561-e710c834be99.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
-        </div>
-
-      <div class="col-12 col-t-7 col-d-4 cart-options">
-        <label class="product-image">Image</label>
-        <label class="product-details">Product</label>
-        <label class="product-price">Price</label>
-        <label class="product-quantity">Quantity</label>
-        <label class="product-removal">Remove</label>
-        <label class="product-line-price">Total</label>
-      </div>
-
-      </div>
-    
-      <div class="gridrow" >
-        <div class="product-details">
-          <div class="product-title">CASACO CANADIANA PARA MENINO, AZUL ESCURO</div>
-          <p class="product-description">Ref. 7116691</p>
-        </div>
-        <div class="product-price">€19.99</div>
-        <div class="product-quantity">
-          <input type="number" value="2" min="1">
-        </div>
-        <div class="product-removal">
-          <button class="remove-product">
-            Remove
-          </button>
-        </div>
-        <div class="product-line-price">25.98</div>
-      </div>
-
-      <div class="gridrow product col-12 col-t-7 col-d-6">
-        <div class="product-image">
-          <img src="https://zippyonline.com/dw/image/v2/BCQK_PRD/on/demandware.static/-/Sites-master-catalog/default/dwf99ac442/images/hires/f3019fc7-1a80-4e9b-8b70-011f216137a3.jpg?sw=1250&sh=1250&sm=fit&q=80" width="250" height="300">
-        </div>
-        <div class="product-details">
-          <div class="product-title">SAPATILHAS PARA CRIANÇA 'ZY RETRO', PRETO</div>
-          <p class="product-description">Ref. 7226742</p>
-        </div>
-        <div class="product-price">€9.99</div>
-        <div class="product-quantity">
-          <input type="number" value="2" min="1">
-        </div>
-        <div class="product-removal">
-          <button class="remove-product">
-            Remove
-          </button>
-        </div>
-        <div class="product-line-price">€19.98</div>
-      </div>
-    
+<div class=" gridrow newsletter">
+      <p class="col-12 textcenter uppercase">Subscreva a Nossa newsletter</p>
+      <form class="col-12 col-d-4">
+          <div class="col-12">
+              <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+          </div>
       
+          <div class="col-12">
+              <button type="submit" class="uppercase">Subscrever newsletter</button>
+          </div>
+      </form>        
+      </div>
+
+      <footer id="main-footer">
+
+        <div class="gridrowfull">
+          <div class="col-5 col-d-3">
+            <ul class="margintopnone">
+              <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</h6></a></li>
+              <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</h6></a></li>
+              <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</h6></a></li>
+            </ul>
+          </div>
+          <div class="col-7 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="help">AJUDA</h6>
+              <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
+              <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
+            </ul>
+          </div>
     
-      <div class="totals gridrow col-12 col-t-7 col-d-6">
-        <div class="totals-item">
-          <label>Subtotal</label>
-          <div class="totals-value" id="cart-subtotal">71.97</div>
-        </div>
-        <div class="totals-item">
-          <label>Tax (5%)</label>
-          <div class="totals-value" id="cart-tax">3.60</div>
-        </div>
-        <div class="totals-item">
-          <label>Shipping</label>
-          <div class="totals-value" id="cart-shipping">15.00</div>
-        </div>
-        <div class="totals-item totals-item-total">
-          <label>Grand Total</label>
-          <div class="totals-value" id="cart-total">90.57</div>
-        </div>
-      </div>
-          
-          <button class="checkout">Checkout</button>
+          <div class="col-6 col-d-3">
+            
+            <ul class="margintopnone">
+              <li><h6 id="about-zippy">SOBRE A ZIPPY</h6></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
+              <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
+              <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
+            </ul>
+          </div>
     
-    </div>
-  </main>
-
-
-  <footer id="main-footer">
-
-    <div class="gridrow">
-      <div class="col-4 col-d-4">
-        <ul>
-          <li><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><strong>LOJAS ZIPPY</strong></a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><strong>ENTREGAS</strong></a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><strong>TROCAS & DEVOLUÇÕES</strong></a></li>
-        </ul>
-      </div>
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="help">Ajuda</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
-          <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="about-zippy">SOBRE A ZIPPY</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
-          <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
-          <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="follow-us">FOLLOW US</p>
-        <ul>
-          <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
-          <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
-          <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
-        </ul>
-      </div>
-
-      <div class="col-4 col-d-2">
-        <p class="margintopnone" id="child-care-help">AJUDA PUERICULTURA</p>
-        <ul>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
-          <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
-        </ul>
-      </div>
-    </div>
-
-      <div id="site-language" class="col-12">
-        <p class="gridrow"><span id="language">Portugal | português</span></p>
-
-      </div>
-
-      <div class="col-12 signature">
-        <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
-
-      </div>
-
+          <div class="col-6 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="follow-us">FOLLOW US</h6>
+              <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
+              <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
+              <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
+            </ul>
+          </div>
     
-
-
-  </footer>
+          <div class="col-12 col-d-2">
+            
+            <ul class="margintopnone">
+              <h6 id="child-care-help">AJUDA PUERICULTURA</h6>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
+              <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
+            </ul>
+          </div>
+        </div>
+    
+          <div id="site-language" class="col-12">
+            <p class="gridrow"><span id="language">Portugal | português</span></p>
+    
+          </div>
+    
+          <div class="col-12 signature">
+            <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
+    
+          </div>
+    
+        
+    
+    
+      </footer>
 
 
 

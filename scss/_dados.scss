@@ -1,0 +1,134 @@
+.body1 {
+  background-image: url("../img/partilha.png");
+  background-repeat: no-repeat;
+  
+}
+
+.container {
+  border: 1px solid grey;
+  padding: 15px 15px 15px 15px;
+  align-items: center;
+  margin: 50px 300px 50px 200px;
+  border-top: solid 3px #dbd9d9
+}
+.navenvio {
+  width: 42px;
+  height: 14px;
+  margin: 3px 14px 3px 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.titulos1{
+  height: 25px;
+  margin: 25px 0 25px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #4e4e4e;
+}
+
+  .campos1 {
+    width: 276px;
+    height: 19px;
+    margin: 10px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4e4e4e
+
+    ;
+  }
+
+  .containermessage {
+    width: 580px;
+    height: 60px;
+    margin: 23px 0 0;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .containerquickanswer {
+    width: 277px;
+    height: 30px;
+    margin: 3px 0 0;
+    padding: 0 0 0 237px;
+    border: solid 1px #dbd9d9;
+  }
+
+  .camposobrigatorios3 {
+    //width: 986px;
+    //height: 98px;
+    //margin: 41px 31px 31px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    //text-align: left;
+    color: #7f7f7f;
+    text-align: left;
+  }
+
+  .camposobrigatorios2 {
+    //width: 986px;
+    //height: 98px;
+    //margin: 41px 31px 31px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    //letter-spacing: 0.4px;
+    text-align: right;
+    color: #7f7f7f;
+  }
+
+  .camposobrigatorios5 {
+    //width: 986px;
+    //height: 98px;
+    //margin: 41px 31px 31px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    //letter-spacing: 0.4px;
+    text-align: right;
+    color: #7f7f7f;
+    >input{
+      margin-right: 4px;
+    }
+  }
+
+  .continuarbutton { 
+    float: right;    
+   
+  }
+
+  .datalimite {
+    padding: 50px 26px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #4e4e4e;
+  }
+
+  .datalimite1 {
+    padding: 0 26px 26px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.1px;
+    text-align: left;
+    color: #7f7f7f;
+  }

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "zippy_book";
+  src: url(/fonts/zippy_book.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_bold";
+  src: url(/fonts/zippy_bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_light";
+  src: url(/fonts/zippy_light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_medium";
+  src: url(/fonts/zippy_medium.ttf) format("truetype");
+}

@@ -58,8 +58,9 @@
         }
     }
 }
+
 #sortbar{
-    @extend .marginbottomfull;
+    align-items: center;
     box-shadow: 0 0 10px $gray;
     line-height: $gridgutter * 2;
     select{
@@ -68,18 +69,18 @@
         padding: 0 $gridgutter / 3;
         margin-left: $gridgutter / 3;
     }
+    & p{
+        margin: 0;
+    }
 }
 #mainproductlist{
     padding: 0;
 }
 #filters{
-    > .fancytext{
-        line-height: $gridgutter * 1.5;
-        border-bottom: 1px solid darken($white, 10%);
-        cursor: pointer;
-    }
+    margin-top: 12px;
     .categories{
-        border-bottom: 1px solid darken($white, 10%);
+        margin: 0;
+        padding-left: $gridgutter / 2;
         display:none;
         &.open{
             display: block;
@@ -87,36 +88,13 @@
         @media(min-width: $tablet){
             display: block;
         }
-        font-family: $titlesfont, sans-serif;
-        font-weight: 600;
         list-style-type: none;
-        padding:0;
         > li{
-            @extend .marginbottomhalf;
-            font-size: 1.2rem;
             > a {
                 display: block;
                 position: relative;
-                .icn-chevron-up, .icn-chevron-down{
-                    line-height: 1.2rem * 1.414;
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                }
-                .icn-chevron-up{
-                    display: none;
-                }
             }
-            > ul{
-                display: none;
-                list-style-type: none;
-                padding: 0;
-                > li{
-                    @extend .margintopfourth;
-                    @extend .paddingleftfourth;
-                    @extend .fancytext;
-                }
-            }
+            
             &.open{
                 > a{
                     .icn-chevron-up{
@@ -159,4 +137,50 @@
             }
         }
     }
+}
+
+
+//Collapsibles
+
+.collapsible1 {
+    display: block;
+    color: #7f7f7f;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    position: relative;
+    background-color: $white !important;
+    > span{
+        position: absolute;
+        right: 4px;
+    }
+
+    & ul{
+        margin:0;
+        padding: 0;
+        text-indent: 0;
+        list-style-type: 0;
+        list-style: none;
+        list-style-image: none;
+        background-color: $white;
+  } 
+  
+  .active, .collapsible:hover {
+    background-color: $white;
+
+  }
+  
+  .content1 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: $white;
+    margin: 0;
+  }
 }

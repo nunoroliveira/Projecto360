@@ -25,14 +25,22 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  .icn-star {
+
+  .icn-arrows {
     &:before {
-      content: $icn-star; 
+      content: $icn-arrows; 
     }
   }
+
   .icn-facebook {
     &:before {
       content: $icn-facebook; 
+    }
+  }
+
+  .icn-instagram {
+    &:before {
+      content: $icn-instagram; 
     }
   }
   .icn-pinterest {
@@ -40,44 +48,14 @@
       content: $icn-pinterest; 
     }
   }
-  .icn-twitter {
+  .icn-message {
     &:before {
-      content: $icn-twitter; 
+      content: $icn-message; 
     }
   }
-  .icn-chevron-down {
+  .icn-local {
     &:before {
-      content: $icn-chevron-down; 
-    }
-  }
-  .icn-chevron-left {
-    &:before {
-      content: $icn-chevron-left; 
-    }
-  }
-  .icn-chevron-right {
-    &:before {
-      content: $icn-chevron-right; 
-    }
-  }
-  .icn-chevron-up {
-    &:before {
-      content: $icn-chevron-up; 
-    }
-  }
-  .icn-heart {
-    &:before {
-      content: $icn-heart; 
-    }
-  }
-  .icn-minus {
-    &:before {
-      content: $icn-minus; 
-    }
-  }
-  .icn-plus {
-    &:before {
-      content: $icn-plus; 
+      content: $icn-local; 
     }
   }
   .icn-reload {
@@ -93,5 +71,30 @@
   .icn-shopping-cart {
     &:before {
       content: $icn-shopping-cart; 
+    }
+  }
+  .icn-shipping {
+    &:before {
+      content: $icn-shipping; 
+    }
+  }
+  .icn-world {
+    &:before {
+      content: $icn-world; 
+    }
+  }
+  .icn-profile {
+    &:before {
+      content: $icn-profile; 
+    }
+  }
+  .icn-c {
+    &:before {
+      content: $icn-c; 
+    }
+  }
+  .icn-highlight {
+    &:before {
+      content: $icn-highlight; 
     }
   }

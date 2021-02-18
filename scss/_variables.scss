@@ -1,7 +1,28 @@
-$titlesfont: "Montserrat";
-$titlesfontweights: "400;600";
-$bodyfont: "Roboto";
-$bodyfontweights: "400";
+@font-face{
+    font-family: 'zippy_book';
+    src: url(/fonts/zippy_book.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_bold';
+    src: url(/fonts/zippy_bold.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_light';
+    src: url(/fonts/zippy_light.ttf) format('truetype');
+}
+
+@font-face{
+    font-family: 'zippy_medium';
+    src: url(/fonts/zippy_medium.ttf) format('truetype');
+}
+
+
+$titlesfont: "zippy_bold";
+$titlesfontweights: "bold";
+$bodyfont: "zippy_book";
+$bodyfontweights: "normal";
 
 $primary: #f5d71f;
 $secondary: #ff7425;
@@ -14,7 +35,7 @@ $black: #000;
 $animationtime: 0.4s;
 
 $tablet: 750px;
-$desktop: 1280px;
+$desktop: 1200px;
 $gridcolumns: 12;
 $gridgutter: 24px;
 
@@ -22,20 +43,19 @@ $gridwidth: 100%;
 $gridwidtht: 90%;
 $gridwidthd: $desktop - $gridgutter;
 
-$icomoon-font-family: "editstore" !default;
+$icomoon-font-family: "icons-zippy" !default;
 $icomoon-font-path: "../fonts" !default;
 
-$icn-star: "\f005";
-$icn-facebook: "\e900";
-$icn-pinterest: "\e901";
-$icn-twitter: "\e902";
-$icn-chevron-down: "\e903";
-$icn-chevron-left: "\e904";
-$icn-chevron-right: "\e905";
-$icn-chevron-up: "\e906";
-$icn-heart: "\e907";
-$icn-minus: "\e908";
-$icn-plus: "\e909";
-$icn-reload: "\e90a";
+$icn-arrows: "\e90e";
+$icn-facebook: "\e905";
+$icn-pinterest: "\e90c";
+$icn-instagram: "\e907";
+$icn-message: "\e909";
 $icn-search: "\e90b";
-$icn-shopping-cart: "\e90c";
+$icn-local: "\e908";
+$icn-shipping: "\e903";
+$icn-shopping-cart: "\e904";
+$icn-world: "\e901";
+$icn-profile: "\e900";
+$icn-c: "\e902";
+$icon-highlight: "\e906";
