@@ -33,17 +33,20 @@
   }
 
   .icn-facebook {
+    color: #ed282d;
     &:before {
       content: $icn-facebook; 
     }
   }
 
   .icn-instagram {
+    color: #ed282d;
     &:before {
       content: $icn-instagram; 
     }
   }
   .icn-pinterest {
+    color: #ed282d;
     &:before {
       content: $icn-pinterest; 
     }
@@ -58,17 +61,14 @@
       content: $icn-local; 
     }
   }
-  .icn-reload {
-    &:before {
-      content: $icn-reload; 
-    }
-  }
   .icn-search {
+    color: #ed282d;
     &:before {
       content: $icn-search; 
     }
   }
   .icn-shopping-cart {
+    color: #ed282d;
     &:before {
       content: $icn-shopping-cart; 
     }
@@ -84,6 +84,7 @@
     }
   }
   .icn-profile {
+    color: #ed282d;
     &:before {
       content: $icn-profile; 
     }
