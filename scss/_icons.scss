@@ -121,3 +121,21 @@
       content: $icn-n2; 
     }
   }
+
+  .icn-bin {
+    &:before {
+      content: $icn-bin; 
+    }
+  }
+
+  .icn-edit {
+    &:before {
+      content: $icn-edit; 
+    }
+  }
+
+  .icn-info {
+    &:before {
+      content: $icn-info; 
+    }
+  }

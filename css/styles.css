@@ -337,6 +337,18 @@ template {
   content: "";
 }
 
+.icn-bin:before {
+  content: "";
+}
+
+.icn-edit:before {
+  content: "";
+}
+
+.icn-info:before {
+  content: "";
+}
+
 html {
   font-family: "zippy_book", sans-serif;
   color: #000;
