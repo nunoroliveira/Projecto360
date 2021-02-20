@@ -123,18 +123,21 @@
   }
 
   .icn-bin {
+    color: #ed282d;
     &:before {
       content: $icn-bin; 
     }
   }
 
   .icn-edit {
+    color: #ed282d;
     &:before {
       content: $icn-edit; 
     }
   }
 
   .icn-info {
+    color: #ed282d;
     &:before {
       content: $icn-info; 
     }

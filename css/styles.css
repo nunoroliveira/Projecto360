@@ -337,14 +337,23 @@ template {
   content: "";
 }
 
+.icn-bin {
+  color: #ed282d;
+}
 .icn-bin:before {
   content: "";
 }
 
+.icn-edit {
+  color: #ed282d;
+}
 .icn-edit:before {
   content: "";
 }
 
+.icn-info {
+  color: #ed282d;
+}
 .icn-info:before {
   content: "";
 }
