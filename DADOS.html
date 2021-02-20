@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
-  <title>ZIPPY Product Page</title>
+  <title>ZIPPY Product List</title>
 </head>
 
 
@@ -51,18 +52,19 @@
         </li>
     </ul>
 
-      <ul id="customer-menu">
-        <li>
-          <a id="search" href="#">Pesquisar</a>
-        </li>
+    <ul id="customer-menu">
+      <li>
+        <a id="search" href="#"><i class="icn-search"></i> Pesquisar</a>
+      </li>
 
-        <li>
-          <a id="login" href="https://zippyonline.com/pt/login/">Entrar</a>
-        </li>
+      <li>
+        <a id="login" href="https://zippyonline.com/pt/login/"><i class="icn-profile"></i> Entrar</a>
+      </li>
 
-        <li>
-          <a id="shopping-cart" href="#">icon carrinho</a>
-        </li>
+      <li>
+        <a id=shopping-cart href="#"><i class="icn-shopping-cart"></i><span id="cart-items">0</span></a>
+      </li>
+
 
       </ul>
     </nav>
@@ -85,28 +87,27 @@
 <div class="container1 col-8 offset-2 gridrow">
 
   <section class="gridrowfull flow cabecalho">
-    <img class="numeros" src="../img/numero1.png" alt="some text" width=20 height=20>
-    <a class="apadleft1" style="color:#4e4e4e" href="#"><b>DADOS </b><span style="color: red"> ></span></a>
-    <img class="numeros" src="../img/numero2.png" alt="some text" width=20 height=20>
+    <i class="icn-n1"></i>
+    <a class="apadleft1" style="color:#4e4e4e" href="#"><b>DADOS </b></a>
+    <i class="icn-chevron"></i>
+    <i class="icn-n2"></i>
     <a class="apadleft1" style="color:#c4c4c4" href="#">ENVIO</a>
   </section>  
 
   <p class="col-12 titulos1"><b>DADOS DE ENVIO</b></p>
          
-   <section class="col-12">
+   <section class="gridrow col-12">
     <div class="col-12">
     <h6 class="col-12 campos1">* Morada</h6>
-    <input class="col-12 containerquickanswer1"></input>
+    <input class="col-8 containerquickanswer1"></input>
     </div>
-    <div class="col-12">
-    <div class="col-6">
-    <h6 class="col-6 campos1">* Código-postal</h6>
-    <input class="col-6 containerquickanswer1"></input>
+    <div class="col-4">
+      <h6 class="col-6 campos1 textleft">* Cidade</h6>
+      <input class="col-12 containerquickanswer1"></input>
     </div>
-    <div class="col-6">
-    <h6 class="col-6 campos1 textleft">* Cidade</h6>
-    <input class="col-6 containerquickanswer1"></input>
-  </div>  
+    <div class="col-4">
+      <h6 class="col-6 campos1 textleft">* Código-postal</h6>
+      <input class="col-12 containerquickanswer1"></input>
   </div> 
     <section class="datalimite">
     <p class="col-12"><b>Data limite para compra</b></p>
@@ -148,9 +149,9 @@
   <div class="gridrowfull">
     <div class="col-5 col-d-3">
       <ul class="margintopnone">
-        <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores">LOJAS ZIPPY</h6></a></li>
-        <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries">ENTREGAS</h6></a></li>
-        <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns">TROCAS & DEVOLUÇÕES</h6></a></li>
+        <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><i class="icn-local"></i> ZIPPY</h6></a></li>
+        <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><i class="icn-shipping"></i>ENTREGAS</h6></a></li>
+        <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><i class="icn-arrows"></i>TROCAS & DEVOLUÇÕES</h6></a></li>
       </ul>
     </div>
     <div class="col-7 col-d-2">
@@ -183,9 +184,9 @@
       
       <ul class="margintopnone">
         <h6 id="follow-us">FOLLOW US</h6>
-        <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook">Facebook</i></a></li>
-        <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-pinterest">Instagram</i></a></li>
-        <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest">Pinterest</i></a></li>
+        <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i>Facebook</a></li>
+        <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i>Instagram</a></li>
+        <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i>Pinterest</a></li>
       </ul>
     </div>
 
@@ -200,8 +201,8 @@
     </div>
   </div>
 
-    <div id="site-language" class="col-12">
-      <p class="gridrow"><span id="language">Portugal | português</span></p>
+    <div id="site-language" class="gridrowfull col-12">
+      <p class=" col-2"><span id="site-language"><i class="icn-world"></i>Portugal | português</span></p>
 
     </div>
 

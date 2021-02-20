@@ -314,6 +314,7 @@ template {
 }
 
 .icn-chevron {
+  font-size: 25px;
   color: #ed282d;
 }
 .icn-chevron:before {
@@ -321,6 +322,7 @@ template {
 }
 
 .icn-n1 {
+  font-size: 25px;
   color: #ed282d;
 }
 .icn-n1:before {
@@ -328,6 +330,7 @@ template {
 }
 
 .icn-n2 {
+  font-size: 25px;
   color: #ed282d;
 }
 .icn-n2:before {
@@ -2810,7 +2813,8 @@ footer .signature {
 }
 
 .campos1 {
-  margin: 10px 0 15px 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: normal;
@@ -2902,7 +2906,7 @@ footer .signature {
 }
 
 .selecionar {
-  margin: 10px 10px 10px;
+  margin: 5px;
 }
 
 .navenvio {
