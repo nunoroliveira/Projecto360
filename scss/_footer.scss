@@ -5,6 +5,7 @@ footer{
     padding-bottom: 0px !important;
     padding-top: $gridgutter * 2;
     ul{
+        padding-left: $gridgutter * 2;
         list-style-type: none;
         li{
             font-size: 14px;
@@ -19,10 +20,9 @@ footer{
     }
     #site-language{
         font-size: 14px;
-        padding-bottom: $gridgutter/4;
-        padding-top: $gridgutter/4;
-        border-top: 1px solid #ccc;
-        border-bottom: 1px solid #ccc;
+        padding-bottom: $gridgutter / 4;
+        padding-top: $gridgutter / 4;
+        padding-left: $gridgutter;
     }
     .signature{
         color: #999;

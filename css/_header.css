@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "zippy_book";
+  src: url(/fonts/zippy_book.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_bold";
+  src: url(/fonts/zippy_bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_light";
+  src: url(/fonts/zippy_light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "zippy_medium";
+  src: url(/fonts/zippy_medium.ttf) format("truetype");
+}
 body {
   padding-top: 0;
   margin-top: 0;
@@ -10,6 +26,8 @@ body > header {
   top: 0;
   z-index: 1000;
   border-bottom: 1px solid #F3F3F3;
+  font-family: "zippy_book";
+  font-size: 12px;
 }
 body > header nav {
   justify-content: space-between;

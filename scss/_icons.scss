@@ -29,24 +29,22 @@
   .icn-arrows {
     &:before {
       content: $icn-arrows; 
+      color: #ed282d;
     }
   }
 
   .icn-facebook {
-    color: #ed282d;
     &:before {
       content: $icn-facebook; 
     }
   }
 
   .icn-instagram {
-    color: #ed282d;
     &:before {
       content: $icn-instagram; 
     }
   }
   .icn-pinterest {
-    color: #ed282d;
     &:before {
       content: $icn-pinterest; 
     }
@@ -59,6 +57,7 @@
   .icn-local {
     &:before {
       content: $icn-local; 
+      color: #ed282d;
     }
   }
   .icn-search {
@@ -70,12 +69,13 @@
   .icn-shopping-cart {
     color: #ed282d;
     &:before {
-      content: $icn-shopping-cart; 
+      content: $icn-cart; 
     }
   }
   .icn-shipping {
     &:before {
       content: $icn-shipping; 
+      color: #ed282d;
     }
   }
   .icn-world {
@@ -94,8 +94,27 @@
       content: $icn-c; 
     }
   }
-  .icn-highlight {
+  .icn-close {
     &:before {
-      content: $icn-highlight; 
+      content: $icn-close; 
+    }
+  }
+
+  .icn-chevron {
+    color: #ed282d;
+    &:before {
+      content: $icn-chevron; 
+    }
+
+  }.icn-n1 {
+    color: #ed282d;
+    &:before {
+      content: $icn-n1; 
+    }
+
+  }.icn-n2 {
+    color: #ed282d;
+    &:before {
+      content: $icn-n2; 
     }
   }

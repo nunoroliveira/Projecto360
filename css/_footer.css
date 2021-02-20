@@ -20,6 +20,7 @@ footer {
   padding-top: 48px;
 }
 footer ul {
+  padding-left: 48px;
   list-style-type: none;
 }
 footer ul li {
@@ -35,8 +36,7 @@ footer #site-language {
   font-size: 14px;
   padding-bottom: 6px;
   padding-top: 6px;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
+  padding-left: 24px;
 }
 footer .signature {
   color: #999;

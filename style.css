@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?c9mbsg');
-  src:  url('fonts/icomoon.eot?c9mbsg#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?c9mbsg') format('truetype'),
-    url('fonts/icomoon.woff?c9mbsg') format('woff'),
-    url('fonts/icomoon.svg?c9mbsg#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hp9d3b');
+  src:  url('fonts/icomoon.eot?hp9d3b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hp9d3b') format('truetype'),
+    url('fonts/icomoon.woff?hp9d3b') format('woff'),
+    url('fonts/icomoon.svg?hp9d3b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,66 +25,67 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-highlight_off-24px:before {
-  content: "\e906";
-}
-.icon-profile:before {
-  content: "\e900";
-}
-.icon-mundo:before {
+.icon-Asset-13 .path1:before {
   content: "\e901";
+  color: rgb(230, 46, 49);
 }
-.icon-C:before {
+.icon-Asset-13 .path2:before {
   content: "\e902";
-  color: #7f7f7f;
+  margin-left: -1em;
+  color: rgb(251, 253, 255);
 }
-.icon-carrinha:before {
+.icon-Asset-12:before {
   content: "\e903";
-  color: #ed282d;
+  color: #e62e31;
 }
-.icon-carrinho:before {
-  content: "\e904";
-  color: #ed282d;
+.icon-Asset-10:before {
+  content: "\e905";
+  color: #7f8080;
 }
 .icon-facebook:before {
-  content: "\e905";
-  color: #3b5998;
-}
-.icon-instagram:before {
   content: "\e907";
+  color: #3d5a99;
+}
+.icon-profile:before {
+  content: "\e908";
+  color: #e62e31;
+}
+.icon-shipping:before {
+  content: "\e909";
+  color: #e62e31;
 }
 .icon-local:before {
-  content: "\e908";
-  color: #ed282d;
+  content: "\e90c";
+  color: #e62e31;
 }
-.icon-mensagem .path1:before {
-  content: "\e909";
-  color: rgb(237, 40, 45);
-}
-.icon-mensagem .path2:before {
+.icon-arrows .path1:before {
   content: "\e90a";
-  margin-left: -1em;
-  color: rgb(250, 253, 255);
+  color: rgb(127, 128, 128);
 }
-.icon-pesquisar:before {
+.icon-arrows .path2:before {
   content: "\e90b";
-  color: #ed282d;
+  margin-left: -1em;
+  color: rgb(230, 46, 49);
+}
+.icon-instagram:before {
+  content: "\e90d";
 }
 .icon-pinterest .path1:before {
-  content: "\e90c";
+  content: "\e90e";
   color: rgb(255, 255, 255);
 }
 .icon-pinterest .path2:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(230, 0, 25);
+  content: "\e910";
+  margin-left: -0.9990234375em;
+  color: rgb(227, 5, 30);
 }
-.icon-setas .path1:before {
-  content: "\e90e";
-  color: rgb(127, 127, 127);
-}
-.icon-setas .path2:before {
+.icon-shopping-cart:before {
   content: "\e90f";
-  margin-left: -1em;
-  color: rgb(237, 40, 45);
+  color: #e62e31;
+}
+.icon-close:before {
+  content: "\e906";
+}
+.icon-world:before {
+  content: "\e904";
 }

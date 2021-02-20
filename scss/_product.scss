@@ -93,13 +93,7 @@
     padding-top: 12px;
     padding-bottom: 12px;
   >a{
-    color: #b8b8b8;
-    font-size: 12px;
-    font-weight: 500;
     font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
   }
 
 }
@@ -120,27 +114,13 @@
 .color{
     margin-top: $gridgutter / 4;
     margin-bottom: $gridgutter / 4;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: 0.3px;
     text-align: left;
-    color: #221f20;
 }
 
 .size{
     margin-top: $gridgutter / 4;
     margin-bottom: $gridgutter / 4;
-    font-size: 16px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: 0.3px;
     text-align: left;
-    color: #221f20;
     padding-left: $gridgutter / 2;
 }
 
@@ -151,14 +131,7 @@
     padding: 7px 10.9px 7px 10.9px;
     border: solid 1px #e8e6da;
     background-color: #e8e6da;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.57;
-    letter-spacing: 0.3px;
     text-align: center;
-    color: #221f20;
     cursor: pointer;
 }
 
@@ -169,28 +142,14 @@
     padding: 7px 10.9px 7px 10.9px;
     border: solid 1px #e8e6da;
     background-color: white;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.57;
-    letter-spacing: 0.3px;
     text-align: center;
-    color: #221f20;
     cursor: pointer;
 }
 
 .sizeguide{
     width: 119px;
     height: 22px;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.38;
-    letter-spacing: 0.3px;
     text-align: left;
-    color: #7f7f7f;
     padding-top: $gridgutter / 2;
     padding-bottom: $gridgutter * 2;
     text-decoration: underline;
@@ -200,12 +159,6 @@
     width: 219px;
     height: 36px;
     background-color: #ed282d;
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
     color: #ffffff;
     cursor: pointer;
