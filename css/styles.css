@@ -2557,6 +2557,18 @@ footer .signature {
   margin: 0 auto;
 }
 
+.lista {
+  width: 75.6px;
+  height: 107px;
+  flex-grow: 0;
+  margin: 0 31.4px 0 0;
+}
+
+.product-card1 {
+  position: relative;
+  background-color: none;
+}
+
 .navZippy {
   width: 100px;
   height: 14px;
@@ -2749,14 +2761,25 @@ footer .signature {
 .body1 {
   background-image: url("../img/partilha.png");
   background-repeat: no-repeat;
+  max-width: 100%;
+  height: auto;
 }
 
-.container {
-  border: 1px solid grey;
-  padding: 15px 15px 15px 15px;
-  align-items: center;
-  margin: 50px 300px 50px 200px;
-  border-top: solid 3px #dbd9d9;
+.apadleft1 {
+  padding-left: 4px;
+}
+
+.numeros {
+  margin-right: 5px;
+}
+
+.container1 {
+  padding-bottom: 20px;
+}
+
+.cabecalho {
+  background-color: #F8F8F8;
+  margin-top: 10px;
 }
 
 .navenvio {
@@ -2787,14 +2810,13 @@ footer .signature {
 }
 
 .campos1 {
-  width: 276px;
-  height: 19px;
   margin: 10px 0 15px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   letter-spacing: normal;
   text-align: left;
   color: #4e4e4e;
+  padding: 0 !important;
 }
 
 .containermessage {
@@ -2804,15 +2826,12 @@ footer .signature {
   border: solid 1px rgba(0, 0, 0, 0.1);
 }
 
-.containerquickanswer {
-  width: 277px;
-  height: 30px;
-  margin: 3px 0 0;
-  padding: 0 0 0 237px;
+.containerquickanswer1 {
   border: solid 1px #dbd9d9;
+  padding: 0 !important;
 }
 
-.camposobrigatorios3 {
+.camposobrigatorios1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   letter-spacing: 0.4px;
@@ -2821,47 +2840,56 @@ footer .signature {
 }
 
 .camposobrigatorios2 {
+  margin: 0 31px 35px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  text-align: right;
+  letter-spacing: 0.4px;
+  color: #7f7f7f;
+  text-align: left;
+}
+
+.camposobrigatorios3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: left;
   color: #7f7f7f;
 }
 
-.camposobrigatorios5 {
+.camposobrigatorios4 {
+  margin: 41px 31px 31px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-align: right;
   color: #7f7f7f;
 }
-.camposobrigatorios5 > input {
+.camposobrigatorios4 > input {
   margin-right: 4px;
 }
 
 .continuarbutton {
-  float: right;
+  width: 219px;
+  height: 36px;
+  background-color: #ed282d;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  border: #ed282d;
+  margin-top: 100px;
+  margin-bottom: 75px;
 }
 
 .datalimite {
-  padding: 50px 26px 0 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.57;
-  letter-spacing: 0.1px;
   text-align: left;
   color: #4e4e4e;
+  padding: 80px 0 50px 0;
 }
 
 .datalimite1 {
-  padding: 0 26px 26px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.57;
-  letter-spacing: 0.1px;
   text-align: left;
   color: #7f7f7f;
 }
@@ -2871,6 +2899,10 @@ footer .signature {
   padding: 15px 15px 15px 15px;
   align-items: center;
   margin: 50px 200px 50px 200px;
+}
+
+.selecionar {
+  margin: 10px 10px 10px;
 }
 
 .navenvio {
@@ -2899,22 +2931,20 @@ footer .signature {
   line-height: 1.56;
   letter-spacing: 0.5px;
   text-align: left;
-  color: #7f7f7f;
+  color: #4e4e4e;
 }
 
 .campos {
-  width: 276px;
-  height: 19px;
-  margin: 0 304px 3px 1px;
+  margin: 10px 0 15px 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
   letter-spacing: normal;
   text-align: left;
-  color: #221f20;
+  color: red;
+}
+
+.camposbotao {
+  color: #4e4e4e;
 }
 
 .containermessage {

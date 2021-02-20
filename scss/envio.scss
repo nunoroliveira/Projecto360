@@ -4,6 +4,11 @@
     align-items: center;
     margin: 50px 200px 50px 200px;
   }
+
+  .selecionar {
+    margin: 10px 10px 10px ;
+  }
+  
   .navenvio {
     width: 42px;
     height: 14px;
@@ -30,23 +35,24 @@
     line-height: 1.56;
     letter-spacing: 0.5px;
     text-align: left;
-    color: #7f7f7f;
+    color: #4e4e4e;
   }
   
-    .campos {
-      width: 276px;
-      height: 19px;
-      margin: 0 304px 3px 1px;
+  .campos {
+    //  width: 276px;
+    //  height: 19px;
+      margin: 10px 0 15px 0;
       font-family: Arial, Helvetica, sans-serif;
       font-size: 14px;
-      font-weight: normal;
-      font-stretch: normal;
-      font-style: normal;
-      line-height: normal;
       letter-spacing: normal;
       text-align: left;
-      color: #221f20;
+      color: red
+       ;
     }
+
+    .camposbotao {
+      color: #4e4e4e;
+      }
   
     .containermessage {
       width: 580px;
