@@ -1,0 +1,64 @@
+$banyellow: #ffe284ff;
+
+
+.herolp1center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 416px;
+    background-color: $banyellow;
+    margin-bottom: 150px;
+    .herolp1-image{
+        width: 1440px;
+        background-image: url(https://files.slack.com/files-pri/T01KF1UNF5W-F01P02W7Z4H/2000x578px.gif);
+        background-repeat: no-repeat;
+        background-size: 1440px 416px;
+        background-position: center;
+        height: 416px;
+        outline: 2px solid $banyellow;
+        outline-offset: -2px;
+    }
+}
+
+.spaceb{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 110px;
+    .ele1{
+        margin-left: 104px;
+        width: 670px;
+        .zsbs{
+            background-image: url("../img/zippysbs.png");
+            width: 288px;
+            height: 130px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .btevent{
+            text-align: center;
+            display: inline-block;
+            width: 220px;
+            background-color: $zippyred;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: 0.5px;
+            margin-right: 16px;
+        }
+        
+    }
+}
+
+.xp{
+    max-width: 1301px;
+    margin: auto;
+    h2{
+        margin-left: 20px;
+    }
+}

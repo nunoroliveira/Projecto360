@@ -1,0 +1,36 @@
+.herolp1center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 416px;
+  background-color: #ffe284ff;
+  margin-bottom: 150px;
+}
+.herolp1center .herolp1-image {
+  width: 1440px;
+  background-image: url(https://files.slack.com/files-pri/T01KF1UNF5W-F01P02W7Z4H/2000x578px.gif);
+  background-repeat: no-repeat;
+  background-size: 1440px 416px;
+  background-position: center;
+  height: 416px;
+  outline: 2px solid #ffe284ff;
+  outline-offset: -2px;
+}
+
+.spaceb {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.spaceb .ele1 {
+  margin-left: 104px;
+  width: 670px;
+}
+.spaceb .ele1 .zsbs {
+  background-image: url("../img/zippysbs.png");
+  width: 288px;
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

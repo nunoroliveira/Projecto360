@@ -6,7 +6,7 @@
   <link type="text/css" rel="stylesheet" href="css/normalize.css" />
   <link type="text/css" rel="stylesheet" href="css/main.css" />
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
-  <title>ZIPPY Product List</title>
+  <title>ZIPPY Product List MODAL</title>
 </head>
 
 
@@ -54,15 +54,15 @@
 
     <ul id="customer-menu">
       <li>
-        <a class="icn-search" id="search" href="#">Pesquisar</a>
+        <a id="search" href="#"><i class="icn-search"></i> Pesquisar</a>
       </li>
 
       <li>
-        <a class="icn-profile" id="login" href="https://zippyonline.com/pt/login/">Entrar</a>
+        <a id="login" href="https://zippyonline.com/pt/login/"><i class="icn-profile"></i> Entrar</a>
       </li>
 
       <li>
-        <a id="icn-shopping-cart" href="#"><span id="cart-items">0</span></a>
+        <a id=shopping-cart href="#"><i class="icn-shopping-cart"></i><span id="cart-items">0</span></a>
       </li>
 
 
@@ -71,7 +71,20 @@
   </header>
   
 
+
   <main>
+    <button data-modal="#add-character" class="btn btn-primary btn-circle modal-toggle marginrightthird tooltip" title="Add Character"><i class="i-plus"></i>vamos começar minha gente</button>
+
+    <div class="modal">
+      <div class="gridrow">
+          <div class="modal-container">
+            <p>jsghiuhruhg</p>
+          </div>
+      </div>
+    </div>
+
+
+
     <div class="gridrowfull" id="banner">
       <h1>Baby Shower da Clarinha</h1>
     </div>
@@ -361,6 +374,28 @@ for (i = 0; i < coll.length; i++) {
         this.nextElementSibling.classList.toggle('active');
     });
 };
+
+
+
+//MODAL
+$(document).ready(function(){
+
+  $(".modal").addClass('modal-open');
+});
+
+
+
+$(document).on('click', '.modal-toggle', function(e){
+  debugger;
+        e.preventDefault();
+        let modalOpen = $(this).data('modal');
+        $(".modal").addClass('modal-open');
+    });
+    $(".modal-close").click(function(e){
+        e.preventDefault();
+        $('.modal-open').removeClass('modal-open');
+    });
+
 
   </script>
 
