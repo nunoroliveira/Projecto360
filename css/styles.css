@@ -2064,8 +2064,8 @@ body > header nav > ul li a {
 }
 
 /* andre code */
-.hero-image {
-  background-image: url("../img/homepage/BANNER_NEW_IN.png");
+.heronew-image {
+  background-image: url("../img/BANNER_NEW_IN.png");
   background-color: #ed282d;
   height: 326px;
   background-size: cover;
@@ -2122,10 +2122,13 @@ body > header nav > ul li a {
 }
 
 .zbanner {
-  background-image: url();
+  background-image: url(https://files.slack.com/files-pri/T01KF1UNF5W-F01NMDTMB6E/gif-banner-mobile-750x622px.gif);
   background-color: #ed282d;
   height: 553px;
   margin-bottom: 96px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .zbtext {
@@ -2156,10 +2159,11 @@ body > header nav > ul li a {
 /* slider */
 /* heroes */
 .heroes-bg {
-  background-image: url(../img/homepage/HEROES.png);
+  background-image: url(../img/HEROES.png);
   height: 425px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   margin-bottom: 96px;
   margin-left: 84px;
   margin-right: 18px;
@@ -3149,4 +3153,124 @@ body, html {
   padding: 10.7px 124.2px 12px 115.4px;
   border: solid 1px #ed282d;
   background-color: #ed282d;
+}
+
+.herolp1center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  height: 416px;
+  background-color: #ffe284ff;
+  margin-bottom: 150px;
+}
+.herolp1center .herolp1-image {
+  width: 1440px;
+  background-image: url(https://files.slack.com/files-pri/T01KF1UNF5W-F01P02W7Z4H/2000x578px.gif);
+  background-repeat: no-repeat;
+  background-size: 1440px 416px;
+  background-position: center;
+  height: 416px;
+  outline: 2px solid #ffe284ff;
+  outline-offset: -2px;
+}
+
+.spaceb {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+.spaceb .ele1 {
+  margin-left: 104px;
+  width: 670px;
+}
+.spaceb .ele1 .zsbs {
+  background-image: url("../img/zippysbs.png");
+  width: 288px;
+  height: 130px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.spaceb .ele1 .btevent {
+  text-align: center;
+  display: inline-block;
+  width: 220px;
+  background-color: #ed282d;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.5px;
+  margin-right: 16px;
+}
+
+.xp {
+  max-width: 1301px;
+  margin: auto;
+}
+.xp h2 {
+  margin-left: 20px;
+}
+
+.tababys {
+  margin-left: 100px;
+  width: 800px;
+}
+.tababys h1 {
+  margin-bottom: 146px;
+}
+
+/* Style the tab */
+.tab {
+  max-height: 610px;
+  overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+#dvtext {
+  display: none;
+}
+
+#chkPres:checked ~ #dvtext {
+  display: block;
+}
+
+#dvtext1 {
+  display: none;
+}
+
+#chkVirtual:checked ~ #dvtext1 {
+  display: block;
 }

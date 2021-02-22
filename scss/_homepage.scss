@@ -151,8 +151,8 @@
 $zippyred: #ed282d;
 $light-grey:#f5f2ed;
 
-.hero-image {
-    background-image: url("../img/homepage/BANNER_NEW_IN.png");
+.heronew-image {
+    background-image: url("../img/BANNER_NEW_IN.png");
     background-color: $zippyred;
     height: 326px;
     background-size: cover;
@@ -210,10 +210,13 @@ $light-grey:#f5f2ed;
   }
 
   .zbanner{
-    background-image: url();
+    background-image: url(https://files.slack.com/files-pri/T01KF1UNF5W-F01NMDTMB6E/gif-banner-mobile-750x622px.gif);
     background-color:$zippyred;
     height: 553px;
     margin-bottom: 96px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .zbtext{
@@ -245,10 +248,11 @@ $light-grey:#f5f2ed;
 
 /* heroes */
 .heroes-bg{
-    background-image: url(../img/homepage/HEROES.png);
+    background-image: url(../img/HEROES.png);
     height: 425px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     margin-bottom: 96px;
     margin-left: 84px;
     margin-right: 18px;
