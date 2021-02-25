@@ -1,16 +1,15 @@
 @import 'variables';
 
 footer{
-    background-color: rgba(232,230,218,.2);
+    background-color:rgba(232, 230, 218, 0.25);
     padding-bottom: 0px !important;
     padding-top: $gridgutter * 2;
     ul{
         padding-left: $gridgutter * 2;
         list-style-type: none;
         li{
-            font-size: 14px;
             a{
-                color: #7f7f7f;
+                color: #7F7F7F;
                 &:hover {
                     color: black;
                 }

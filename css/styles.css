@@ -394,6 +394,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin: 0;
   color: #c4c4c4;
   font-style: normal;
+  padding-left: 12px;
 }
 
 h1, .h1 {
@@ -1944,6 +1945,7 @@ body > header nav > ul li a {
 .modal {
   position: fixed;
   z-index: 10010;
+  opacity: 0;
   top: -100vh;
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
@@ -2402,7 +2404,7 @@ body > header nav > ul li a {
 }
 
 .button-size1 {
-  width: 95px;
+  width: 114px;
   height: 36px;
   margin: 12px 13px 0px 0px;
   padding: 7px 10.9px 7px 10.9px;
@@ -2413,7 +2415,7 @@ body > header nav > ul li a {
 }
 
 .button-size {
-  width: 96px;
+  width: 114px;
   height: 36px;
   margin: 12px 13px 0px 0px;
   padding: 7px 10.9px 7px 10.9px;
@@ -2599,7 +2601,7 @@ body > header nav > ul li a {
   src: url(/fonts/zippy_medium.ttf) format("truetype");
 }
 footer {
-  background-color: rgba(232, 230, 218, 0.2);
+  background-color: rgba(232, 230, 218, 0.25);
   padding-bottom: 0px !important;
   padding-top: 48px;
 }
@@ -2607,11 +2609,8 @@ footer ul {
   padding-left: 48px;
   list-style-type: none;
 }
-footer ul li {
-  font-size: 14px;
-}
 footer ul li a {
-  color: #7f7f7f;
+  color: #7F7F7F;
 }
 footer ul li a:hover {
   color: black;
@@ -3295,22 +3294,28 @@ body, html {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: white;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
+  background-color: white;
   background-color: #ccc;
 }
 
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
-  border-top: none;
-}
+/*
+    width: 800px;
+    height: 640px;
+    display: none;
+    padding: 6px 12px;
+    border: none;
 
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+
+  }*/
 #dvtext {
   display: none;
 }
@@ -3325,4 +3330,42 @@ body, html {
 
 #chkVirtual:checked ~ #dvtext1 {
   display: block;
+}
+
+.ttl {
+  margin-top: 70px;
+}
+
+.radio1 {
+  margin-top: 40px;
+}
+
+.radio1txt {
+  max-width: 227px;
+}
+
+.radio2 {
+  margin-top: 40px;
+  margin-left: 400px;
+}
+
+.radio2txt {
+  max-width: 227px;
+  margin-left: 440px;
+}
+.radio2txt input {
+  width: 216px;
+  height: 70px;
+}
+
+.quandobt {
+  margin-bottom: 400px;
+}
+
+.polylign {
+  margin-left: 150px;
+}
+
+.quandobt {
+  margin-bottom: 400px;
 }
