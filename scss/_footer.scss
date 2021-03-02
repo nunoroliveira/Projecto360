@@ -1,35 +1,45 @@
 @import 'variables';
-
-footer{
-    background-color:rgba(232, 230, 218, 0.25);
+footer {
+    background-color: rgba(232, 230, 218, 0.25);
     padding-bottom: 0px !important;
     padding-top: $gridgutter * 2;
-    ul{
+    ul {
+        color: #7F7F7F;
         padding-left: $gridgutter * 2;
         list-style-type: none;
-        li{
-            a{
+        & .body1-1 {
+            color: #7F7F7F;
+        }
+        li {
+            color: #7F7F7F;
+            a {
                 color: #7F7F7F;
                 &:hover {
                     color: black;
                 }
             }
         }
-        
     }
-    #site-language{
+    #site-language {
+        color: #7F7F7F;
         font-size: 14px;
         padding-bottom: $gridgutter / 4;
         padding-top: $gridgutter / 4;
         padding-left: $gridgutter;
     }
-    .signature{
-        color: #999;
-        background-color: rgba(232,230,218,.5);
+    .signature {
+        background-color: rgba(232, 230, 218, .5);
         text-align: center;
         margin-top: $gridgutter;
-        padding-bottom: $gridgutter/4;;
+        padding-bottom: $gridgutter/4;
         padding-top: $gridgutter/4;
-        font-size: 12px;
+        & #signature {
+            color: #7F7F7F;
+        }
+    }
+    .apad {
+        & li {
+            padding-bottom: $gridgutter;
+        }
     }
 }

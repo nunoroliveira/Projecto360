@@ -1,227 +1,272 @@
 @import url(https://fonts.googleapis.com/css2?family=#{$titlesfont}:wght@#{$titlesfontweights}&family=#{$bodyfont}:wght@#{$bodyfontweights}&display=swap);
-
-html{
+html {
     font-family: 'zippy_book', sans-serif;
     color: $black;
     font-weight: normal;
     line-height: 1.618; // the golden ratio, baby!
     // Setting base REM for different breakpoints:
     font-size: 14px;
-    @media(min-width: $tablet){
-      font-size: 15px;
+    @media(min-width: $tablet) {
+        font-size: 15px;
     }
-    @media(min-width: $desktop){
-      font-size: 16px;
+    @media(min-width: $desktop) {
+        font-size: 16px;
     }
 }
 
+
 /* ===================== */
+
+
 /* ======= LINKS ======= */
+
+
 /* ===================== */
-a{
-  @extend .animate;
-  text-decoration: none;
-  color: $black;
-  &:hover{
-    color: $gray;
-  }
+
+a {
+    @extend .animate;
+    text-decoration: none;
+    color: $black;
+    &:hover {
+        color: $gray;
+    }
 }
 
+
 /* ======================== */
+
+
 /* ======= HEADINGS ======= */
+
+
 /* ======================== */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
-  margin: 0;
-  color:#c4c4c4;
-  font-style: normal;
-  padding-left: $gridgutter / 2;
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin: 0;
+    color: #c4c4c4;
+    font-style: normal;
+    padding-left: $gridgutter / 2;
 }
 
-h1, .h1{
-  font-family: "zippy_medium", sans-serif;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 65px;
-  letter-spacing: -1px;
+h1,
+.h1 {
+    font-family: "zippy_medium", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+    letter-spacing: -1px;
 }
 
-h2, .h2{
-  font-family: "zippy_medium", sans-serif;
-  font-weight: 500;
-  font-size: 45px;
-  line-height: 56px;
-  letter-spacing: 0.5px;
+h2,
+.h2 {
+    font-family: "zippy_medium", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: 0.5px;
 }
 
-h3, .h3{
-  font-family: "zippy_medium", sans-serif;
-  font-weight: normal;
-  font-size: 40px;
-  line-height: 51px;
-  letter-spacing: 0px;
+h3,
+.h3 {
+    font-family: "zippy_medium", sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 51px;
+    letter-spacing: 0px;
 }
 
-h4, .h4{
-  font-family: "zippy_book", sans-serif;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 43px;
-  letter-spacing: 0.25px;
+h4,
+.h4 {
+    font-family: "zippy_book", sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.25px;
 }
 
-h5, .h5{
-  font-family: "zippy_book", sans-serif;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 29px;
-  letter-spacing: 0px;
+h5,
+.h5 {
+    font-family: "zippy_book", sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0px;
 }
 
-h6, .h6{
-  font-family: "zippy_bold", sans-serif;
-  font-weight: bold;
-  font-size: 21px;
-  line-height: 31px;
-  letter-spacing: 0.15px;
+h6,
+.h6 {
+    font-family: "zippy_bold", sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.15px;
 }
 
-.subtitle1{
-  font-family: "zippy_book", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.15px;
-  color: #c4c4c4
+.subtitle1 {
+    font-family: "zippy_book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    color: #c4c4c4
 }
 
-.subtitle2{
-  font-family: "zippy_bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 22px;
-  letter-spacing: 0.1px;
-  color: #c4c4c4;
+.subtitle2 {
+    font-family: "zippy_bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    color: #c4c4c4;
 }
 
-.body1{
-  font-family: "zippy_book", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: 0.5px;
-  color: #c4c4c4;
+.body1 {
+    font-family: "zippy_book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #c4c4c4;
 }
 
-.body1-1{
-  font-family: "zippy_bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  letter-spacing: 0.5px;
-  color: #c4c4c4;
+.body1-1 {
+    font-family: "zippy_bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #c4c4c4;
 }
 
-.body2{
-  font-family: "zippy_book", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  letter-spacing: 0.25px;
-  color: #c4c4c4;
+.body2 {
+    font-family: "zippy_book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.25px;
+    color: #c4c4c4;
 }
 
-.button{
-  font-family: "zippy_bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 25px;
-  letter-spacing: 0.5px;
-  color: #c4c4c4;
+.button {
+    font-family: "zippy_bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    color: #c4c4c4;
 }
 
-.caption{
-  font-family: "zippy_book", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
-  letter-spacing: 0.4px;
-  color: #c4c4c4;
+.caption {
+    font-family: "zippy_book", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    color: #c4c4c4;
 }
 
-.overline{
-  font-family: "zippy_bold", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 1.5px;
-  color: #c4c4c4;
-  text-transform: uppercase;
+.overline {
+    font-family: "zippy_bold", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    color: #c4c4c4;
+    text-transform: uppercase;
 }
-
 
 
 /* ============================== */
+
+
 /* ======= TEXT ALIGNMENT ======= */
+
+
 /* ============================== */
-.textleft{
-  text-align: left;
-}
-.textcenter{
-  text-align: center;
-}
-.textright{
-  text-align: right;
+
+.textleft {
+    text-align: left;
 }
 
+.textcenter {
+    text-align: center;
+}
+
+.textright {
+    text-align: right;
+}
+
+
 /* ===================== */
+
+
 /* ======= OTHER ======= */
+
+
 /* ===================== */
-small, .small{
-  font-size: 0.8rem;
+
+small,
+.small {
+    font-size: 0.8rem;
 }
-.uppercase{
-  text-transform: uppercase;
+
+.uppercase {
+    text-transform: uppercase;
 }
-.fancytext{
-  @extend .small;
-  @extend .uppercase;
-  letter-spacing: 1px;
-  font-family: $titlesfont, sans-serif;
-  font-weight: 400;
+
+.fancytext {
+    @extend .small;
+    @extend .uppercase;
+    letter-spacing: 1px;
+    font-family: $titlesfont, sans-serif;
+    font-weight: 400;
 }
-.central-link{
-  @extend .margintophalf;
-  @extend .textcenter;
-  width: 100%;
-  a{
-    @extend .bg-graydark;
-    @extend .white;
-    @extend .fancytext;
-    display: inline-block;
-    padding: $gridgutter / 3 $gridgutter / 2;
-    &:hover{
-      background-color: $black;
+
+.central-link {
+    @extend .margintophalf;
+    @extend .textcenter;
+    width: 100%;
+    a {
+        @extend .bg-graydark;
+        @extend .white;
+        @extend .fancytext;
+        display: inline-block;
+        padding: $gridgutter / 3 $gridgutter / 2;
+        &:hover {
+            background-color: $black;
+        }
     }
-  }
 }
-.central-link-light{
-  @extend .margintophalf;
-  @extend .textcenter;
-  width: 100%;
-  a{
-    @extend .fancytext;
-    display: inline-block;
-    padding: $gridgutter / 3 $gridgutter / 2;
-    &:hover{
-      color: $gray;
+
+.central-link-light {
+    @extend .margintophalf;
+    @extend .textcenter;
+    width: 100%;
+    a {
+        @extend .fancytext;
+        display: inline-block;
+        padding: $gridgutter / 3 $gridgutter / 2;
+        &:hover {
+            color: $gray;
+        }
     }
-  }
 }

@@ -20,8 +20,15 @@ footer {
   padding-top: 48px;
 }
 footer ul {
+  color: #7F7F7F;
   padding-left: 48px;
   list-style-type: none;
+}
+footer ul .body1-1 {
+  color: #7F7F7F;
+}
+footer ul li {
+  color: #7F7F7F;
 }
 footer ul li a {
   color: #7F7F7F;
@@ -30,17 +37,22 @@ footer ul li a:hover {
   color: black;
 }
 footer #site-language {
+  color: #7F7F7F;
   font-size: 14px;
   padding-bottom: 6px;
   padding-top: 6px;
   padding-left: 24px;
 }
 footer .signature {
-  color: #999;
   background-color: rgba(232, 230, 218, 0.5);
   text-align: center;
   margin-top: 24px;
   padding-bottom: 6px;
   padding-top: 6px;
-  font-size: 12px;
+}
+footer .signature #signature {
+  color: #7F7F7F;
+}
+footer .apad li {
+  padding-bottom: 24px;
 }

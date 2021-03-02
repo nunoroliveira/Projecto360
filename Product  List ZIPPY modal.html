@@ -1,408 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link type="text/css" rel="stylesheet" href="css/normalize.css" />
-  <link type="text/css" rel="stylesheet" href="css/main.css" />
-  <link type="text/css" rel="stylesheet" href="css/styles.css" />
-  <title>ZIPPY Product List MODAL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <title>ZIPPY Product List MODAL</title>
 </head>
 
 
 <body>
 
-  <header id="main-header" class="bg-white shadow">
+    <header id="main-header" class="bg-white shadow">
 
-    <nav class="gridrowfull">
-      <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img  class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png"/></a>
-
-
-      <ul id="top-menu">
-        <li>
-          <a href="https://zippyonline.com/pt/menina/" title="Shop Menina">MENINA</a>
-        </li>
-
-        <li>
-          <a href="https://zippyonline.com/pt/menino/" title="Shop Menino">MENINO</a>
-        </li>
-
-        <li>
-          <a href="https://zippyonline.com/pt/bebe-menina/" title="Shop Bebé Menina">BEBÉ MENINA</a>
-        </li>
-
-        <li>
-          <a href="https://zippyonline.com/pt/bebe-menino/" title="Shop Bebé Menino">BEBÉ MENINO</a>
-        </li>
-
-        <li>
-          <a href="https://zippyonline.com/pt/recem-nascido/" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
-        </li>
-
-        <li>
-          <a href="https://zippyonline.com/pt/puericultura/" title="Shop Puericultura">PUERICULTURA</a>
-        </li>
-
-        <li>
-          <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
-        </li>
-
-        <li>
-          <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
-        </li>
-    </ul>
-
-    <ul id="customer-menu">
-      <li>
-        <a id="search" href="#"><i class="icn-search"></i> Pesquisar</a>
-      </li>
-
-      <li>
-        <a id="login" href="https://zippyonline.com/pt/login/"><i class="icn-profile"></i> Entrar</a>
-      </li>
-
-      <li>
-        <a id=shopping-cart href="#"><i class="icn-shopping-cart"></i><span id="cart-items">0</span></a>
-      </li>
+        <nav class="gridrowfull">
+            <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png" /></a>
 
 
-      </ul>
-    </nav>
-  </header>
-  
+            <ul id="top-menu">
+                <li>
+                    <a href="https://zippyonline.com/pt/menina/" title="Shop Menina">MENINA</a>
+                </li>
+
+                <li>
+                    <a href="https://zippyonline.com/pt/menino/" title="Shop Menino">MENINO</a>
+                </li>
+
+                <li>
+                    <a href="https://zippyonline.com/pt/bebe-menina/" title="Shop Bebé Menina">BEBÉ MENINA</a>
+                </li>
+
+                <li>
+                    <a href="https://zippyonline.com/pt/bebe-menino/" title="Shop Bebé Menino">BEBÉ MENINO</a>
+                </li>
+
+                <li>
+                    <a href="https://zippyonline.com/pt/recem-nascido/" title="Shop Recém Nascido">RECÉM-NASCIDO</a>
+                </li>
+
+                <li>
+                    <a href="https://zippyonline.com/pt/puericultura/" title="Shop Puericultura">PUERICULTURA</a>
+                </li>
+
+                <li>
+                    <a id="onSale" href="https://zippyonline.com/pt/saldos/" title="Shop Saldos"><strong>SALDOS</strong></a>
+                </li>
+
+                <li>
+                    <a id="stepByStep" href="#" title="Wish List"><strong>STEP BY STEP</strong></a>
+                </li>
+            </ul>
+
+            <ul id="customer-menu">
+                <li>
+                    <a id="search" href="#"><i class="icn-search"></i> Pesquisar</a>
+                </li>
+
+                <li>
+                    <a id="login" href="https://zippyonline.com/pt/login/"><i class="icn-profile"></i> Entrar</a>
+                </li>
+
+                <li>
+                    <a id=shopping-cart href="#"><i class="icn-shopping-cart"></i><span id="cart-items">0</span></a>
+                </li>
 
 
-  <main>
-    <button data-modal="#add-character" class="btn btn-primary btn-circle modal-toggle marginrightthird tooltip" title="Add Character"><i class="i-plus"></i>vamos começar minha gente</button>
-
-    <div class="modal">
-      <div class="gridrow">
-          <div class="modal-container">
-            <h5 class="h5">Temos algumas sugestões para si, veja o que preparamos</h5>
-            <p class="body1">Pode alterar os nossos filtros e adequar a sua pesquisa aos produtos que mais gosta</p>
-            <p class="body1">Comece agora a criar a sua lista!</p>
-            <div class="col-6">
-              <button type="submit" class="buuton button-list uppercase">vamos começar</button>
-          </div>
-          </div>
-      </div>
-    </div>
+            </ul>
+        </nav>
+    </header>
 
 
 
-    <div class="gridrowfull" id="banner">
-      <h1>Baby Shower da Clarinha</h1>
-    </div>
+    <main>
+        <button data-modal="#add-character" class="btn btn-primary btn-circle modal-toggle marginrightthird tooltip" title="Add Character"><i class="i-plus"></i></button>
 
-    <section class="gridrowfull flow">
-      <a class="apadleft" href="#">Zippy > </a>
-      <a href="#">Step by Step > </a>
-      <a href="#">Baby Shower > </a>
-      <a href="#">Produtos </a>
-    </section>
-
-
-
-  <div id="sortbar">
-      <div class="gridrowfull sortbar">
-        <div class="col-4 col-t-4 col-d-4 textright">
-          <p>Baby Shower</p>
+        <div class="modal">
+            <div class="gridrow">
+                <div class="modal-container">
+                    <h5 class="h5">Temos algumas sugestões para si, veja o que preparamos</h5>
+                    <p class="body1">Pode alterar os nossos filtros e adequar a sua pesquisa aos produtos que mais gosta</p>
+                    <p class="body1">Comece agora a criar a sua lista!</p>
+                    <div class="col-6">
+                        <button type="submit" class="button-list uppercase">vamos começar</button>
+                    </div>
+                </div>
+            </div>
         </div>
-          
-          <div class="col-4 col-t-6 col-d-6 textright"><span>ORDENAR POR</span>
-              <select>
+
+
+
+        <div class="gridrowfull" id="banner">
+            <h1>Baby Shower da Clarinha</h1>
+        </div>
+
+        <section class="gridrowfull flow">
+            <a class="apadleft" href="#">Zippy > </a>
+            <a href="#">Step by Step > </a>
+            <a href="#">Baby Shower > </a>
+            <a href="#">Produtos </a>
+        </section>
+
+
+
+        <div id="sortbar">
+            <div class="gridrowfull sortbar">
+                <div class="col-4 col-t-4 col-d-4 textright">
+                    <p>Baby Shower</p>
+                </div>
+
+                <div class="col-4 col-t-6 col-d-6 textright"><span>ORDENAR POR</span>
+                    <select>
                   <option value="Relevant" selected>Relevância</option>
                   <option value="Price-increasing">Preço Ascendente</option>
                   <option value="Price-decreasing">Preço Descendente</option>
               </select>
-          </div>
+                </div>
 
-          <div class="col-4 col-t-2 col-d-2 cart textright">
-            <button class=" button-list uppercase" type="button">Finalizar</button>
-          </div>
+                <div class="col-4 col-t-2 col-d-2 cart textright">
+                    <button class=" button-list uppercase" type="button">Finalizar</button>
+                </div>
 
-      </div>
-  </div>
-  <div class="gridrow">
-      <div id="filters" class="col-12 col-t-2 col-d-2">
-        <button type="button" id="buttonCateg" class="collapsible1 uppercase col-12">Categorias<span id="listSignalCateg" class="textright"></span></button>
-        <div class="content1 col-12">
-          <ul id="filter-categories" class="categories">
-            <li><a href="#">Menina</a></li>
-            <li><a href="#">Menino</a> </li>
-            <li><a href="#">Bebé menina</a></li>
-            <li><a href="#">Bebé menino</a></li>
-            <li><a href="#">Puericultura</a></li>
-            <li><a href="#">Recém-nascido</a></li>
-            <li><a href="#">Ver tudo</a></li>
-          </ul>
-        </div>
-
-        <button type="button" id="buttonPrice" class="collapsible1 uppercase col-12">Preço<span id="listSignalPrice" class="textright"></span></button>
-        <div class="content1 col-12">
-          <ul id="filter-price" class="categories">
-            <li><a href="#">De 2,50€ a 4,99€</a></li>
-            <li><a href="#">De 5,00€ a 9,99€</a> </li>
-            <li><a href="#">De 10,00€ a 14,99€</a></li>
-            <li><a href="#">De 15,00€ a 19,99€</a></li>
-            <li><a href="#">De 20,00€ a 24,99€</a></li>
-            <li><a href="#">De 25,00€ a 29,99€</a></li>
-            <li><a href="#">Mais de 30,00€</a></li>
-          </ul>
-        </div>
-
-        <button type="button" id="buttonSize" class="collapsible1 uppercase col-12">Tamanho<span id="listSignalSize" class="textright"></span></button>
-        <div class="content1 col-12">
-          <ul id="filter-size" class="categories">
-            <li><a href="#">0 - 12 meses</a></li>
-            <li><a href="#">1 a 2 anos</a> </li>
-            <li><a href="#">2 a 3 anos</a></li>
-            <li><a href="#">4 a 5 anos</a></li>
-            <li><a href="#">6 a 7 anos</a></li>
-            <li><a href="#">8 a 9 anos</a></li>
-            <li><a href="#">Mais de 10 anos</a></li>
-          </ul>
-        </div>
-
-        <button type="button" id="buttonColor" class="collapsible1 uppercase col-12">Cor<span id="listSignalColor" class="textright"></span></button>
-        <div class="content1 col-12">
-          <ul id="filter-color" class="categories">
-            <li><a href="#">Azul</a></li>
-            <li><a href="#">Amarelo</a> </li>
-            <li><a href="#">Branco</a></li>
-            <li><a href="#">Preto</a></li>
-            <li><a href="#">Rosa</a></li>
-            <li><a href="#">Verde</a></li>
-            <li><a href="#">Vermelho</a></li>
-          </ul>
-        </div>
-                    
-      </div>
-      <div id="mainproductlist" class="product-list col-12 gridrowfull col-t-10 col-d-10">
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 1.png"/>
-              </div>
-              <div class="col12 quick-view">
-                <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-                <p class="margintophalf marginbottomnone uppercase textcenter">CASACO DE MALHA PARA RECÉM-NASCIDA 'DOTS', ...</p>
-                <p class="secondary marginnone textcenter">15,99€</p>
-              </div>
-           </a>
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 2.png"/>
-              </div>
-              <div class="col12 quick-view">
-              <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-              <p class="margintophalf marginbottomnone uppercase textcenter">MACACÃO E BODY PARA RECÉM-NASCIDA, CINZA/...</p>
-              <p class="secondary marginnone textcenter">19,99€</p>
             </div>
-          </a>
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 3.png"/>
-              </div>
-              <div class="col12 quick-view">
-                <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-                <p class="margintophalf marginbottomnone uppercase textcenter">FITA FLORIDA CABELO PARA MENINA, BRANCO</p>              
-                <p class="secondary marginnone textcenter">4,99€</p>
-              </div>
-          </a>
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 4.png"/>
-              </div>
-              <div class="col12 quick-view">
-                <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-                <p class="margintophalf marginbottomnone uppercase textcenter">TURBANTE PARA RECÉM-NASCIDA, ROSA</p>
-                <p class="secondary marginnone textcenter">5,99€</p>
+        </div>
+        <div class="gridrow">
+            <div id="filters" class="col-12 col-t-2 col-d-2">
+                <button type="button" id="buttonCateg" class="collapsible1 uppercase col-12">Categorias<span id="listSignalCateg" class="textright"></span></button>
+                <div class="content1 col-12">
+                    <ul id="filter-categories" class="categories">
+                        <li><a href="#">Menina</a></li>
+                        <li><a href="#">Menino</a> </li>
+                        <li><a href="#">Bebé menina</a></li>
+                        <li><a href="#">Bebé menino</a></li>
+                        <li><a href="#">Puericultura</a></li>
+                        <li><a href="#">Recém-nascido</a></li>
+                        <li><a href="#">Ver tudo</a></li>
+                    </ul>
+                </div>
+
+                <button type="button" id="buttonPrice" class="collapsible1 uppercase col-12">Preço<span id="listSignalPrice" class="textright"></span></button>
+                <div class="content1 col-12">
+                    <ul id="filter-price" class="categories">
+                        <li><a href="#">De 2,50€ a 4,99€</a></li>
+                        <li><a href="#">De 5,00€ a 9,99€</a> </li>
+                        <li><a href="#">De 10,00€ a 14,99€</a></li>
+                        <li><a href="#">De 15,00€ a 19,99€</a></li>
+                        <li><a href="#">De 20,00€ a 24,99€</a></li>
+                        <li><a href="#">De 25,00€ a 29,99€</a></li>
+                        <li><a href="#">Mais de 30,00€</a></li>
+                    </ul>
+                </div>
+
+                <button type="button" id="buttonSize" class="collapsible1 uppercase col-12">Tamanho<span id="listSignalSize" class="textright"></span></button>
+                <div class="content1 col-12">
+                    <ul id="filter-size" class="categories">
+                        <li><a href="#">0 - 12 meses</a></li>
+                        <li><a href="#">1 a 2 anos</a> </li>
+                        <li><a href="#">2 a 3 anos</a></li>
+                        <li><a href="#">4 a 5 anos</a></li>
+                        <li><a href="#">6 a 7 anos</a></li>
+                        <li><a href="#">8 a 9 anos</a></li>
+                        <li><a href="#">Mais de 10 anos</a></li>
+                    </ul>
+                </div>
+
+                <button type="button" id="buttonColor" class="collapsible1 uppercase col-12">Cor<span id="listSignalColor" class="textright"></span></button>
+                <div class="content1 col-12">
+                    <ul id="filter-color" class="categories">
+                        <li><a href="#">Azul</a></li>
+                        <li><a href="#">Amarelo</a> </li>
+                        <li><a href="#">Branco</a></li>
+                        <li><a href="#">Preto</a></li>
+                        <li><a href="#">Rosa</a></li>
+                        <li><a href="#">Verde</a></li>
+                        <li><a href="#">Vermelho</a></li>
+                    </ul>
+                </div>
+
             </div>
-          </a>
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 5.png"/>
-              </div>
-              <div class="col12 quick-view">
-                <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-                <p class="margintophalf marginbottomnone uppercase textcenter">BODY MANGA COMPRIDA PARA RECÉM-NASCIDO, ...</p>
-                <p class="secondary marginnone textcenter">7,99€</p>
-              </div>
-          </a>
-          <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
-              <div class="product-card-image">
-                  <img class="imgfit" src="/img/RESULTADOS 6.png"/>
-              </div>
-              <div class="col12 quick-view">
-                <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
-                <p class="margintophalf marginbottomnone uppercase textcenter">MEIAS ALTAS PARA BEBÉ MENINA COM LAÇO, AZUL...</p>
-                <p class="secondary marginnone textcenter">3,99€</p>
-              </div>
-          </a>
-          
-          <div class="central-link-light marginbottomdouble">
-              <button class=" button-list uppercase" type="button">carregar mais</button>
-          </div>
-      </div>
-  </div>
+            <div id="mainproductlist" class="product-list col-12 gridrowfull col-t-10 col-d-10">
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 1.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">CASACO DE MALHA PARA RECÉM-NASCIDA 'DOTS', ...</p>
+                        <p class="secondary marginnone textcenter">15,99€</p>
+                    </div>
+                </a>
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 2.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">MACACÃO E BODY PARA RECÉM-NASCIDA, CINZA/...</p>
+                        <p class="secondary marginnone textcenter">19,99€</p>
+                    </div>
+                </a>
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 3.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">FITA FLORIDA CABELO PARA MENINA, BRANCO</p>
+                        <p class="secondary marginnone textcenter">4,99€</p>
+                    </div>
+                </a>
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 4.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">TURBANTE PARA RECÉM-NASCIDA, ROSA</p>
+                        <p class="secondary marginnone textcenter">5,99€</p>
+                    </div>
+                </a>
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 5.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">BODY MANGA COMPRIDA PARA RECÉM-NASCIDO, ...</p>
+                        <p class="secondary marginnone textcenter">7,99€</p>
+                    </div>
+                </a>
+                <a class="product-card col-6 col-t-4" href="product.html" title="View Product">
+                    <div class="product-card-image">
+                        <img class="imgfit" src="/img/RESULTADOS 6.png" />
+                    </div>
+                    <div class="col12 quick-view">
+                        <button class="col-8 button-quick-view uppercase" type="button">vizualização rápida</button>
+                        <p class="margintophalf marginbottomnone uppercase textcenter">MEIAS ALTAS PARA BEBÉ MENINA COM LAÇO, AZUL...</p>
+                        <p class="secondary marginnone textcenter">3,99€</p>
+                    </div>
+                </a>
 
-  <div class="gridrow newsletter margintopbig">
-    <p class="col-12 textcenter uppercase">Subscreva a Nossa newsletter</p>
-    <form class="col-12 col-d-4">
-        <div class="col-12">
-            <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+                <div class="central-link-light marginbottomdouble">
+                    <button class=" button-list uppercase" type="button">carregar mais</button>
+                </div>
+            </div>
         </div>
-    
-        <div class="col-12">
-            <button type="submit" class="uppercase">Subscrever newsletter</button>
+
+        <div class="gridrow newsletter margintopbig">
+            <p class="col-12 textcenter uppercase">Subscreva a Nossa newsletter</p>
+            <form class="col-12 col-d-4">
+                <div class="col-12">
+                    <input type="email" placeholder="Introduza o seu e-mail" name="email" />
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="uppercase">Subscrever newsletter</button>
+                </div>
+            </form>
         </div>
-    </form>        
-    </div>
 
 
-</main>
-
-  
-<footer id="main-footer">
-
-  <div class="gridrowfull">
-    <div class="col-5 col-d-3">
-      <ul class="margintopnone">
-        <li><h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><i class="icn-local"></i> ZIPPY</h6></a></li>
-        <li><h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><i class="icn-shipping"></i>ENTREGAS</h6></a></li>
-        <li><h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><i class="icn-arrows"></i>TROCAS & DEVOLUÇÕES</h6></a></li>
-      </ul>
-    </div>
-    <div class="col-7 col-d-2">
-      
-      <ul class="margintopnone">
-        <h6 id="help">AJUDA</h6>
-        <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
-        <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
-      </ul>
-    </div>
-
-    <div class="col-6 col-d-3">
-      
-      <ul class="margintopnone">
-        <li><h6 id="about-zippy">SOBRE A ZIPPY</h6></li>
-        <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
-        <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
-        <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
-        <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
-        <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
-        <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
-      </ul>
-    </div>
-
-    <div class="col-6 col-d-2">
-      
-      <ul class="margintopnone">
-        <h6 id="follow-us">FOLLOW US</h6>
-        <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i>Facebook</a></li>
-        <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i>Instagram</a></li>
-        <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i>Pinterest</a></li>
-      </ul>
-    </div>
-
-    <div class="col-12 col-d-2">
-      
-      <ul class="margintopnone">
-        <h6 id="child-care-help">AJUDA PUERICULTURA</h6>
-        <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
-        <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
-      </ul>
-    </div>
-  </div>
-
-    <div id="site-language" class="gridrowfull col-12">
-      <p class=" col-2"><span id="site-language"><i class="icn-world"></i>Portugal | português</span></p>
-
-    </div>
-
-    <div class="col-12 signature">
-      <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
-
-    </div>
-
-  
+    </main>
 
 
-</footer>
+    <footer id="main-footer">
 
+        <div class="gridrowfull">
+            <div class="col-5 col-d-3">
+                <ul class="margintopnone">
+                    <li>
+                        <h6><a href="https://zippyonline.com/pt/we-stay-together.html" title="Zippy Stores"><i class="icn-local"></i> ZIPPY</h6></a></li>
+                    <li>
+                        <h6><a href="https://zippyonline.com/pt/ajuda/entregas/" title="Deliveries"><i class="icn-shipping"></i>ENTREGAS</h6></a></li>
+                    <li>
+                        <h6><a href="https://zippyonline.com/pt/ajuda/trocas-devolucoes/" title="Returns"><i class="icn-arrows"></i>TROCAS & DEVOLUÇÕES</h6></a></li>
+                </ul>
+            </div>
+            <div class="col-7 col-d-2">
 
-<script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <ul class="margintopnone">
+                    <h6 id="help">AJUDA</h6>
+                    <li><a href="https://zippyonline.com/pt/ajuda/perguntas-frequentes/" title="Frequent Questions">Perguntas Frequentes</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda/condicoes-gerais-de-venda/" title="Selling Conditions">Condições Gerais de Venda</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda/promocoes-campanhas/" title="Promos and Campaigns">Promoções & Campanhas</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda/formas-de-pagamento/" title="Payment Methods">Formas de Pagamento</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda/apoio-ao-cliente/" title="Client Support">Apoio ao Cliente</a></li>
+                    <li><a href="https://zippyonline.com/pt/talao-oferta.html" title="Gift Card">Talão de Oferta</a></li>
+                </ul>
+            </div>
 
+            <div class="col-6 col-d-3">
 
-  <script>
+                <ul class="margintopnone">
+                    <li>
+                        <h6 id="about-zippy">SOBRE A ZIPPY</h6>
+                    </li>
+                    <li><a href="https://zippyonline.com/pt/sobre-a-zippy/a-nossa-historia/" title="Our Story">A nossa história</a></li>
+                    <li><a href="https://zippyonline.com/pt/sobre-a-zippy/qualidade/" title="Quality">Qualidade</a></li>
+                    <li><a href="https://zippyonline.com/pt/sobre-a-zippy/grupo-sonae/" title="SONAE Group">Grupo SONAE</a></li>
+                    <li><a href="https://www.livroreclamacoes.pt/inicio" title="Complain Book">Livro de Reclamações Eletrónico</a></li>
+                    <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politicas-de-sustentabilidade/" title="Sustainability Policies">Políticas de Sustentabilidade</a></li>
+                    <li><a href="https://zippyonline.com/pt/sobre-a-zippy/politica-de-privacidade/" title="Privacy Policies">Política de Privacidade</a></li>
+                </ul>
+            </div>
 
-//Quantity tool under
+            <div class="col-6 col-d-2">
 
-function wcqib_refresh_quantity_increments() {
-    jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
-        var c = jQuery(b);
-        c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
-    })
-};
+                <ul class="margintopnone">
+                    <h6 id="follow-us">FOLLOW US</h6>
+                    <li><a href="https://www.facebook.com/zykidstore" title="Facebook"><i class="icn-facebook"></i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/zippykidstore/?hl=pt" title="Instagram"><i class="icn-instagram"></i>Instagram</a></li>
+                    <li><a href="https://www.pinterest.pt/zippykidstore/" title="Pinterest"><i class="icn-pinterest"></i>Pinterest</a></li>
+                </ul>
+            </div>
 
-String.prototype.getDecimals || (String.prototype.getDecimals = function() {
-    var a = this,
-        b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
-    return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
-}), jQuery(document).ready(function() {
-    wcqib_refresh_quantity_increments()
-}), jQuery(document).on("updated_wc_div", function() {
-    wcqib_refresh_quantity_increments()
-}), jQuery(document).on("click", ".plus, .minus", function() {
-    var a = jQuery(this).closest(".quantity").find(".qty"),
-        b = parseFloat(a.val()),
-        c = parseFloat(a.attr("max")),
-        d = parseFloat(a.attr("min")),
-        e = a.attr("step");
-    b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
-});
+            <div class="col-12 col-d-2">
+
+                <ul class="margintopnone">
+                    <h6 id="child-care-help">AJUDA PUERICULTURA</h6>
+                    <li><a href="https://zippyonline.com/pt/ajuda-puericultura/cadeiras-auto/" title="Auto chairs">Cadeiras Auto</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda-puericultura/puericultura-leve/" title="Light Child Care">Puericultura Leve</a></li>
+                    <li><a href="https://zippyonline.com/pt/ajuda-puericultura/brinquedos/" title="Toys">Brinquedos</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="site-language" class="gridrowfull col-12">
+            <p class=" col-2"><span id="site-language"><i class="icn-world"></i>Portugal | português</span></p>
+
+        </div>
+
+        <div class="col-12 signature">
+            <p id="signature">© Zippy 2020. Todos os direitos reservados.</p>
+
+        </div>
 
 
 
-// COLLAPSIBLES
 
-var coll = document.getElementsByClassName("collapsible1");
-var i;
-for (i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        this.nextElementSibling.classList.toggle('active');
-    });
-};
+    </footer>
 
 
-
-//MODAL
-$(document).ready(function(){
-
-  $(".modal").addClass('modal-open');
-});
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 
+    <script>
+        //Quantity tool under
 
-$(document).on('click', '.modal-toggle', function(e){
-  debugger;
-        e.preventDefault();
-        let modalOpen = $(this).data('modal');
-        $(".modal").addClass('modal-open');
-    });
-    $(".modal-close").click(function(e){
-        e.preventDefault();
-        $('.modal-open').removeClass('modal-open');
-    });
+        function wcqib_refresh_quantity_increments() {
+            jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
+                var c = jQuery(b);
+                c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
+            })
+        };
+
+        String.prototype.getDecimals || (String.prototype.getDecimals = function() {
+            var a = this,
+                b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+            return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
+        }), jQuery(document).ready(function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("updated_wc_div", function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("click", ".plus, .minus", function() {
+            var a = jQuery(this).closest(".quantity").find(".qty"),
+                b = parseFloat(a.val()),
+                c = parseFloat(a.attr("max")),
+                d = parseFloat(a.attr("min")),
+                e = a.attr("step");
+            b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
+        });
 
 
-  </script>
+
+        // COLLAPSIBLES
+
+        var coll = document.getElementsByClassName("collapsible1");
+        var i;
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                this.nextElementSibling.classList.toggle('active');
+            });
+        };
+
+
+
+        //MODAL
+        $(document).ready(function() {
+
+            $(".modal").addClass('modal-open');
+        });
+
+
+
+        $(document).on('click', '.modal-toggle', function(e) {
+            debugger;
+            e.preventDefault();
+            let modalOpen = $(this).data('modal');
+            $(".modal").addClass('modal-open');
+        });
+        $(".modal-close").click(function(e) {
+            e.preventDefault();
+            $('.modal-open').removeClass('modal-open');
+        });
+    </script>
 
 </body>
+
 </html>

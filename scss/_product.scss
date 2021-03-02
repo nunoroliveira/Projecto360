@@ -1,108 +1,46 @@
-.breadcrumb{
-    @extend .marginbottomfull;
-    box-shadow: 0 0 10px $gray;
-    line-height: $gridgutter * 2.5;
+#banner-heading {
+    color: #ffffff
 }
-#product{
-    #thumbs{
-        a{
-            @extend .marginbottomhalf;
-            display: inline-block;
-            background: linear-gradient($gray, $graydark);
-            img{
-                @extend .animate;
-                opacity: 0.6;
-            }
-            &.open{
-                border: 2px solid $primary;
-                img{
-                    opacity: 1;
-                }
-            }
-            &:hover{
-                img{
-                    opacity: 1;
-                }
-            }
-        }
-    }
-    #bigimg{
-        .share{
-            @extend .small;
-            color: $gray;
-            a{
-                color: $gray;
-                font-size: 1.3rem;
-                display: inline-block;
-                vertical-align: middle;
-                margin-left: $gridgutter / 5;
-                &:hover{
-                    color: $black;
-                }
-            }
-        }
-    }
-    #product-description{
-        h1 {
-            font-size: 1.7rem;
-        }
-        .product-description-line{
-            line-height: $gridgutter * 1.5;
 
-            .price{
-                @extend .secondary;
-                font-size: 1.5rem;
-            }
-            .score{
-                @extend .graymedium;
-                i{
-                    display: inline-block;
-                    margin: 0 1px;
-                }
-                span{
-                    display: inline-block;
-                    margin-left: $gridgutter / 3;
-                }
-            }
-            .smallerheight{
-                line-height: 1.618;
-            }
-            
-            .cart{
-                button{
-                    cursor: pointer;
-                    display: inline-block;
-                    height: $gridgutter*1.5;
-                    line-height: $gridgutter*1.5;
-                    width: 100%;
-                    border: none;
-                    &:hover{
-                        background-color: none;
-                    }
-                }
-            }
-        }
-
+#product-description {
+    & h5 {
+        color: #221f20;
+    }
+    & #description {
+        color: #7f7f7f;
+    }
+    & #ref {
+        color: #7f7f7f;
+    }
+    & #sizeLanguage {
+        color: #221f20;
+    }
+    & .button-size {
+        color: #7f7f7f;
+    }
+    & .color {
+        color: #221f20;
+        margin-top: $gridgutter / 4;
+        margin-bottom: $gridgutter / 4;
+        text-align: left;
     }
 }
 
-
-.flow{
-    height: 14px;    
+.flow {
+    height: 14px;
     text-align: left;
     padding-top: 12px;
     padding-bottom: 12px;
-  >a{
-    font-stretch: normal;
-  }
-
+    >a {
+        font-stretch: normal;
+    }
 }
 
-.apadleft{
+.apadleft {
     padding-left: 36px;
 }
 
-.color-dots{
+.color-dots {
     height: $gridgutter;
     width: $gridgutter;
     background-color: #454545;
@@ -111,20 +49,14 @@
     border: solid 3px #dadada;
 }
 
-.color{
-    margin-top: $gridgutter / 4;
-    margin-bottom: $gridgutter / 4;
-    text-align: left;
-}
-
-.size{
+.size {
     margin-top: $gridgutter / 4;
     margin-bottom: $gridgutter / 4;
     text-align: left;
     padding-left: $gridgutter / 2;
 }
 
-.button-size1{
+.button-size1 {
     width: 114px;
     height: 36px;
     margin: 12px 13px 0px 0px;
@@ -135,7 +67,7 @@
     cursor: pointer;
 }
 
-.button-size{
+.button-size {
     width: 114px;
     height: 36px;
     margin: 12px 13px 0px 0px;
@@ -144,9 +76,14 @@
     background-color: white;
     text-align: center;
     cursor: pointer;
+    &.active2 {
+        font-weight: bold;
+        border: solid 1px #e8e6da;
+        background-color: #e8e6da;
+    }
 }
 
-.sizeguide{
+.sizeguide {
     width: 119px;
     height: 22px;
     text-align: left;
@@ -155,7 +92,7 @@
     text-decoration: underline;
 }
 
-.button-list{
+.button-list {
     width: 219px;
     height: 36px;
     background-color: #ed282d;
@@ -165,49 +102,56 @@
     border: #ed282d;
 }
 
-.lists{
+.lists {
     margin-bottom: 40px;
 }
 
-.nopadleft{
+.nopadleft {
     padding-left: 0px !important;
 }
 
-.buylook{
+.buylook {
+    color: #221f20;
     margin-top: $gridgutter * 2;
     margin-bottom: $gridgutter / 2;
 }
-.newsletter{
+
+.newsletter {
     margin-top: $gridgutter * 7.5;
     margin-bottom: $gridgutter * 2.5;
     justify-content: center;
-    > p{
+    p {
+        color: #7f7f7f;
         margin-bottom: $gridgutter * 2;
     }
-    & button{
+    & button {
         margin-top: $gridgutter / 2;
         border: solid 1px #ed282d;
         background-color: #ed282d;
     }
 }
 
-.shareicons{
+.shareicons {
     padding-left: $gridgutter / 4;
-    
 }
 
-
-.image-column{
+.image-column {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
 
-//Collapsibles
+.product-card {
+    & .subtitle2 {
+        color: #221f20;
+    }
+}
 
+//Collapsibles
 .collapsible {
+    margin-bottom: $gridgutter * 3 / 4;
+    background-color: #E8E6DA;
     display: block;
-    background-color: #e8e6da;
     color: #7f7f7f;
     cursor: pointer;
     padding-top: 8px;
@@ -218,28 +162,35 @@
     text-align: left;
     outline: none;
     font-size: 16px;
-    margin-top: 20px;
     position: relative;
-    > span{
+    >span {
         position: absolute;
         right: 4px;
+        &:before {
+            content: "+";
+        }
     }
-  }
-  
-  .active, .collapsible:hover {
-    background-color: #e8e6da;
-  }
-  
-  .content {
+    &.active {
+        >span::before {
+            content: "-";
+        }
+    }
+}
+
+.content {
+    background-color: #E8E6DA;
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: #e8e6da;
-  }
-
+    background-color: $white;
+    margin: 0;
+    &.active {
+        background-color: $white;
+        display: block;
+    }
+}
 
 //Quantity tool under
-
 .quantity {
     display: inline-flex;
     margin-top: $gridgutter / 4;
@@ -251,54 +202,62 @@
     line-height: 1.38;
     letter-spacing: 0.3px;
     text-align: left;
-    color: #221f20; }
-   
-   .quantity .input-text.qty {
+    color: #221f20;
+}
+
+.quantity .input-text.qty {
     width: 35px;
     height: 39px;
     padding: 0 5px;
     text-align: center;
     background-color: transparent;
     border: 1px solid #efefef;
-   }
-   
-   .quantity.buttons_added {
+}
+
+.quantity.buttons_added {
     text-align: left;
     position: relative;
     white-space: nowrap;
-    vertical-align: top; }
-   
-   .quantity.buttons_added input {
+    vertical-align: top;
+}
+
+.quantity.buttons_added input {
     display: inline-block;
     margin: 0;
     vertical-align: top;
     box-shadow: none;
-   }
-   
-   .quantity.buttons_added .minus,
-   .quantity.buttons_added .plus {
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
     padding: 7px 10px 8px;
     height: 41px;
     background-color: #ffffff;
     border: 1px solid #efefef;
-    cursor:pointer;}
-   
-   .quantity.buttons_added .minus {
-    border-right: 0; }
-   
-   .quantity.buttons_added .plus {
-    border-left: 0; }
-   
-   .quantity.buttons_added .minus:hover,
-   .quantity.buttons_added .plus:hover {
-    background: #eeeeee; }
-   
-   .quantity input::-webkit-outer-spin-button,
-   .quantity input::-webkit-inner-spin-button {
+    cursor: pointer;
+}
+
+.quantity.buttons_added .minus {
+    border-right: 0;
+}
+
+.quantity.buttons_added .plus {
+    border-left: 0;
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
-    margin: 0; }
-    
-    .quantity.buttons_added .minus:focus,
-   .quantity.buttons_added .plus:focus {
-    outline: none; }
+    margin: 0;
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none;
+}

@@ -1,10 +1,10 @@
-.product-list{
-    .product-card{
+.product-list {
+    .product-card {
         @extend .marginverticalfull;
-        &-image{
+        &-image {
             position: relative;
             background-color: $gray;
-            &-badge{
+            &-badge {
                 @extend .white;
                 @extend .bg-primary;
                 padding: $gridgutter / 8 $gridgutter / 4;
@@ -16,22 +16,22 @@
                 z-index: 3;
             }
         }
-        
     }
 }
-#headerproductlist{
+
+#headerproductlist {
     height: 30vh;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url(../imgs/slider/slider01-small.jpg);
-    @media(min-width: $tablet){
+    @media(min-width: $tablet) {
         background-image: url(../imgs/slider/slider01-medium.jpg);
     }
-    @media(min-width: $desktop){
+    @media(min-width: $desktop) {
         background-image: url(../imgs/slider/slider01.jpg);
     }
-    .textoverlay{
+    .textoverlay {
         @extend .textcenter;
         background-color: rgba($black, 0.6);
         display: flex;
@@ -39,79 +39,80 @@
         justify-content: center;
         color: $white;
         height: 30vh;
-        h1{
+        h1 {
             font-size: 3rem;
             margin-bottom: $gridgutter;
         }
-        p{
+        p {
             @extend .marginnone;
         }
     }
 }
 
-#sortbar{
+#sortbar {
     align-items: center;
     box-shadow: 0 0 10px $gray;
     line-height: $gridgutter * 2;
-    select{
+    select {
         border: 1px solid darken($white, 10%);
         height: $gridgutter * 1.2;
         padding: 0 $gridgutter / 3;
         margin-left: $gridgutter / 3;
     }
-    & p{
+    & p {
         margin: 0;
     }
 }
-#mainproductlist{
+
+#mainproductlist {
     padding: 0;
 }
-#filters{
+
+#filters {
     margin-top: 12px;
-    .categories{
+    .categories {
         margin: 0;
         padding-left: $gridgutter / 2;
-        display:none;
-        &.open{
+        display: none;
+        &.open {
             display: block;
         }
-        @media(min-width: $tablet){
+        @media(min-width: $tablet) {
             display: block;
         }
         list-style-type: none;
-        > li{
-            > a {
+        >li {
+            >a {
                 display: block;
                 position: relative;
             }
-            
-            &.open{
-                > a{
-                    .icn-chevron-up{
+            &.open {
+                >a {
+                    .icn-chevron-up {
                         display: block;
                     }
-                    .icn-chevron-down{
+                    .icn-chevron-down {
                         display: none;
                     }
                 }
-                > ul{
+                >ul {
                     display: block;
                 }
             }
         }
     }
-    .sizes{
+    .sizes {
         display: none;
-        &.open{
+        &.open {
             display: block;
         }
-        @media(min-width: $tablet){
+        @media(min-width: $tablet) {
             display: block;
         }
-        .sizebtns{
+        .sizebtns {
             display: flex;
             justify-content: space-between;
-            button{
+            button {
                 @extend .fancytext;
                 @extend .animate;
                 cursor: pointer;
@@ -120,7 +121,7 @@
                 line-height: $gridgutter;
                 border: 1px solid darken($white, 10%);
                 background-color: $white;
-                &:hover{
+                &:hover {
                     background-color: darken($white, 10%);
                     border-color: darken($white, 30%);
                 }
@@ -129,9 +130,7 @@
     }
 }
 
-
 //Collapsibles
-
 .collapsible1 {
     display: block;
     color: #7f7f7f;
@@ -146,67 +145,59 @@
     font-size: 16px;
     position: relative;
     background-color: $white !important;
-    > span{
+    >span {
         position: absolute;
         right: 4px;
-        &:before{
-            content:"+";
+        &:before {
+            content: "+";
         }
-    
     }
-    &.active{
-        > span::before{
+    &.active {
+        >span::before {
             content: "-";
         }
     }
-
-
-    & ul{
-        margin:0;
+    & ul {
+        margin: 0;
         padding: 0;
         text-indent: 0;
         list-style-type: 0;
         list-style: none;
         list-style-image: none;
         background-color: $white;
-  } 
-
+    }
 }
+
 .content1 {
-    
     padding: 0 18px;
     display: none;
     overflow: hidden;
     background-color: $white;
     margin: 0;
-    &.active{
+    &.active {
         background-color: $white;
         display: block;
     }
-  }
+}
 
-  .margintopbig{
-      margin-top: $gridgutter * 7 !important;
-  }
+.margintopbig {
+    margin-top: $gridgutter * 7 !important;
+}
 
-  .button-quick-view{
+.button-quick-view {
     flex-grow: 0;
     padding: 7px 3px 6px;
     border: solid 0.5px rgba(127, 127, 127, 0.7);
     background-color: #ffffff;
-  }
+}
 
-  .quick-view{
-     text-align: center;
-     margin-top: 18px;
-  }
+.quick-view {
+    text-align: center;
+    margin-top: 18px;
+}
 
-
-  
-  // MODAL
-
-
-  .modal{
+// MODAL
+.modal {
     @extend .animate;
     position: fixed;
     z-index: 10010;
@@ -216,37 +207,22 @@
     width: 100%;
     height: 100vh;
     overflow-y: scroll;
-    &-container{
+    &-container {
         @extend .animate;
         box-sizing: border-box;
-        background-color: $graydark;
+        background-color: #ffffff;
         box-shadow: 0 0 $gridgutter / 2 $gridgutter / 8 rgba($black, 0.6);
         margin: 100vh auto $gridgutter;
         padding: $gridgutter / 2 0;
-        width: 100%;
-        @media(min-width: $tablet){
-            padding: $gridgutter $gridgutter / 2;
-            width: percentage( 10/12 );
-        }
-        @media(min-width: $desktop){
-            width: percentage( 8/12 );
-        }
-        &-small{
-            @media(min-width: $tablet){
-                padding: $gridgutter $gridgutter / 2;
-                width: percentage( 6/12 );
-            }
-            @media(min-width: $desktop){
-                width: percentage( 4/12 );
-            }
-        }
+        width: 519px;
+        height: 522px;
     }
-    &-open{
+    &-open {
         top: 0;
         opacity: 1;
-        .modal-container{
+        .modal-container {
             margin: $gridgutter auto;
-            @media(min-width: $tablet){
+            @media(min-width: $tablet) {
                 margin: $gridgutter * 4.5 auto $gridgutter;
             }
         }
