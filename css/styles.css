@@ -1826,7 +1826,6 @@ body > header nav > ul li a {
 }
 #sortbar {
   align-items: center;
-  box-shadow: 0 0 10px #747474;
   line-height: 48px;
 }
 #sortbar select {
@@ -2823,6 +2822,13 @@ footer .apad li {
   background-color: #ed282d;
 }
 
+#mainproductlist .subtitle2 {
+  color: #221F20;
+}
+#mainproductlist .subtitle1 {
+  color: #7f7f7f;
+}
+
 .body1 {
   background-image: url("../img/partilha.png");
   background-repeat: no-repeat;
@@ -3104,7 +3110,7 @@ body, html {
   font-style: normal;
   line-height: 1.24;
   text-align: left;
-  color: #7f7f7f;
+  color: #4E4E4E;
 }
 
 .WhatsApp {
@@ -3129,7 +3135,7 @@ body, html {
   font-family: arial;
   font-size: 16px;
   text-align: left;
-  color: #7f7f7f;
+  color: #4E4E4E;
 }
 
 .mensagem2 {
@@ -3140,7 +3146,7 @@ body, html {
   font-family: arial;
   font-size: 16px;
   text-align: left;
-  color: #7f7f7f;
+  color: #4E4E4E;
 }
 
 .imgeventos {

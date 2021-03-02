@@ -203,3 +203,12 @@ margin: 0 31.4px 0 0;
   border: solid 1px #ed282d;
   background-color: #ed282d;
 }
+
+#mainproductlist {
+  & .subtitle2 {
+      color: #221F20
+  }
+  & .subtitle1 {
+    color: #7f7f7f
+  }
+}
