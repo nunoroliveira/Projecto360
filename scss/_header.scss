@@ -1,11 +1,10 @@
 @import 'variables';
-
-body{
+body {
     padding-top: 0;
     margin-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    > header{
+    >header {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
@@ -13,27 +12,24 @@ body{
         border-bottom: 1px solid $graylight;
         font-family: "zippy_book";
         font-size: 12px;
-        
-        nav{
+        nav {
             justify-content: space-between;
-            #logo{
+            #logo {
                 padding-left: $gridgutter * 1.5;
                 display: inline-flex;
                 align-items: center;
-                > .logoZippy{
+                >.logoZippy {
                     height: 40px;
-                  
                 }
-            
             }
-            > ul{
+            >ul {
                 padding: $gridgutter/2;
                 list-style-type: none;
                 margin: 0;
                 align-content: center;
-                li{
+                li {
                     display: inline-block;
-                    a{
+                    a {
                         padding: $gridgutter/2;
                         display: inline-block;
                         text-transform: uppercase;
@@ -44,27 +40,26 @@ body{
                         line-height: normal;
                         letter-spacing: normal;
                         text-align: left;
-                        color: #7f7f7f;                  
+                        color: #7f7f7f;
                     }
                 }
-               
             }
-            
         }
     }
 }
 
-#shopping-cart{
+#shopping-cart {
     padding-right: 4px;
 }
 
-.shadow{
+.shadow {
     box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
-#onSale{
+#onSale {
     color: #ed282d;
 }
-#stepByStep{
+
+#stepByStep {
     color: #ed282d;
 }

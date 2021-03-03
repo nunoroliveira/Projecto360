@@ -19,36 +19,6 @@
     }
 }
 
-#headerproductlist {
-    height: 30vh;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(../imgs/slider/slider01-small.jpg);
-    @media(min-width: $tablet) {
-        background-image: url(../imgs/slider/slider01-medium.jpg);
-    }
-    @media(min-width: $desktop) {
-        background-image: url(../imgs/slider/slider01.jpg);
-    }
-    .textoverlay {
-        @extend .textcenter;
-        background-color: rgba($black, 0.6);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: $white;
-        height: 30vh;
-        h1 {
-            font-size: 3rem;
-            margin-bottom: $gridgutter;
-        }
-        p {
-            @extend .marginnone;
-        }
-    }
-}
-
 #sortbar {
     align-items: center;
     line-height: $gridgutter * 2;
@@ -61,10 +31,25 @@
     & p {
         margin: 0;
     }
+    & .subtitle2 {
+        color: #221f20;
+    }
+    & .caption {
+        color: #221f20;
+    }
 }
 
 #mainproductlist {
     padding: 0;
+    & .subtitle2 {
+        color: #221f20;
+    }
+    & .subtitle1 {
+        color: #7f7f7f;
+    }
+    & .caption {
+        color: #7f7f7f;
+    }
 }
 
 #filters {
@@ -100,32 +85,11 @@
             }
         }
     }
-    .sizes {
-        display: none;
-        &.open {
-            display: block;
-        }
-        @media(min-width: $tablet) {
-            display: block;
-        }
-        .sizebtns {
-            display: flex;
-            justify-content: space-between;
-            button {
-                @extend .fancytext;
-                @extend .animate;
-                cursor: pointer;
-                width: $gridgutter*1.2;
-                text-align: center;
-                line-height: $gridgutter;
-                border: 1px solid darken($white, 10%);
-                background-color: $white;
-                &:hover {
-                    background-color: darken($white, 10%);
-                    border-color: darken($white, 30%);
-                }
-            }
-        }
+    & .subtitle2 {
+        color: #221f20;
+    }
+    & .subtitle1 {
+        color: #221f20;
     }
 }
 
@@ -220,10 +184,22 @@
         top: 0;
         opacity: 1;
         .modal-container {
+            background-image: url("../img/ENTRAR.png");
             margin: $gridgutter auto;
-            @media(min-width: $tablet) {
-                margin: $gridgutter * 4.5 auto $gridgutter;
-            }
         }
+    }
+    & .h5 {
+        padding-top: $gridgutter * 2.5;
+        padding-bottom: $gridgutter * 2.5;
+        color: #4e4e4e;
+    }
+    & .body1 {
+        padding-bottom: $gridgutter * 3 / 4;
+        color: #4e4e4e;
+    }
+    & .button {
+        padding-top: $gridgutter * 2;
+        display: flex;
+        justify-content: center;
     }
 }

@@ -550,7 +550,7 @@ h6,
   text-align: left;
 }
 
-.textcenter, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay, .central-link-light, .central-link {
+.textcenter, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, .central-link-light, .central-link {
   text-align: center;
 }
 
@@ -564,17 +564,16 @@ h6,
 small,
 .small,
 .fancytext,
-#filters .sizes .sizebtns button,
 .central-link-light a,
 .central-link a {
   font-size: 0.8rem;
 }
 
-.uppercase, .fancytext, #filters .sizes .sizebtns button, .central-link-light a, .central-link a {
+.uppercase, .fancytext, .central-link-light a, .central-link a {
   text-transform: uppercase;
 }
 
-.fancytext, #filters .sizes .sizebtns button, .central-link-light a, .central-link a {
+.fancytext, .central-link-light a, .central-link a {
   letter-spacing: 1px;
   font-family: "zippy_bold", sans-serif;
   font-weight: 400;
@@ -602,7 +601,7 @@ small,
   color: #747474;
 }
 
-.animate, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card-image img, #journal .journal-card-image img, .modal-container, .modal, #filters .sizes .sizebtns button, a {
+.animate, #talking img, #press .press-card p, #press .press-card-image img, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card-image img, #journal .journal-card-image img, .modal-container, .modal, a {
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
   -ms-transition: all 0.4s ease;
@@ -613,7 +612,7 @@ small,
 /* ================================== */
 /* ======= MARGINS / PADDINGS ======= */
 /* ================================== */
-.marginnone, #press .press-card p, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button, #headerproductlist .textoverlay p {
+.marginnone, #press .press-card p, #looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a {
   margin: 0 !important;
 }
 
@@ -1795,35 +1794,6 @@ body > header nav > ul li a {
   z-index: 3;
 }
 
-#headerproductlist {
-  height: 30vh;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../imgs/slider/slider01-small.jpg);
-}
-@media (min-width: 750px) {
-  #headerproductlist {
-    background-image: url(../imgs/slider/slider01-medium.jpg);
-  }
-}
-@media (min-width: 1200px) {
-  #headerproductlist {
-    background-image: url(../imgs/slider/slider01.jpg);
-  }
-}
-#headerproductlist .textoverlay {
-  background-color: rgba(0, 0, 0, 0.6);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #FFF;
-  height: 30vh;
-}
-#headerproductlist .textoverlay h1 {
-  font-size: 3rem;
-  margin-bottom: 24px;
-}
 #sortbar {
   align-items: center;
   line-height: 48px;
@@ -1837,9 +1807,24 @@ body > header nav > ul li a {
 #sortbar p {
   margin: 0;
 }
+#sortbar .subtitle2 {
+  color: #221f20;
+}
+#sortbar .caption {
+  color: #221f20;
+}
 
 #mainproductlist {
   padding: 0;
+}
+#mainproductlist .subtitle2 {
+  color: #221f20;
+}
+#mainproductlist .subtitle1 {
+  color: #7f7f7f;
+}
+#mainproductlist .caption {
+  color: #7f7f7f;
 }
 
 #filters {
@@ -1872,32 +1857,11 @@ body > header nav > ul li a {
 #filters .categories > li.open > ul {
   display: block;
 }
-#filters .sizes {
-  display: none;
+#filters .subtitle2 {
+  color: #221f20;
 }
-#filters .sizes.open {
-  display: block;
-}
-@media (min-width: 750px) {
-  #filters .sizes {
-    display: block;
-  }
-}
-#filters .sizes .sizebtns {
-  display: flex;
-  justify-content: space-between;
-}
-#filters .sizes .sizebtns button {
-  cursor: pointer;
-  width: 28.8px;
-  text-align: center;
-  line-height: 24px;
-  border: 1px solid #e6e6e6;
-  background-color: #FFF;
-}
-#filters .sizes .sizebtns button:hover {
-  background-color: #e6e6e6;
-  border-color: #b3b3b3;
+#filters .subtitle1 {
+  color: #221f20;
 }
 
 .collapsible1 {
@@ -1987,12 +1951,22 @@ body > header nav > ul li a {
   opacity: 1;
 }
 .modal-open .modal-container {
+  background-image: url("../img/ENTRAR.png");
   margin: 24px auto;
 }
-@media (min-width: 750px) {
-  .modal-open .modal-container {
-    margin: 108px auto 24px;
-  }
+.modal .h5 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #4e4e4e;
+}
+.modal .body1 {
+  padding-bottom: 18px;
+  color: #4e4e4e;
+}
+.modal .button {
+  padding-top: 48px;
+  display: flex;
+  justify-content: center;
 }
 
 #about .about {
@@ -2006,7 +1980,7 @@ body > header nav > ul li a {
     margin-top: 0;
   }
 }
-#about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a, #about .about #filters .sizes .sizebtns button, #filters .sizes .sizebtns #about .about button {
+#about .about .fancytext, #about .about .central-link a, .central-link #about .about a, #about .about .central-link-light a, .central-link-light #about .about a {
   display: block;
   margin-bottom: 4.8px;
 }
@@ -2037,7 +2011,7 @@ body > header nav > ul li a {
 #journal .journal-card-small {
   height: 240px;
 }
-#journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a, #journal .journal-card-small #filters .sizes .sizebtns button, #filters .sizes .sizebtns #journal .journal-card-small button {
+#journal .journal-card-small .fancytext, #journal .journal-card-small .central-link a, .central-link #journal .journal-card-small a, #journal .journal-card-small .central-link-light a, .central-link-light #journal .journal-card-small a {
   margin: 0;
 }
 #journal .journal-card-small h3 {
@@ -2076,7 +2050,7 @@ body > header nav > ul li a {
 #looks .look-card-image img {
   opacity: 0.6;
 }
-#looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a, #looks .look-card #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card button {
+#looks .look-card .fancytext, #looks .look-card .central-link a, .central-link #looks .look-card a, #looks .look-card .central-link-light a, .central-link-light #looks .look-card a {
   position: absolute;
   left: 0;
   width: 100%;
@@ -2084,7 +2058,7 @@ body > header nav > ul li a {
   background-color: rgba(255, 255, 255, 0.6);
   padding: 8px 0;
 }
-#looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a, #looks .look-card:hover #filters .sizes .sizebtns button, #filters .sizes .sizebtns #looks .look-card:hover button {
+#looks .look-card:hover .fancytext, #looks .look-card:hover .central-link a, .central-link #looks .look-card:hover a, #looks .look-card:hover .central-link-light a, .central-link-light #looks .look-card:hover a {
   background-color: #FFF;
 }
 #looks .look-card:hover .look-card-image img {

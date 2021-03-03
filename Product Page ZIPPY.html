@@ -15,7 +15,7 @@
     <header id="main-header" class="bg-white shadow">
 
         <nav class="gridrowfull">
-            <a href="https://zippyonline.com/pt/home/" title="Go to Home Page" id="logo"><img class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png" /></a>
+            <a href="/Home Page ZIPPY.html" title="Go to Home Page" id="logo"><img class="logoZippy" src="https://zippyonline.com/on/demandware.static/-/Library-Sites-zippy-shared/default/dw357f9c00/zippy-logo-stay-home.png" /></a>
 
 
             <ul id="top-menu caption">
@@ -76,12 +76,12 @@
             <h2 id="banner-heading" class="h2">Baby Shower da Clarinha</h2>
         </div>
 
-        <section class="gridrowfull flow">
+        <section class="gridrowfull flow caption">
             <a class="apadleft" href="#">Zippy > </a>
-            <a href="#">Step by Step > </a>
-            <a href="#">Baby Shower > </a>
-            <a href="#">Produtos > </a>
-            <a href="#">Casaco</a>
+            <a href="/Step By  Step ZIPPY.html">Step by Step > </a>
+            <a href="/babyshower.html">Baby Shower > </a>
+            <a href="/Product  List ZIPPY.html">Produtos > </a>
+            <a href="/Product Page ZIPPY.html">Casaco</a>
         </section>
 
         <div class="gridrowfull" id="product">
@@ -153,7 +153,7 @@
 
                         <section class="gridrowfull lists">
                             <div class="col-6 col-d-4 cart">
-                                <button class="button-list uppercase button" type="button">Adicionar à Lista</button>
+                                <button id="addtolist" class="button-list uppercase button" type="button">Adicionar à Lista</button>
                             </div>
 
                         </section>
@@ -370,6 +370,11 @@
                 this.nextElementSibling.classList.toggle('active2');
             });
         };
+
+        var go = document.getElementById("addtolist").addEventListener("click", () => {
+            window.open("/Product  List ZIPPY.html", "_self")
+        });
+    </script>
     </script>
 
 </body>
